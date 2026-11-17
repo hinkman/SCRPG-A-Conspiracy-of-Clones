@@ -1,0 +1,93 @@
+{
+  "name": "Giant Angry Shaggy Thing",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "A vaguely humanoid ten-foot blob made of long, matted strands of hair and fur that is, for reasons that remain mysterious, very, very angry. (1 per 2 heroes (Basement 4 seed H/2).)",
+    "tactics": "Giant Angry Shaggy Things want to get up close and personal and either unleash their anger in attacks and maximize the effect of their shagginess. They prefer to go after already damaged targets.",
+    "groups": "1",
+    "groupName": {
+      "one": "Giant Angry Shaggy Thing",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d8",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Giant Angry Shaggy Thing",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Intensely Shaggy",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Inherent: Gives a −1 penalty to any hero who comes into physical contact with it as its hairy body tangles everything nearby.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "RZBxOlCqTgwn7SF8",
+      "_key": "!actors.items!ees5onGvh79mib2t.RZBxOlCqTgwn7SF8"
+    }
+  ],
+  "effects": [],
+  "folder": "JpJDgRjwulkD1L3e",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "quantityNote": "1 per 2 heroes (Basement 4 seed H/2)",
+      "description": "A vaguely humanoid ten-foot blob made of long, matted strands of hair and fur that is, for reasons that remain mysterious, very, very angry. (1 per 2 heroes (Basement 4 seed H/2).)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "ees5onGvh79mib2t",
+  "_key": "!actors!ees5onGvh79mib2t"
+}

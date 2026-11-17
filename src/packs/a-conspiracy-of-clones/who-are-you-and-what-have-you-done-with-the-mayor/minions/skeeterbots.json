@@ -4,8 +4,8 @@
   "img": "icons/svg/mystery-man.svg",
   "system": {
     "role": "minion",
-    "description": "TODO(PDF pp.271–272): Skeeterbot description. Public notes: they sample DNA then self-destruct. (TODO(PDF): ~2 per hero; DNA sampling / self-destruct timing.)",
-    "tactics": "TODO(PDF): tactics.",
+    "description": "Tiny flying robots, in the shape of mosquitos with concerningly long, metal proboscises, fly towards the heroes in groups of three. (2 per hero.)",
+    "tactics": "They swarm toward the heroes and gang up on the nearest un-sampled heroes. Once a hero has been sampled, the Skeeterbots lose interest in them. If there are no un-sampled heroes, the Skeeterbots self-destruct, Attacking each nearby target — friend and foe alike — by rolling their die.",
     "groups": "1",
     "groupName": {
       "one": "Skeeterbots",
@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "TODO Form",
+      "name": "Sampling Proboscis",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>TODO(PDF): Skeeterbot special ability.</p>",
+        "description": "<p>If their Attack damages a hero, they analyze the blood they draw, instantly uploading the results to a server… somewhere. A hero with appropriate abilities might be able to detect the signal. Keep track of which heroes have their DNA captured this way — used to create clones in Scene 3.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,8 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "58kREQMbQ7sD6YcB",
-      "_key": "!actors.items!NBOFUZXyuhgQWVdE.58kREQMbQ7sD6YcB"
+      "_id": "wnms2kQcBDbWUpRJ",
+      "_key": "!actors.items!NBOFUZXyuhgQWVdE.wnms2kQcBDbWUpRJ"
     }
   ],
   "effects": [],
@@ -75,9 +75,9 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
-      "quantityNote": "TODO(PDF): ~2 per hero; DNA sampling / self-destruct timing",
-      "description": "TODO(PDF pp.271–272): Skeeterbot description. Public notes: they sample DNA then self-destruct. (TODO(PDF): ~2 per hero; DNA sampling / self-destruct timing.)",
-      "pdfTodo": true
+      "quantityNote": "2 per hero",
+      "description": "Tiny flying robots, in the shape of mosquitos with concerningly long, metal proboscises, fly towards the heroes in groups of three. (2 per hero.)",
+      "pdfTodo": false
     }
   },
   "_stats": {

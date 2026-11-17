@@ -1,14 +1,14 @@
 {
-  "name": "Homunculus",
+  "name": "Elementalist Clone",
   "type": "minion",
   "img": "icons/svg/cowled.svg",
   "system": {
     "role": "lieutenant",
-    "description": "TODO(PDF pp.287–289): issue Homunculus lieutenant. Archive baseline is a d10 blunt-instrument flesh construct. (TODO(PDF pp.287–289).)",
-    "tactics": "TODO(PDF).",
+    "description": "Fully attuned to their element. Choose an element: cold, fire, electricity, water, air, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+    "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
     "groups": "1",
     "groupName": {
-      "one": "Homunculus",
+      "one": "Elementalist Clone",
       "two": "Group 2",
       "three": "Group 3",
       "four": "Group 4",
@@ -33,17 +33,17 @@
     }
   },
   "prototypeToken": {
-    "name": "Homunculus",
+    "name": "Elementalist Clone",
     "displayName": 20,
     "actorLink": true
   },
   "items": [
     {
-      "name": "TODO Form",
+      "name": "Ability Options",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>TODO(PDF).</p>",
+        "description": "<p>Choose two abilities: Elemental Might: +1 to Attack actions. | Prepare the Field: +1 to Hinder actions related to your element. | Immunity: Cannot be damaged by your chosen element.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,22 +62,22 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "8YEa2SOd2CwabASG",
-      "_key": "!actors.items!nmCRwcWTWYU8kw3I.8YEa2SOd2CwabASG"
+      "_id": "wGtUh5CJvAnXRktk",
+      "_key": "!actors.items!DwXvVqYQM8FydNn0.wGtUh5CJvAnXRktk"
     }
   ],
   "effects": [],
   "folder": "DFG3Mk2exXUQCkrV",
-  "sort": 1000,
+  "sort": 9000,
   "ownership": {
     "default": 0
   },
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "the-argaeus-tower",
-      "quantityNote": "TODO(PDF pp.287–289)",
-      "description": "TODO(PDF pp.287–289): issue Homunculus lieutenant. Archive baseline is a d10 blunt-instrument flesh construct. (TODO(PDF pp.287–289).)",
-      "pdfTodo": true
+      "quantityNote": "1 per DNA-sampled hero of matching archetype",
+      "description": "Fully attuned to their element. Choose an element: cold, fire, electricity, water, air, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+      "pdfTodo": false
     }
   },
   "_stats": {
@@ -88,6 +88,6 @@
     "modifiedTime": 1763341200000,
     "lastModifiedBy": null
   },
-  "_id": "nmCRwcWTWYU8kw3I",
-  "_key": "!actors!nmCRwcWTWYU8kw3I"
+  "_id": "DwXvVqYQM8FydNn0",
+  "_key": "!actors!DwXvVqYQM8FydNn0"
 }

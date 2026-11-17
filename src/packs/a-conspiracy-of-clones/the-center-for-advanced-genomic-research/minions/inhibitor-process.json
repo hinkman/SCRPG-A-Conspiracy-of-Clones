@@ -1,0 +1,93 @@
+{
+  "name": "Inhibitor Process",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "A computer program the immunosecurity system initiates that tracks heroes who have attempted to circumvent security systems and attacks them using the lab’s automated systems: lasers, knockout gas, sonic weapons, electroshock weapons, etc. (1 per 2 heroes (immunosecurity).)",
+    "tactics": "Any hero interacting with the security or computer systems is a target for the Inhibitor Process, who seeks to drive away intruders with Attacks and Hinders.",
+    "groups": "1",
+    "groupName": {
+      "one": "Inhibitor Process",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d8",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Inhibitor Process",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Software",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Inherent: As a computer program, an Inhibitor Process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "QqbrgwMTPeIstUsU",
+      "_key": "!actors.items!OewhVSArw1Z7PIb0.QqbrgwMTPeIstUsU"
+    }
+  ],
+  "effects": [],
+  "folder": "JpJDgRjwulkD1L3e",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "quantityNote": "1 per 2 heroes (immunosecurity)",
+      "description": "A computer program the immunosecurity system initiates that tracks heroes who have attempted to circumvent security systems and attacks them using the lab’s automated systems: lasers, knockout gas, sonic weapons, electroshock weapons, etc. (1 per 2 heroes (immunosecurity).)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "OewhVSArw1Z7PIb0",
+  "_key": "!actors!OewhVSArw1Z7PIb0"
+}

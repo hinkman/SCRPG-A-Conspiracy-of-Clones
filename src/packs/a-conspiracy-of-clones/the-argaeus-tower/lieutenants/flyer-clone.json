@@ -1,14 +1,14 @@
 {
-  "name": "Mayor Baldwin",
+  "name": "Flyer Clone",
   "type": "minion",
   "img": "icons/svg/cowled.svg",
   "system": {
     "role": "lieutenant",
-    "description": "TODO(PDF pp.271–272): Mayor Baldwin lieutenant write-up (clone reveal timing). (1 — enters on first environment turn.)",
-    "tactics": "TODO(PDF): tactics.",
+    "description": "They can fly, either through innate powers or by using gear. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+    "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
     "groups": "1",
     "groupName": {
-      "one": "Mayor Baldwin",
+      "one": "Flyer Clone",
       "two": "Group 2",
       "three": "Group 3",
       "four": "Group 4",
@@ -33,17 +33,17 @@
     }
   },
   "prototypeToken": {
-    "name": "Mayor Baldwin",
+    "name": "Flyer Clone",
     "displayName": 20,
     "actorLink": true
   },
   "items": [
     {
-      "name": "TODO Form",
+      "name": "Ability Options",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>TODO(PDF): Mayor Baldwin special ability.</p>",
+        "description": "<p>Choose two abilities: Death From Above: +1 to Attack actions while flying. | Take to the Air: +1 to Boost actions related to flying. | Evasive Maneuvers: Gain +1 to Defend actions while flying.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,22 +62,22 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "kdieoHMWbvBTFvni",
-      "_key": "!actors.items!VpMxhy2Wg5GcYED5.kdieoHMWbvBTFvni"
+      "_id": "ZnzpFiK38jB7TuDQ",
+      "_key": "!actors.items!r5Ure4DP9Pl60MCv.ZnzpFiK38jB7TuDQ"
     }
   ],
   "effects": [],
-  "folder": "OCVcV2DovSVcpiN0",
-  "sort": 1000,
+  "folder": "DFG3Mk2exXUQCkrV",
+  "sort": 8000,
   "ownership": {
     "default": 0
   },
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
-      "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
-      "quantityNote": "1 — enters on first environment turn",
-      "description": "TODO(PDF pp.271–272): Mayor Baldwin lieutenant write-up (clone reveal timing). (1 — enters on first environment turn.)",
-      "pdfTodo": true
+      "sceneKey": "the-argaeus-tower",
+      "quantityNote": "1 per DNA-sampled hero of matching archetype",
+      "description": "They can fly, either through innate powers or by using gear. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+      "pdfTodo": false
     }
   },
   "_stats": {
@@ -88,6 +88,6 @@
     "modifiedTime": 1763341200000,
     "lastModifiedBy": null
   },
-  "_id": "VpMxhy2Wg5GcYED5",
-  "_key": "!actors!VpMxhy2Wg5GcYED5"
+  "_id": "r5Ure4DP9Pl60MCv",
+  "_key": "!actors!r5Ure4DP9Pl60MCv"
 }

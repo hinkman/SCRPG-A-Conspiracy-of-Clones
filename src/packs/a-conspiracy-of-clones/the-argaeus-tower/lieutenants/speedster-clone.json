@@ -1,14 +1,14 @@
 {
-  "name": "Hero Clone (Template)",
+  "name": "Speedster Clone",
   "type": "minion",
   "img": "icons/svg/cowled.svg",
   "system": {
     "role": "lieutenant",
-    "description": "TODO(PDF pp.287–289): clone lieutenant rules. This placeholder stands in for per-hero clone sheets — fill after PDF parse (or generate per table heroes). (TODO(PDF): one per hero / DNA-sampled heroes.)",
-    "tactics": "TODO(PDF).",
+    "description": "The speedster is really, really fast. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+    "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
     "groups": "1",
     "groupName": {
-      "one": "Hero Clone (Template)",
+      "one": "Speedster Clone",
       "two": "Group 2",
       "three": "Group 3",
       "four": "Group 4",
@@ -33,17 +33,17 @@
     }
   },
   "prototypeToken": {
-    "name": "Hero Clone (Template)",
+    "name": "Speedster Clone",
     "displayName": 20,
     "actorLink": true
   },
   "items": [
     {
-      "name": "TODO Form",
+      "name": "Ability Options",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>TODO(PDF).</p>",
+        "description": "<p>Choose two abilities: Multiattack: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Shock Wave: Hinder two targets with one roll. | Evasive Maneuvers: +2 to damage saves.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,22 +62,22 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "sQPlhpyXR82nEC15",
-      "_key": "!actors.items!ulL2MpBlX6wXARvw.sQPlhpyXR82nEC15"
+      "_id": "V8qYxBUZY7UKq6V4",
+      "_key": "!actors.items!oZScDbDwammstMLW.V8qYxBUZY7UKq6V4"
     }
   ],
   "effects": [],
   "folder": "DFG3Mk2exXUQCkrV",
-  "sort": 2000,
+  "sort": 1000,
   "ownership": {
     "default": 0
   },
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "the-argaeus-tower",
-      "quantityNote": "TODO(PDF): one per hero / DNA-sampled heroes",
-      "description": "TODO(PDF pp.287–289): clone lieutenant rules. This placeholder stands in for per-hero clone sheets — fill after PDF parse (or generate per table heroes). (TODO(PDF): one per hero / DNA-sampled heroes.)",
-      "pdfTodo": true
+      "quantityNote": "1 per DNA-sampled hero of matching archetype",
+      "description": "The speedster is really, really fast. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+      "pdfTodo": false
     }
   },
   "_stats": {
@@ -88,6 +88,6 @@
     "modifiedTime": 1763341200000,
     "lastModifiedBy": null
   },
-  "_id": "ulL2MpBlX6wXARvw",
-  "_key": "!actors!ulL2MpBlX6wXARvw"
+  "_id": "oZScDbDwammstMLW",
+  "_key": "!actors!oZScDbDwammstMLW"
 }

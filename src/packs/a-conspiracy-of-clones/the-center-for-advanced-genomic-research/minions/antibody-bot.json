@@ -1,0 +1,93 @@
+{
+  "name": "Antibody Bot",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "A small combat robot programmed to attack targets that cause physical damage to the laboratory or its contents. It is armed with an ultrasonic baton, but will bludgeon with its arms if necessary. (1 per 2 heroes (also seeded by level).)",
+    "tactics": "Antibody Bots attempt to team up against any heroes interacting with the Center’s computers or technology.",
+    "groups": "1",
+    "groupName": {
+      "one": "Antibody Bot",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d8",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Antibody Bot",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Ultrasonic Baton",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Attack actions. May only attack creatures that have caused some sort of physical damage to the lab.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "K46cM9LJFskLHJRc",
+      "_key": "!actors.items!F3YDLZTCsto1yeKz.K46cM9LJFskLHJRc"
+    }
+  ],
+  "effects": [],
+  "folder": "JpJDgRjwulkD1L3e",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "quantityNote": "1 per 2 heroes (also seeded by level)",
+      "description": "A small combat robot programmed to attack targets that cause physical damage to the laboratory or its contents. It is armed with an ultrasonic baton, but will bludgeon with its arms if necessary. (1 per 2 heroes (also seeded by level).)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "F3YDLZTCsto1yeKz",
+  "_key": "!actors!F3YDLZTCsto1yeKz"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Hoplite Clones",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "These warriors are clones of ancient Greek soldiers, complete with bronze shields, Corinthian helmets, and 10-foot spears. (1 per hero.)",
+    "tactics": "Hoplite Clones stay in formation, fighting side by side to take advantage of Boosting each other and making good use of their Phalanx ability.",
+    "groups": "1",
+    "groupName": {
+      "one": "Hoplite Clones",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d8",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Hoplite Clones",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Phalanx",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to damage saves when at least one other Hoplite Clone is in action.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "4PE5IEyXUEzcADmm",
+      "_key": "!actors.items!tBAAn80MWZDuBxLZ.4PE5IEyXUEzcADmm"
+    }
+  ],
+  "effects": [],
+  "folder": "BAXCiGb97XGmI3kw",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "quantityNote": "1 per hero",
+      "description": "These warriors are clones of ancient Greek soldiers, complete with bronze shields, Corinthian helmets, and 10-foot spears. (1 per hero.)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "tBAAn80MWZDuBxLZ",
+  "_key": "!actors!tBAAn80MWZDuBxLZ"
+}

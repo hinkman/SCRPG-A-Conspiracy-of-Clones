@@ -300,16 +300,38 @@ function buildFoundryScene(scene, folderId, ids, sort = 0) {
   };
 }
 
+function resolveTwistZones(twists) {
+  // Zone-colored: { green:{minor,major}, yellow:..., red:... }
+  // Legacy BOTB: { minor:[], major:[] } duplicated into every zone.
+  if (twists?.green || twists?.yellow || twists?.red) {
+    return {
+      green: { minor: twists.green?.minor || [], major: twists.green?.major || [] },
+      yellow: { minor: twists.yellow?.minor || [], major: twists.yellow?.major || [] },
+      red: { minor: twists.red?.minor || [], major: twists.red?.major || [] }
+    };
+  }
+  const minor = twists?.minor || [];
+  const major = twists?.major || [];
+  return {
+    green: { minor, major },
+    yellow: { minor, major },
+    red: { minor, major }
+  };
+}
+
 function buildEnvironmentActor(scene, folderId, ids) {
   const env = scene.environment;
   const actorId = foundryId(`actor:environment:${scene.key}:${slug(env.name)}`);
   if (ids.has(actorId)) throw new Error(`Duplicate environment id ${actorId}`);
   ids.add(actorId);
 
+  const zones = resolveTwistZones(env.twists);
   const items = [];
   let sort = 0;
   for (const [minorType, majorType] of TWIST_ZONES) {
-    for (const twist of env.twists.minor) {
+    const zoneKey = minorType.replace("minor", "");
+    const zone = zones[zoneKey] || { minor: [], major: [] };
+    for (const twist of zone.minor) {
       const itemId = foundryId(`item:twist:${scene.key}:${minorType}:${slug(twist.name)}`);
       if (ids.has(itemId)) throw new Error(`Duplicate twist id ${itemId}`);
       ids.add(itemId);
@@ -326,7 +348,7 @@ function buildEnvironmentActor(scene, folderId, ids) {
         }
       }));
     }
-    for (const twist of env.twists.major) {
+    for (const twist of zone.major) {
       const itemId = foundryId(`item:twist:${scene.key}:${majorType}:${slug(twist.name)}`);
       if (ids.has(itemId)) throw new Error(`Duplicate twist id ${itemId}`);
       ids.add(itemId);
@@ -356,7 +378,7 @@ function buildEnvironmentActor(scene, folderId, ids) {
     flags: {
       [MODULE_FLAG]: {
         sceneKey: scene.key,
-        modeledAs: "challenge"
+        modeledAs: env.modeledAs || "environment"
       }
     },
     system: {

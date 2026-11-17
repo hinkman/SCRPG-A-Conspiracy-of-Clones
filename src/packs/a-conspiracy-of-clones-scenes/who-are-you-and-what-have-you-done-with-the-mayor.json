@@ -133,7 +133,7 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
-      "notes": "TODO(PDF pp.269–272): confirm tracker spaces and Opening/Action/Conclusion beats. Public GM notes: first environment turn introduces Mayor Baldwin + Police Commissioner Anselmo; environment threats include robot cops, skeeterbots, real cops.",
+      "notes": "Square outside City Hall, Megalopolis. Starts with H robot cops, 2 Skeeterbots per hero, H/2 Megalopolis Police Officers (round down). First environment turn: clone Mayor Baldwin and Commissioner Anselmo enter. Track which heroes Skeeterbots sample for Scene 3 clones. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
       "trackerActorName": "Who Are You And What Have You Done With The Mayor? Tracker"
     }
   },

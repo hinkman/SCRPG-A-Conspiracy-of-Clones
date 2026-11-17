@@ -1,0 +1,93 @@
+{
+  "name": "Reality Shaper Clone",
+  "type": "minion",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "role": "lieutenant",
+    "description": "Reality shapers manipulate space-time to move, hold targets in place, and duplicate matter. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+    "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+    "groups": "1",
+    "groupName": {
+      "one": "Reality Shaper Clone",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d10",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Reality Shaper Clone",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Ability Options",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Choose two abilities: There is Here: Boost to make your location seem directly next to a target’s location, then Attack that target using the created bonus. | Minion Duplicator: Add minions to an existing minion group by rolling your die, then adding half that number of minions (rounded down). Size and abilities match the highest die in that minion group. | Space-Time Excavator: Hinder two targets by twisting space-time around them to hold them steady.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "jXnckxMceGKwAkZU",
+      "_key": "!actors.items!pxBf4bASMQukKfJP.jXnckxMceGKwAkZU"
+    }
+  ],
+  "effects": [],
+  "folder": "DFG3Mk2exXUQCkrV",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "quantityNote": "1 per DNA-sampled hero of matching archetype",
+      "description": "Reality shapers manipulate space-time to move, hold targets in place, and duplicate matter. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "pxBf4bASMQukKfJP",
+  "_key": "!actors!pxBf4bASMQukKfJP"
+}

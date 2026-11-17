@@ -1,14 +1,14 @@
 {
-  "name": "TODO Scene 2 Minion",
+  "name": "Psychic Clone",
   "type": "minion",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "icons/svg/cowled.svg",
   "system": {
-    "role": "minion",
-    "description": "TODO(PDF pp.279–281): list and fill each minion (name, die, form, quantity). (TODO(PDF pp.279–281).)",
-    "tactics": "TODO(PDF).",
+    "role": "lieutenant",
+    "description": "Can kill you with their mind. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+    "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
     "groups": "1",
     "groupName": {
-      "one": "TODO Scene 2 Minion",
+      "one": "Psychic Clone",
       "two": "Group 2",
       "three": "Group 3",
       "four": "Group 4",
@@ -20,7 +20,7 @@
       "ten": "Group 10"
     },
     "typicalDie": {
-      "one": "d6",
+      "one": "d10",
       "two": "d4",
       "three": "d4",
       "four": "d4",
@@ -33,17 +33,17 @@
     }
   },
   "prototypeToken": {
-    "name": "TODO Scene 2 Minion",
+    "name": "Psychic Clone",
     "displayName": 20,
     "actorLink": true
   },
   "items": [
     {
-      "name": "TODO Form",
+      "name": "Ability Options",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>TODO(PDF).</p>",
+        "description": "<p>Choose two abilities: Mind Blast: +1 to Attack actions. | Confusion: Hinder two targets with the same roll. | Illusion: Defend yourself with a +1 bonus. This defense does not expire until you are attacked and use it.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,22 +62,22 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "BLO2sVbzDxGjz3EA",
-      "_key": "!actors.items!DxIyuD2bbwzSCeCO.BLO2sVbzDxGjz3EA"
+      "_id": "a4GDMzHAWOUX2Tnm",
+      "_key": "!actors.items!qKYCheBwsPpibYlA.a4GDMzHAWOUX2Tnm"
     }
   ],
   "effects": [],
-  "folder": "JpJDgRjwulkD1L3e",
-  "sort": 1000,
+  "folder": "DFG3Mk2exXUQCkrV",
+  "sort": 11000,
   "ownership": {
     "default": 0
   },
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
-      "sceneKey": "the-center-for-advanced-genomic-research",
-      "quantityNote": "TODO(PDF pp.279–281)",
-      "description": "TODO(PDF pp.279–281): list and fill each minion (name, die, form, quantity). (TODO(PDF pp.279–281).)",
-      "pdfTodo": true
+      "sceneKey": "the-argaeus-tower",
+      "quantityNote": "1 per DNA-sampled hero of matching archetype",
+      "description": "Can kill you with their mind. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+      "pdfTodo": false
     }
   },
   "_stats": {
@@ -88,6 +88,6 @@
     "modifiedTime": 1763341200000,
     "lastModifiedBy": null
   },
-  "_id": "DxIyuD2bbwzSCeCO",
-  "_key": "!actors!DxIyuD2bbwzSCeCO"
+  "_id": "qKYCheBwsPpibYlA",
+  "_key": "!actors!qKYCheBwsPpibYlA"
 }

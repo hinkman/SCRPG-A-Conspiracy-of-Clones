@@ -32,7 +32,7 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "the-center-for-advanced-genomic-research",
-      "notes": "TODO(PDF pp.274–281): confirm tracker, challenges, and which threats start in-scene vs environment reinforcements.",
+      "notes": "Tarama atoll lab. Multi-level: Ground → Basements 1–5 (goal computer in Basement 5). Seeded threats by level (p.279). Physical vs electronic Overcome progression with escalating −1 security penalties. Biomancer evacuated ~12 hours earlier — not fought here. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
       "role": "scrpg-scene-tracker"
     }
   },

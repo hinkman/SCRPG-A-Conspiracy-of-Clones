@@ -1,14 +1,14 @@
 {
-  "name": "TODO Scene 2 Lieutenant",
+  "name": "White Bot Cell",
   "type": "minion",
   "img": "icons/svg/cowled.svg",
   "system": {
     "role": "lieutenant",
-    "description": "TODO(PDF pp.279–281): list and fill each lieutenant. (TODO(PDF pp.279–281).)",
-    "tactics": "TODO(PDF).",
+    "description": "A large combat robot programmed to attack all targets without authorization to be in the lab. Armed with lasers and electroshock batons. (1 — Red severe physical immunosecurity.)",
+    "tactics": "White Bot Cells are created to take down the biggest foes to the system, always prioritizing the strongest or healthiest heroes.",
     "groups": "1",
     "groupName": {
-      "one": "TODO Scene 2 Lieutenant",
+      "one": "White Bot Cell",
       "two": "Group 2",
       "three": "Group 3",
       "four": "Group 4",
@@ -20,7 +20,7 @@
       "ten": "Group 10"
     },
     "typicalDie": {
-      "one": "d8",
+      "one": "d10",
       "two": "d4",
       "three": "d4",
       "four": "d4",
@@ -33,17 +33,17 @@
     }
   },
   "prototypeToken": {
-    "name": "TODO Scene 2 Lieutenant",
+    "name": "White Bot Cell",
     "displayName": 20,
     "actorLink": true
   },
   "items": [
     {
-      "name": "TODO Form",
+      "name": "Natural Killer Cell",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>TODO(PDF).</p>",
+        "description": "<p>+1 to Attack actions.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,8 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "b5inDDRwHsE59ANz",
-      "_key": "!actors.items!Sof8Zgwn5rDOWFiY.b5inDDRwHsE59ANz"
+      "_id": "GejL8bwHXIDtsOIV",
+      "_key": "!actors.items!C4wTPdZ8kHzWa6XR.GejL8bwHXIDtsOIV"
     }
   ],
   "effects": [],
@@ -75,9 +75,9 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "the-center-for-advanced-genomic-research",
-      "quantityNote": "TODO(PDF pp.279–281)",
-      "description": "TODO(PDF pp.279–281): list and fill each lieutenant. (TODO(PDF pp.279–281).)",
-      "pdfTodo": true
+      "quantityNote": "1 — Red severe physical immunosecurity",
+      "description": "A large combat robot programmed to attack all targets without authorization to be in the lab. Armed with lasers and electroshock batons. (1 — Red severe physical immunosecurity.)",
+      "pdfTodo": false
     }
   },
   "_stats": {
@@ -88,6 +88,6 @@
     "modifiedTime": 1763341200000,
     "lastModifiedBy": null
   },
-  "_id": "Sof8Zgwn5rDOWFiY",
-  "_key": "!actors!Sof8Zgwn5rDOWFiY"
+  "_id": "C4wTPdZ8kHzWa6XR",
+  "_key": "!actors!C4wTPdZ8kHzWa6XR"
 }

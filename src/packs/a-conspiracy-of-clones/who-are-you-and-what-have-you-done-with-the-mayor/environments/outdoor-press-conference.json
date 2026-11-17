@@ -6,10 +6,10 @@
     "firstDie": "d8",
     "secondDie": "d8",
     "thirdDie": "d6",
-    "firstDieName": "Crowd",
-    "secondDieName": "Press",
-    "thirdDieName": "Chaos",
-    "description": "<p><strong>Outdoor Press Conference</strong></p><p><em>TODO(PDF p.270): replace with full environment/challenge text, Action, Resolution, Outcome.</em></p><p>Whenever the environment turn comes up in the action order, add one listed threat to the scene (Robot Cops / Skeeterbots / Real Cops — exact counts TODO from PDF). The first time the environment comes up, Mayor Baldwin and Police Commissioner Anselmo enter the fray.</p>"
+    "firstDieName": "Crowd of Civilians",
+    "secondDieName": "Live News Feed",
+    "thirdDieName": "Megalopolis’s Finest",
+    "description": "<p><strong>Outdoor Press Conference</strong></p><p>The square outside City Hall: dozens of civilians, police, and local news teams gathered for the mayor’s speech. Twists and threats work against both heroes and opposition.</p><p><strong>Starting opposition:</strong> H robot “cops”, 2 Skeeterbots per hero, and H/2 Megalopolis Police Officers (rounded down). The first time the environment comes up, clone Mayor Baldwin and Police Commissioner Anselmo enter and turn on the heroes (revealed as flesh-creations as they take damage).</p><p><strong>Threats:</strong> Whenever the environment turn comes up, add one of the Outdoor Press Conference threats (Robot cops / Skeeterbots / Megalopolis Police Officers).</p><p><em>Trait dice use printed labels (Crowd of Civilians / Live News Feed / Megalopolis’s Finest); die sizes curated — confirm in book.</em></p>"
   },
   "prototypeToken": {
     "name": "Outdoor Press Conference",
@@ -18,12 +18,12 @@
   },
   "items": [
     {
-      "name": "TODO Minor Twist 1",
+      "name": "Civilian in Danger",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+        "description": "<p>A civilian is being attacked by one of the robot “cops.” They can be rescued through a successful Overcome action. If they are not rescued before the next time a scene tracker box is checked, the civilian is badly injured.</p>"
       },
       "effects": [],
       "folder": null,
@@ -40,16 +40,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "1cmdYD3Zkp7lJbG1",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.1cmdYD3Zkp7lJbG1"
+      "_id": "lBYA9gPuZHtv8sEp",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.lBYA9gPuZHtv8sEp"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "Cops on the Scene",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+        "description": "<p>Add one Megalopolis Police Officer to the scene.</p>"
       },
       "effects": [],
       "folder": null,
@@ -66,16 +66,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "BIYs4xVXcsUD4JfB",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.BIYs4xVXcsUD4JfB"
+      "_id": "8eldSKv5IJHApcX4",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.8eldSKv5IJHApcX4"
     },
     {
-      "name": "TODO Major Twist (Skeeterbots)",
+      "name": "Skeeter Swarm",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenmajor",
-        "description": "<p>TODO(PDF p.270): public notes mention a green major twist that adds Min die of Skeeterbots — confirm exact text and zone coloring.</p>"
+        "description": "<p>Roll the environment dice and add a number of Skeeterbots equal to the Min die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -92,16 +92,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "D2qvL4ahedXam1IX",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.D2qvL4ahedXam1IX"
+      "_id": "tiVHtA0TnkXuO9Q6",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.tiVHtA0TnkXuO9Q6"
     },
     {
-      "name": "TODO Minor Twist 1",
+      "name": "Newsies",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+        "description": "<p>A crew of photojournalists gets in the way. Roll the environment dice and Hinder all heroes with the Min die. A hero may use an Overcome action to attempt to clear the penalty on all heroes by getting the press out of danger.</p>"
       },
       "effects": [],
       "folder": null,
@@ -118,16 +118,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "vQV3gsZ6T5OBU8OC",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.vQV3gsZ6T5OBU8OC"
+      "_id": "7L2kEGmKUWp98edC",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.7L2kEGmKUWp98edC"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "More Bots",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+        "description": "<p>Roll the environment dice and add a number of robot “cops” equal to the Mid die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -144,16 +144,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "81zM6C1G6pkkNNwE",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.81zM6C1G6pkkNNwE"
+      "_id": "TQi8zk8G8UuBZXIO",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.TQi8zk8G8UuBZXIO"
     },
     {
-      "name": "TODO Major Twist (Skeeterbots)",
+      "name": "Robo-Reinforcement",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowmajor",
-        "description": "<p>TODO(PDF p.270): public notes mention a green major twist that adds Min die of Skeeterbots — confirm exact text and zone coloring.</p>"
+        "description": "<p>More robot “cops” come clanking around the corner, followed by the drone of even more Skeeterbots! Roll the environment dice. Add robot “cops” equal to the Min die. Add Skeeterbots equal to the Mid die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -170,16 +170,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "geFhtcJ4HlJ6XOpm",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.geFhtcJ4HlJ6XOpm"
+      "_id": "jIS75mjeYaPUN2IS",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.jIS75mjeYaPUN2IS"
     },
     {
-      "name": "TODO Minor Twist 1",
+      "name": "EMTs In Trouble",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redminor",
-        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+        "description": "<p>Two robot “cops” are about to destroy an ambulance containing an injured patient and several EMTs. They can be rescued with two Overcome actions; if they are not rescued by the time the next scene tracker space is marked, the ambulance is destroyed and its passengers and driver are badly injured. Until this is resolved, all heroes have a −1 penalty to all actions.</p>"
       },
       "effects": [],
       "folder": null,
@@ -196,16 +196,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "4pIZhviwUpa67qpu",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.4pIZhviwUpa67qpu"
+      "_id": "UWyAOEdvKO4l1ecG",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.UWyAOEdvKO4l1ecG"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "Panicking Crowd",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
-        "type": "redminor",
-        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+        "type": "redmajor",
+        "description": "<p>A hero is swarmed by a crowd of panicking civilians. Roll the environment dice and Hinder that hero with the Max+Min dice.</p>"
       },
       "effects": [],
       "folder": null,
@@ -222,34 +222,8 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "BEa7Z6wyOQARU9jN",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.BEa7Z6wyOQARU9jN"
-    },
-    {
-      "name": "TODO Major Twist (Skeeterbots)",
-      "type": "environmentTwist",
-      "img": "icons/svg/explosion.svg",
-      "system": {
-        "type": "redmajor",
-        "description": "<p>TODO(PDF p.270): public notes mention a green major twist that adds Min die of Skeeterbots — confirm exact text and zone coloring.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 8,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.000",
-        "systemId": "scrpg-foundry",
-        "systemVersion": "0.9.25",
-        "createdTime": 1763341200000,
-        "modifiedTime": 1763341200000,
-        "lastModifiedBy": null
-      },
-      "_id": "JokNSTeff2nsc4gD",
-      "_key": "!actors.items!EgYIzt4oQuNGoPeu.JokNSTeff2nsc4gD"
+      "_id": "JIW1AtEiRarOrYJz",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.JIW1AtEiRarOrYJz"
     }
   ],
   "effects": [],
@@ -261,7 +235,7 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
-      "modeledAs": "challenge"
+      "modeledAs": "environment"
     }
   },
   "_stats": {

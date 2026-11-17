@@ -3,13 +3,13 @@
   "type": "environment",
   "img": "icons/svg/castle.svg",
   "system": {
-    "firstDie": "d8",
+    "firstDie": "d10",
     "secondDie": "d8",
-    "thirdDie": "d6",
-    "firstDieName": "Lab",
-    "secondDieName": "Security",
-    "thirdDieName": "Secrets",
-    "description": "<p><strong>Center for Advanced Genomic Research</strong></p><p><em>TODO(PDF pp.278–279): replace with full environment text, trait dice names/sizes, Action/Resolution/Outcome, and threat list.</em></p>"
+    "thirdDie": "d8",
+    "firstDieName": "Immunosecurity",
+    "secondDieName": "Runaway Experiments",
+    "thirdDieName": "Corrupted Computer Systems",
+    "description": "<p><strong>Center for Advanced Genomic Research</strong></p><p>One of the most sophisticated genetics laboratories on the planet. Biomancer took it over to clone humans and “program” them. A unique Immunosecurity System adapts to intruders, growing more hostile until they leave.</p><p><strong>Levels / seeded threats:</strong></p><ul><li>Ground Level: 1 Antibody Bot</li><li>Basement 1 (Admin): H/2 Antibody Bots</li><li>Basement 2 (Agricultural): H/2 Defender Pods</li><li>Basement 3 (Cryogenics): H/2 Cryopedes</li><li>Basement 4 (Radiation): H/2 Giant Angry Shaggy Things</li><li>Basement 5 (Gene Splicing): H/2 Nanite Swarms — goal computer</li></ul><p>Security responses are physical or electronic depending on the triggering Overcome. Twists may also unleash runaway experiments.</p><p><em>Trait dice use printed labels (Immunosecurity / Runaway Experiments / Corrupted Computer Systems); die sizes curated.</em></p>"
   },
   "prototypeToken": {
     "name": "Center for Advanced Genomic Research",
@@ -18,12 +18,12 @@
   },
   "items": [
     {
-      "name": "TODO Minor Twist 1",
+      "name": "Mild Physical Immunosecurity Response (Antibody Bot)",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+        "description": "<p>Add one Antibody Bot.</p>"
       },
       "effects": [],
       "folder": null,
@@ -40,16 +40,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "LSTHc8IietKmEsIm",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.LSTHc8IietKmEsIm"
+      "_id": "01FvzGKwmogFkAkD",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.01FvzGKwmogFkAkD"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "Mild Electronic Immunosecurity Response (Inhibitor Process)",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+        "description": "<p>Add one Inhibitor Process.</p>"
       },
       "effects": [],
       "folder": null,
@@ -66,16 +66,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "T0U8UvRFTdx8Y8L0",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.T0U8UvRFTdx8Y8L0"
+      "_id": "yu6oLjnCKac9wEqq",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.yu6oLjnCKac9wEqq"
     },
     {
-      "name": "TODO Major Twist 1",
+      "name": "Laboratory Twist",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
-        "type": "greenmajor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment major twists.</p>"
+        "type": "greenminor",
+        "description": "<p>Introduce one room-specific minion (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms) from the appropriate location within the lab.</p>"
       },
       "effects": [],
       "folder": null,
@@ -92,16 +92,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "BDtqTr5aL45p6N4a",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.BDtqTr5aL45p6N4a"
+      "_id": "c70wGGA2glrHgwMk",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.c70wGGA2glrHgwMk"
     },
     {
-      "name": "TODO Minor Twist 1",
+      "name": "Laboratory Twist (Biotoxin)",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
-        "type": "yellowminor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+        "type": "greenmajor",
+        "description": "<p>A tank of corrosive biotoxin leaks into the air handlers and is distributed through the lab! Roll the environment dice and Attack all heroes with the Min die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -118,16 +118,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "M3RgZRq54GH7AymQ",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.M3RgZRq54GH7AymQ"
+      "_id": "9sQMNFFWsj2G6969",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.9sQMNFFWsj2G6969"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "Moderate Physical Immunosecurity Response",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+        "description": "<p>Roll the environment dice and add a number of Antibody Bot minions equal to the Min die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -144,16 +144,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "ZtY6yOwun9QfD1lT",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.ZtY6yOwun9QfD1lT"
+      "_id": "M2Ew6aTEXhAGoWYu",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.M2Ew6aTEXhAGoWYu"
     },
     {
-      "name": "TODO Major Twist 1",
+      "name": "Moderate Electronic Immunosecurity Response",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
-        "type": "yellowmajor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment major twists.</p>"
+        "type": "yellowminor",
+        "description": "<p>Roll the environment dice and add a number of Inhibitor Process minions equal to the Min die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -170,16 +170,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "FMklSBVknRDDMO4r",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.FMklSBVknRDDMO4r"
+      "_id": "wfJ0hGE1Plb1o5ED",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.wfJ0hGE1Plb1o5ED"
     },
     {
-      "name": "TODO Minor Twist 1",
+      "name": "Cryogenics Leak",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
-        "type": "redminor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+        "type": "yellowminor",
+        "description": "<p>A pipe carrying supercooled helium bursts. Roll the environment dice and Attack one hero with the Max die and the rest of the heroes with the Min die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -196,16 +196,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "kjkjvOwWSq6BFlR8",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.kjkjvOwWSq6BFlR8"
+      "_id": "zElIEk7iROl3bJ0f",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.zElIEk7iROl3bJ0f"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "Laboratory Twist",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
-        "type": "redminor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+        "type": "yellowminor",
+        "description": "<p>Roll the environment dice and introduce a number of minions equal to the Min die, of the type associated with that location (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms).</p>"
       },
       "effects": [],
       "folder": null,
@@ -222,16 +222,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "tdOfInbWXQ6xAN1l",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.tdOfInbWXQ6xAN1l"
+      "_id": "l1neYCFRLWlY9VM9",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.l1neYCFRLWlY9VM9"
     },
     {
-      "name": "TODO Major Twist 1",
+      "name": "Fire Suppression System",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
-        "type": "redmajor",
-        "description": "<p>TODO(PDF pp.278–279): fill environment major twists.</p>"
+        "type": "yellowmajor",
+        "description": "<p>The security system replaces oxygen with inert CO₂. Each time you mark a scene tracker space, roll the environment dice and Attack all heroes with the Max+Min dice (except heroes with an oxygen supply or who do not need to breathe). Deactivate by completing two Overcomes: (1) Locate the fire suppression system; (2) Deactivate it.</p>"
       },
       "effects": [],
       "folder": null,
@@ -248,8 +248,112 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "T7pEf98q9yCAgssp",
-      "_key": "!actors.items!0nrxSmDlp04bCQSc.T7pEf98q9yCAgssp"
+      "_id": "iCXOjGiHcbADO0qW",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.iCXOjGiHcbADO0qW"
+    },
+    {
+      "name": "Laboratory Twist (Yellow Major)",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowmajor",
+        "description": "<p>Roll the environment dice and introduce a number of minions equal to the Mid die, of the type associated with that location (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms).</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 9,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "uSAslazoHk7wumBB",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.uSAslazoHk7wumBB"
+    },
+    {
+      "name": "Severe Physical Immunosecurity Response",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>Introduce a White Bot Cell.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "ywSviZFG2DcfhIXe",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.ywSviZFG2DcfhIXe"
+    },
+    {
+      "name": "Severe Electronic Immunosecurity Response",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>The lab’s computer initiates a Seeker Process.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 11,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "71qklSHy4VPkQmac",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.71qklSHy4VPkQmac"
+    },
+    {
+      "name": "Death Spores",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redmajor",
+        "description": "<p>A tank containing spores of a plant that never should have been explodes and vapors enter the air distribution system. Roll the environment dice and Attack all heroes with the Min+Max dice.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 12,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "XQZXirzCrTnRSOc7",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.XQZXirzCrTnRSOc7"
     }
   ],
   "effects": [],
@@ -261,7 +365,7 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "the-center-for-advanced-genomic-research",
-      "modeledAs": "challenge"
+      "modeledAs": "environment"
     }
   },
   "_stats": {

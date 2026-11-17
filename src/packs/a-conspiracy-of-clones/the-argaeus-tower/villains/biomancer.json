@@ -616,6 +616,41 @@
       },
       "_id": "REDZPrPY0T36Jqsw",
       "_key": "!actors.items!ADdG4UTSHl7Dczgs.REDZPrPY0T36Jqsw"
+    },
+    {
+      "name": "Master Behind the Curtain",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "aux": "villain",
+        "icon": {
+          "attack": false,
+          "defend": false,
+          "overcome": true,
+          "hinder": false,
+          "boost": false,
+          "recover": false
+        },
+        "type": "I",
+        "gameText": "<p>As long as you are not directly involved in the fray and are using your influence indirectly, automatically succeed at an Overcome to manipulate a situation.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "OswbuBdTgKnuCrU4",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.OswbuBdTgKnuCrU4"
     }
   ],
   "effects": [],

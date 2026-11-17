@@ -32,7 +32,7 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "the-argaeus-tower",
-      "notes": "Finale scene — tracker included per BOTB pattern. TODO(PDF pp.282–289): confirm tracker spaces and hostage/clone spawn rules. Biomancer below is Archive Chapter 7 baseline (no masteries); verify issue-specific health/abilities against p.283.",
+      "notes": "Dubai roof → Greek-theater Adytum. Face a fleshchild of Biomancer (true Biomancer may escape if tracker ends). Starting threats: Arachne Helicos (advance warning may change counts), hero clones from Scene 1 DNA. Rescue real Mayor, Commissioner, and Center geneticists. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
       "role": "scrpg-scene-tracker"
     }
   },

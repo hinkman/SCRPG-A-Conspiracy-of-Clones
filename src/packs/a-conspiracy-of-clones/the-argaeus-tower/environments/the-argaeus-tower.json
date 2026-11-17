@@ -5,11 +5,11 @@
   "system": {
     "firstDie": "d10",
     "secondDie": "d8",
-    "thirdDie": "d6",
-    "firstDieName": "Tower",
-    "secondDieName": "Flesh",
-    "thirdDieName": "Hostages",
-    "description": "<p><strong>The Argaeus Tower</strong></p><p><em>TODO(PDF p.284): replace with full environment text. Public notes: environment turn often adds listed threats/reinforcements (Homunculi / Helicos / etc.).</em></p>"
+    "thirdDie": "d8",
+    "firstDieName": "Autonomous Guards",
+    "secondDieName": "Panopticon",
+    "thirdDieName": "Old Tech and New Tech",
+    "description": "<p><strong>The Argaeus Tower</strong></p><p>A modern steel-and-glass skyscraper in Dubai (70+ stories) with a rooftop landing pad. An elevator platform lowers heroes into a steep-stepped reproduction of an ancient Greek theater populated by clones of themselves.</p><p>Prisoners (real Mayor Baldwin, Commissioner Anselmo, Center geneticists) are held for rescue. If the scene tracker ends, Biomancer escapes and remaining clones explode (Attack all heroes with Max+Min), and the building begins to collapse.</p><p><em>Trait dice use printed labels (Autonomous Guards / Panopticon / Old Tech and New Tech); die sizes curated.</em></p>"
   },
   "prototypeToken": {
     "name": "The Argaeus Tower",
@@ -18,12 +18,12 @@
   },
   "items": [
     {
-      "name": "TODO Minor Twist 1",
+      "name": "Arachne Helico",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+        "description": "<p>Add one Arachne Helico minion.</p>"
       },
       "effects": [],
       "folder": null,
@@ -40,16 +40,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "xMPlNzKQXSMt00dh",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.xMPlNzKQXSMt00dh"
+      "_id": "QNzuHg6k9PPbZLFb",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.QNzuHg6k9PPbZLFb"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "Knockout Spores",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+        "description": "<p>The floor emits spores that induce drowsiness. Roll the environment dice and Hinder all heroes with the Min die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -66,16 +66,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "rpERhFrGQdhWbbPu",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.rpERhFrGQdhWbbPu"
+      "_id": "HU9xPh2tEtanPsf7",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.HU9xPh2tEtanPsf7"
     },
     {
-      "name": "TODO Major Twist 1",
+      "name": "Greek Fire",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenmajor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower major twists.</p>"
+        "description": "<p>Flamethrowers mounted in the walls emit intense flame. Roll the environment dice and Attack all heroes with the Min die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -92,16 +92,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "l3KBnEpNk8yCgrDr",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.l3KBnEpNk8yCgrDr"
+      "_id": "JbAR5ciZ8P1bjbDr",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.JbAR5ciZ8P1bjbDr"
     },
     {
-      "name": "TODO Minor Twist 1",
+      "name": "Hoplite Clones",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+        "description": "<p>A trap door opens in the floor and a band of warriors emerges! Roll the environment dice and add Hoplite Clones equal to the Min die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -118,16 +118,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "OXAMk00UJ3k2tcRF",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.OXAMk00UJ3k2tcRF"
+      "_id": "CtUXsfLRRDOEyD9V",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.CtUXsfLRRDOEyD9V"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "Astrapi Plate",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+        "description": "<p>The ground the hero is standing on is electrified! Roll the environment dice and Attack that hero with the Max die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -144,16 +144,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "ZkD1YI4JV4JpF9hD",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.ZkD1YI4JV4JpF9hD"
+      "_id": "w7I2YmZDDwGjlr2h",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.w7I2YmZDDwGjlr2h"
     },
     {
-      "name": "TODO Major Twist 1",
+      "name": "Sirens",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowmajor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower major twists.</p>"
+        "description": "<p>An intense noise sounds, distracting the heroes. Roll the environment dice and Hinder all heroes with the Mid die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -170,16 +170,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "VGEXVLigjjOxiyE9",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.VGEXVLigjjOxiyE9"
+      "_id": "N9QYlGn6ocW8uEMb",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.N9QYlGn6ocW8uEMb"
     },
     {
-      "name": "TODO Minor Twist 1",
+      "name": "Thunderbolt",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redminor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+        "description": "<p>A bolt of electricity shoots from the ceiling at one hero. Roll the environment dice. Attack one hero with the Max+Min dice.</p>"
       },
       "effects": [],
       "folder": null,
@@ -196,16 +196,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "0O9i3tS3aHaFOB2q",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.0O9i3tS3aHaFOB2q"
+      "_id": "vnC7i0AdoSVWFY39",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.vnC7i0AdoSVWFY39"
     },
     {
-      "name": "TODO Minor Twist 2",
+      "name": "Gastraphetes Archers",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redminor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+        "description": "<p>A troop of archers — clones all — attack the heroes! Roll the environment dice and add a number of Gastraphetes Archers equal to the Mid die.</p>"
       },
       "effects": [],
       "folder": null,
@@ -222,16 +222,16 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "EBMmHYPZAloqBAPF",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.EBMmHYPZAloqBAPF"
+      "_id": "KXt4vVUmm5atGRhN",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.KXt4vVUmm5atGRhN"
     },
     {
-      "name": "TODO Major Twist 1",
+      "name": "The Claw of Archimedes",
       "type": "environmentTwist",
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redmajor",
-        "description": "<p>TODO(PDF p.284): fill Argaeus Tower major twists.</p>"
+        "description": "<p>A giant claw on the end of a long chain plummets from the ceiling, grabbing one of the heroes! Roll the environment dice and Attack that hero with the Max die. Additionally, that hero is restrained from acting and the Attack repeats each environment turn until someone frees them by opening the Claw with an Overcome action. On an overwhelming success, the claw is destroyed and cannot be triggered again.</p>"
       },
       "effects": [],
       "folder": null,
@@ -248,8 +248,8 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "QVg53leoZcB3mRkB",
-      "_key": "!actors.items!8lDt6ssmGSWWZRVK.QVg53leoZcB3mRkB"
+      "_id": "e9maCTnC13t9uEWe",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.e9maCTnC13t9uEWe"
     }
   ],
   "effects": [],
@@ -261,7 +261,7 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "the-argaeus-tower",
-      "modeledAs": "challenge"
+      "modeledAs": "environment"
     }
   },
   "_stats": {

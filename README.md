@@ -19,7 +19,9 @@ Organized by scene name, then by object type (Scene Trackers, Environments, Mini
 
 ## PDF status
 
-Adventure text/stats in `src/data/a-conspiracy-of-clones.json` still need a pass against the SCRPG ruleset PDF (book pages → PDF offset **+8**, same as SCRPG-actor-compendium `tools/extract-archive.py`). Entries marked `pdfTodo` / `TODO(PDF…)` are placeholders.
+Adventure content in `src/data/a-conspiracy-of-clones.json` is filled from book pp. 269–289 (zone-colored environment twists, minions, lieutenants, Biomancer issue sheet including masteries on p.283).
+
+**Die glyphs:** the text extract omitted printed die art. Minion/lieutenant/environment trait die sizes are curated placeholders — confirm against the book art if a table disagrees.
 
 ## Install
 

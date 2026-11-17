@@ -1,0 +1,93 @@
+{
+  "name": "Gastraphetes Archers",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "These clones are dressed in flawless Marathon-era Athenian battle armor and carry gastraphetes (Greek crossbows) and xiphoses (short swords). (1 per hero.)",
+    "tactics": "Gastraphetes Archers want to stay far from their opponents and focus on shooting any heroes who have ranged abilities of their own. If there are none, they shoot at the targets nearest to them.",
+    "groups": "1",
+    "groupName": {
+      "one": "Gastraphetes Archers",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d8",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Gastraphetes Archers",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Gastraphete",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to ranged Attack actions.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "fXaU5zOL3534Jk9Z",
+      "_key": "!actors.items!Iu7ZdW8ATexPlDhN.fXaU5zOL3534Jk9Z"
+    }
+  ],
+  "effects": [],
+  "folder": "BAXCiGb97XGmI3kw",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "quantityNote": "1 per hero",
+      "description": "These clones are dressed in flawless Marathon-era Athenian battle armor and carry gastraphetes (Greek crossbows) and xiphoses (short swords). (1 per hero.)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "Iu7ZdW8ATexPlDhN",
+  "_key": "!actors!Iu7ZdW8ATexPlDhN"
+}
