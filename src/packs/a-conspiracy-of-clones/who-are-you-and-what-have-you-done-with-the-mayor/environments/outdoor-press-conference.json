@@ -3,13 +3,13 @@
   "type": "environment",
   "img": "icons/svg/castle.svg",
   "system": {
-    "firstDie": "d8",
-    "secondDie": "d8",
-    "thirdDie": "d6",
+    "firstDie": "d6",
+    "secondDie": "d6",
+    "thirdDie": "d8",
     "firstDieName": "Crowd of Civilians",
     "secondDieName": "Live News Feed",
     "thirdDieName": "Megalopolis’s Finest",
-    "description": "<p><strong>Outdoor Press Conference</strong></p><p>The square outside City Hall: dozens of civilians, police, and local news teams gathered for the mayor’s speech. Twists and threats work against both heroes and opposition.</p><p><strong>Starting opposition:</strong> H robot “cops”, 2 Skeeterbots per hero, and H/2 Megalopolis Police Officers (rounded down). The first time the environment comes up, clone Mayor Baldwin and Police Commissioner Anselmo enter and turn on the heroes (revealed as flesh-creations as they take damage).</p><p><strong>Threats:</strong> Whenever the environment turn comes up, add one of the Outdoor Press Conference threats (Robot cops / Skeeterbots / Megalopolis Police Officers).</p><p><em>Trait dice use printed labels (Crowd of Civilians / Live News Feed / Megalopolis’s Finest); die sizes curated — confirm in book.</em></p>"
+    "description": "<p><strong>Outdoor Press Conference</strong></p><p>The square outside City Hall: dozens of civilians, police, and local news teams gathered for the mayor’s speech. Twists and threats work against both heroes and opposition.</p><p><strong>Starting opposition:</strong> H robot “cops”, 2 Skeeterbots per hero, and H/2 Megalopolis Police Officers (rounded down). The first time the environment comes up, clone Mayor Baldwin and Police Commissioner Anselmo enter and turn on the heroes (revealed as flesh-creations as they take damage).</p><p><strong>Threats:</strong> Whenever the environment turn comes up, add one of the Outdoor Press Conference threats (Robot cops / Skeeterbots / Megalopolis Police Officers).</p><p><em>Trait dice use printed labels (Crowd of Civilians / Live News Feed / Megalopolis’s Finest).</em></p>"
   },
   "prototypeToken": {
     "name": "Outdoor Press Conference",
