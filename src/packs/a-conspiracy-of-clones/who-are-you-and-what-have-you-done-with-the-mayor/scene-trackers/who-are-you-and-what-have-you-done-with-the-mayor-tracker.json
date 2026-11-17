@@ -32,7 +32,7 @@
   "flags": {
     "scrpg-a-conspiracy-of-clones": {
       "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
-      "notes": "Square outside City Hall, Megalopolis. Starts with H robot cops, 2 Skeeterbots per hero, H/2 Megalopolis Police Officers (round down). First environment turn: clone Mayor Baldwin and Commissioner Anselmo enter. Track which heroes Skeeterbots sample for Scene 3 clones. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
+      "notes": "Square outside City Hall, Megalopolis. Starts with H robot cops, 2 Skeeterbots per hero, H/2 Megalopolis Police Officers (round down). First environment turn: clone Mayor Baldwin and Commissioner Anselmo enter. Track which heroes Skeeterbots sample for Scene 3 clones. Die sizes match printed PDF glyphs.",
       "role": "scrpg-scene-tracker"
     }
   },

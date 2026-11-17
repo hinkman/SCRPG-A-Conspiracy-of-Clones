@@ -13,18 +13,18 @@
         "yellow": 4,
         "red": 2
       },
-      "notes": "Square outside City Hall, Megalopolis. Starts with H robot cops, 2 Skeeterbots per hero, H/2 Megalopolis Police Officers (round down). First environment turn: clone Mayor Baldwin and Commissioner Anselmo enter. Track which heroes Skeeterbots sample for Scene 3 clones. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
+      "notes": "Square outside City Hall, Megalopolis. Starts with H robot cops, 2 Skeeterbots per hero, H/2 Megalopolis Police Officers (round down). First environment turn: clone Mayor Baldwin and Commissioner Anselmo enter. Track which heroes Skeeterbots sample for Scene 3 clones. Die sizes match printed PDF glyphs.",
       "environment": {
         "name": "Outdoor Press Conference",
         "modeledAs": "environment",
-        "description": "<p><strong>Outdoor Press Conference</strong></p><p>The square outside City Hall: dozens of civilians, police, and local news teams gathered for the mayor’s speech. Twists and threats work against both heroes and opposition.</p><p><strong>Starting opposition:</strong> H robot “cops”, 2 Skeeterbots per hero, and H/2 Megalopolis Police Officers (rounded down). The first time the environment comes up, clone Mayor Baldwin and Police Commissioner Anselmo enter and turn on the heroes (revealed as flesh-creations as they take damage).</p><p><strong>Threats:</strong> Whenever the environment turn comes up, add one of the Outdoor Press Conference threats (Robot cops / Skeeterbots / Megalopolis Police Officers).</p><p><em>Trait dice use printed labels (Crowd of Civilians / Live News Feed / Megalopolis’s Finest); die sizes curated — confirm in book.</em></p>",
+        "description": "<p><strong>Outdoor Press Conference</strong></p><p>The square outside City Hall: dozens of civilians, police, and local news teams gathered for the mayor’s speech. Twists and threats work against both heroes and opposition.</p><p><strong>Starting opposition:</strong> H robot “cops”, 2 Skeeterbots per hero, and H/2 Megalopolis Police Officers (rounded down). The first time the environment comes up, clone Mayor Baldwin and Police Commissioner Anselmo enter and turn on the heroes (revealed as flesh-creations as they take damage).</p><p><strong>Threats:</strong> Whenever the environment turn comes up, add one of the Outdoor Press Conference threats (Robot cops / Skeeterbots / Megalopolis Police Officers).</p><p><em>Trait dice use printed labels (Crowd of Civilians / Live News Feed / Megalopolis’s Finest).</em></p>",
         "dice": {
           "firstDieName": "Crowd of Civilians",
-          "firstDie": "d8",
+          "firstDie": "d6",
           "secondDieName": "Live News Feed",
-          "secondDie": "d8",
+          "secondDie": "d6",
           "thirdDieName": "Megalopolis’s Finest",
-          "thirdDie": "d6"
+          "thirdDie": "d8"
         },
         "twists": {
           "green": {
@@ -104,7 +104,7 @@
         },
         {
           "name": "Megalopolis Police Officer",
-          "die": "d6",
+          "die": "d8",
           "quantityNote": "1 per 2 heroes",
           "description": "This cop knew something fishy was going on with those robots. But if any of these masked vigilantes get in the way, they’re also going in the clink.",
           "tactics": "Megalopolis Police Officers focus on Hindering any nearby combatants, prioritizing robots and heroes over clones and Skeeterbots. At the end of the scene, they’ll sheepishly thank the heroes for help (if applicable) and let any handcuffed heroes free, but tell them to keep out of trouble.",
@@ -117,7 +117,7 @@
       "lieutenants": [
         {
           "name": "Mayor Rebecca Baldwin",
-          "die": "d10",
+          "die": "d8",
           "quantityNote": "1 — enters on first environment turn",
           "description": "The mayor is a clone! She attacks the heroes with surprising strength. If Mayor Baldwin is defeated, the “organic matter” of her body disintegrates into dust and her metal skeleton clatters to the ground.",
           "tactics": "The mayor goes after any hero that is in combat with the Skeeterbots.",
@@ -128,7 +128,7 @@
         },
         {
           "name": "Police Commissioner Dario Anselmo",
-          "die": "d10",
+          "die": "d8",
           "quantityNote": "1 — enters on first environment turn",
           "description": "The police commissioner is also a clone! He levels his electroshock pistol at the heroes. If Police Commissioner Anselmo is defeated, his flesh and organs disintegrate and his steel and copper skeleton falls to pieces.",
           "tactics": "The chief of police spends his turns Hindering a hero in combat with the robot cops.",
@@ -152,7 +152,7 @@
       "environment": {
         "name": "Center for Advanced Genomic Research",
         "modeledAs": "environment",
-        "description": "<p><strong>Center for Advanced Genomic Research</strong></p><p>One of the most sophisticated genetics laboratories on the planet. Biomancer took it over to clone humans and “program” them. A unique Immunosecurity System adapts to intruders, growing more hostile until they leave.</p><p><strong>Levels / seeded threats:</strong></p><ul><li>Ground Level: 1 Antibody Bot</li><li>Basement 1 (Admin): H/2 Antibody Bots</li><li>Basement 2 (Agricultural): H/2 Defender Pods</li><li>Basement 3 (Cryogenics): H/2 Cryopedes</li><li>Basement 4 (Radiation): H/2 Giant Angry Shaggy Things</li><li>Basement 5 (Gene Splicing): H/2 Nanite Swarms — goal computer</li></ul><p>Security responses are physical or electronic depending on the triggering Overcome. Twists may also unleash runaway experiments.</p><p><em>Trait dice use printed labels (Immunosecurity / Runaway Experiments / Corrupted Computer Systems); die sizes curated.</em></p>",
+        "description": "<p><strong>Center for Advanced Genomic Research</strong></p><p>One of the most sophisticated genetics laboratories on the planet. Biomancer took it over to clone humans and “program” them. A unique Immunosecurity System adapts to intruders, growing more hostile until they leave.</p><p><strong>Levels / seeded threats:</strong></p><ul><li>Ground Level: 1 Antibody Bot</li><li>Basement 1 (Admin): H/2 Antibody Bots</li><li>Basement 2 (Agricultural): H/2 Defender Pods</li><li>Basement 3 (Cryogenics): H/2 Cryopedes</li><li>Basement 4 (Radiation): H/2 Giant Angry Shaggy Things</li><li>Basement 5 (Gene Splicing): H/2 Nanite Swarms — goal computer</li></ul><p>Security responses are physical or electronic depending on the triggering Overcome. Twists may also unleash runaway experiments.</p><p><em>Trait dice use printed labels (Immunosecurity / Runaway Experiments / Corrupted Computer Systems).</em></p>",
         "dice": {
           "firstDieName": "Immunosecurity",
           "firstDie": "d10",
@@ -253,7 +253,7 @@
       "minions": [
         {
           "name": "Antibody Bot",
-          "die": "d8",
+          "die": "d6",
           "quantityNote": "1 per 2 heroes (also seeded by level)",
           "description": "A small combat robot programmed to attack targets that cause physical damage to the laboratory or its contents. It is armed with an ultrasonic baton, but will bludgeon with its arms if necessary.",
           "tactics": "Antibody Bots attempt to team up against any heroes interacting with the Center’s computers or technology.",
@@ -264,7 +264,7 @@
         },
         {
           "name": "Defender Pod",
-          "die": "d8",
+          "die": "d6",
           "quantityNote": "1 per 2 heroes (Basement 2 seed H/2)",
           "description": "A cluster of plants closely related to wheat, genetically designed to grow florets that produce and launch razor sharp spikes. Scientists designed it to defend the rest of the crop from vermin and pests, but now they attack the heroes.",
           "tactics": "The Defender Pods have been genetically reprogrammed to go after the strongest opposing threats, so whatever heroes seem biggest or strongest will be their priority.",
@@ -297,7 +297,7 @@
         },
         {
           "name": "Nanite Swarm",
-          "die": "d6",
+          "die": "d8",
           "quantityNote": "1 per 2 heroes (Basement 5 seed H/2)",
           "description": "These nanites were used by the Center’s scientists to edit chromosomes of their test subjects. A swarm of them has escaped and attacks the heroes.",
           "tactics": "Nanite Swarms prefer, if possible: First duplicate; then Hinder opponents; then Boost themselves or other Nanite Swarms; then Attack; repeat!",
@@ -356,7 +356,7 @@
       "environment": {
         "name": "The Argaeus Tower",
         "modeledAs": "environment",
-        "description": "<p><strong>The Argaeus Tower</strong></p><p>A modern steel-and-glass skyscraper in Dubai (70+ stories) with a rooftop landing pad. An elevator platform lowers heroes into a steep-stepped reproduction of an ancient Greek theater populated by clones of themselves.</p><p>Prisoners (real Mayor Baldwin, Commissioner Anselmo, Center geneticists) are held for rescue. If the scene tracker ends, Biomancer escapes and remaining clones explode (Attack all heroes with Max+Min), and the building begins to collapse.</p><p><em>Trait dice use printed labels (Autonomous Guards / Panopticon / Old Tech and New Tech); die sizes curated.</em></p>",
+        "description": "<p><strong>The Argaeus Tower</strong></p><p>A modern steel-and-glass skyscraper in Dubai (70+ stories) with a rooftop landing pad. An elevator platform lowers heroes into a steep-stepped reproduction of an ancient Greek theater populated by clones of themselves.</p><p>Prisoners (real Mayor Baldwin, Commissioner Anselmo, Center geneticists) are held for rescue. If the scene tracker ends, Biomancer escapes and remaining clones explode (Attack all heroes with Max+Min), and the building begins to collapse.</p><p><em>Trait dice use printed labels (Autonomous Guards / Panopticon / Old Tech and New Tech).</em></p>",
         "dice": {
           "firstDieName": "Autonomous Guards",
           "firstDie": "d10",
@@ -425,7 +425,7 @@
       "minions": [
         {
           "name": "Arachne Helico",
-          "die": "d8",
+          "die": "d6",
           "quantityNote": "1 per hero",
           "description": "A small robot suspended from a helical whirligig that provides both lift and propulsion. It can cast strands of weblike material to tangle its targets or attack with envenomed darts.",
           "tactics": "The Arachne Helicos seek to Hinder as many Heroes as possible.",
@@ -744,7 +744,7 @@
           "forms": [
             {
               "name": "Summon Minions",
-              "description": "Create a number of minions equal to half (rounded down) this minion’s die roll."
+              "description": "Create a number of d6 minions equal to half (rounded down) this minion’s die roll."
             },
             {
               "name": "Bolster Minions",

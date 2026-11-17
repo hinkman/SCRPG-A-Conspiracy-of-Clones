@@ -43,7 +43,7 @@
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Create a number of minions equal to half (rounded down) this minion’s die roll.</p>",
+        "description": "<p>Create a number of d6 minions equal to half (rounded down) this minion’s die roll.</p>",
         "bonus": "one",
         "group": 1
       },
