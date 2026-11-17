@@ -1,0 +1,93 @@
+{
+  "name": "Cryopede",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "A two-foot-long centipede-like creature made of ice; the Cryopede spits liquid helium at its prey. (1 per 2 heroes (Basement 3 seed H/2).)",
+    "tactics": "Cryopedes focus on hindering as many opponents as possible. Once a hero has one penalty from a Cryopede, that hero becomes a much lower priority target.",
+    "groups": "1",
+    "groupName": {
+      "one": "Cryopede",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d6",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Cryopede",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Liquid Helium",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Hinder actions.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "x9IhVgv5kIJeSiFm",
+      "_key": "!actors.items!Ev2rcUMkSpKE5ljE.x9IhVgv5kIJeSiFm"
+    }
+  ],
+  "effects": [],
+  "folder": "JpJDgRjwulkD1L3e",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "quantityNote": "1 per 2 heroes (Basement 3 seed H/2)",
+      "description": "A two-foot-long centipede-like creature made of ice; the Cryopede spits liquid helium at its prey. (1 per 2 heroes (Basement 3 seed H/2).)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "Ev2rcUMkSpKE5ljE",
+  "_key": "!actors!Ev2rcUMkSpKE5ljE"
+}

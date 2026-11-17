@@ -1,0 +1,49 @@
+{
+  "name": "The Center for Advanced Genomic Research Tracker",
+  "type": "scene",
+  "img": "icons/svg/clockwork.svg",
+  "system": {
+    "greenSpace": {
+      "setting": 2,
+      "current": 0
+    },
+    "yellowSpace": {
+      "setting": 4,
+      "current": 0
+    },
+    "redSpace": {
+      "setting": 2,
+      "current": 0
+    },
+    "options": true
+  },
+  "prototypeToken": {
+    "name": "The Center for Advanced Genomic Research Tracker",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [],
+  "effects": [],
+  "folder": "idOUxLbySaMQuxHq",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "notes": "Tarama atoll lab. Multi-level: Ground → Basements 1–5 (goal computer in Basement 5). Seeded threats by level (p.279). Physical vs electronic Overcome progression with escalating −1 security penalties. Biomancer evacuated ~12 hours earlier — not fought here. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
+      "role": "scrpg-scene-tracker"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "OHHDwazwnPtZwWq7",
+  "_key": "!actors!OHHDwazwnPtZwWq7"
+}

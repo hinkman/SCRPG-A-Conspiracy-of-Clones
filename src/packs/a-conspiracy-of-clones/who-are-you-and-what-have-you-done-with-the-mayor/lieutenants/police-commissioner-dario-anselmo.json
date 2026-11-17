@@ -1,0 +1,93 @@
+{
+  "name": "Police Commissioner Dario Anselmo",
+  "type": "minion",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "role": "lieutenant",
+    "description": "The police commissioner is also a clone! He levels his electroshock pistol at the heroes. If Police Commissioner Anselmo is defeated, his flesh and organs disintegrate and his steel and copper skeleton falls to pieces. (1 — enters on first environment turn.)",
+    "tactics": "The chief of police spends his turns Hindering a hero in combat with the robot cops.",
+    "groups": "1",
+    "groupName": {
+      "one": "Police Commissioner Dario Anselmo",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d10",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Police Commissioner Dario Anselmo",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Non-standard Issue",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>The police chief gets a +1 to Hinder actions made with his electroshock pistol.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "G0x1i9rgCH8XwBKB",
+      "_key": "!actors.items!bAOlOAy2XWuY0ZIh.G0x1i9rgCH8XwBKB"
+    }
+  ],
+  "effects": [],
+  "folder": "OCVcV2DovSVcpiN0",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "quantityNote": "1 — enters on first environment turn",
+      "description": "The police commissioner is also a clone! He levels his electroshock pistol at the heroes. If Police Commissioner Anselmo is defeated, his flesh and organs disintegrate and his steel and copper skeleton falls to pieces. (1 — enters on first environment turn.)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "bAOlOAy2XWuY0ZIh",
+  "_key": "!actors!bAOlOAy2XWuY0ZIh"
+}

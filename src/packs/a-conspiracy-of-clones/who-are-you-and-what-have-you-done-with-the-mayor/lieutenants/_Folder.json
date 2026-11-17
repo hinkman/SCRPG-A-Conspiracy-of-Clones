@@ -1,0 +1,20 @@
+{
+  "name": "Lieutenants",
+  "description": "",
+  "folder": "OaWw4woMVCZzPuPv",
+  "type": "Actor",
+  "sorting": "a",
+  "sort": 40000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "OCVcV2DovSVcpiN0",
+  "_key": "!folders!OCVcV2DovSVcpiN0"
+}

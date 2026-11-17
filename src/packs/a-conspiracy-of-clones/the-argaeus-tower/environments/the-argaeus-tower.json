@@ -1,0 +1,277 @@
+{
+  "name": "The Argaeus Tower",
+  "type": "environment",
+  "img": "icons/svg/castle.svg",
+  "system": {
+    "firstDie": "d10",
+    "secondDie": "d8",
+    "thirdDie": "d8",
+    "firstDieName": "Autonomous Guards",
+    "secondDieName": "Panopticon",
+    "thirdDieName": "Old Tech and New Tech",
+    "description": "<p><strong>The Argaeus Tower</strong></p><p>A modern steel-and-glass skyscraper in Dubai (70+ stories) with a rooftop landing pad. An elevator platform lowers heroes into a steep-stepped reproduction of an ancient Greek theater populated by clones of themselves.</p><p>Prisoners (real Mayor Baldwin, Commissioner Anselmo, Center geneticists) are held for rescue. If the scene tracker ends, Biomancer escapes and remaining clones explode (Attack all heroes with Max+Min), and the building begins to collapse.</p><p><em>Trait dice use printed labels (Autonomous Guards / Panopticon / Old Tech and New Tech); die sizes curated.</em></p>"
+  },
+  "prototypeToken": {
+    "name": "The Argaeus Tower",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Arachne Helico",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenminor",
+        "description": "<p>Add one Arachne Helico minion.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "QNzuHg6k9PPbZLFb",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.QNzuHg6k9PPbZLFb"
+    },
+    {
+      "name": "Knockout Spores",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenminor",
+        "description": "<p>The floor emits spores that induce drowsiness. Roll the environment dice and Hinder all heroes with the Min die.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "HU9xPh2tEtanPsf7",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.HU9xPh2tEtanPsf7"
+    },
+    {
+      "name": "Greek Fire",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenmajor",
+        "description": "<p>Flamethrowers mounted in the walls emit intense flame. Roll the environment dice and Attack all heroes with the Min die.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "JbAR5ciZ8P1bjbDr",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.JbAR5ciZ8P1bjbDr"
+    },
+    {
+      "name": "Hoplite Clones",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowminor",
+        "description": "<p>A trap door opens in the floor and a band of warriors emerges! Roll the environment dice and add Hoplite Clones equal to the Min die.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "CtUXsfLRRDOEyD9V",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.CtUXsfLRRDOEyD9V"
+    },
+    {
+      "name": "Astrapi Plate",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowminor",
+        "description": "<p>The ground the hero is standing on is electrified! Roll the environment dice and Attack that hero with the Max die.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "w7I2YmZDDwGjlr2h",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.w7I2YmZDDwGjlr2h"
+    },
+    {
+      "name": "Sirens",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowmajor",
+        "description": "<p>An intense noise sounds, distracting the heroes. Roll the environment dice and Hinder all heroes with the Mid die.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 5,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "N9QYlGn6ocW8uEMb",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.N9QYlGn6ocW8uEMb"
+    },
+    {
+      "name": "Thunderbolt",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>A bolt of electricity shoots from the ceiling at one hero. Roll the environment dice. Attack one hero with the Max+Min dice.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 6,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "vnC7i0AdoSVWFY39",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.vnC7i0AdoSVWFY39"
+    },
+    {
+      "name": "Gastraphetes Archers",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>A troop of archers — clones all — attack the heroes! Roll the environment dice and add a number of Gastraphetes Archers equal to the Mid die.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 7,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "KXt4vVUmm5atGRhN",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.KXt4vVUmm5atGRhN"
+    },
+    {
+      "name": "The Claw of Archimedes",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redmajor",
+        "description": "<p>A giant claw on the end of a long chain plummets from the ceiling, grabbing one of the heroes! Roll the environment dice and Attack that hero with the Max die. Additionally, that hero is restrained from acting and the Attack repeats each environment turn until someone frees them by opening the Claw with an Overcome action. On an overwhelming success, the claw is destroyed and cannot be triggered again.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 8,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "e9maCTnC13t9uEWe",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.e9maCTnC13t9uEWe"
+    }
+  ],
+  "effects": [],
+  "folder": "99lcYt3N2H3tWt1z",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "modeledAs": "environment"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "8lDt6ssmGSWWZRVK",
+  "_key": "!actors!8lDt6ssmGSWWZRVK"
+}

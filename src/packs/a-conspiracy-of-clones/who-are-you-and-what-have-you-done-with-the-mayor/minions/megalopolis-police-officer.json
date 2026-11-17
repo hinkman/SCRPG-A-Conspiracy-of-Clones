@@ -1,0 +1,93 @@
+{
+  "name": "Megalopolis Police Officer",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "This cop knew something fishy was going on with those robots. But if any of these masked vigilantes get in the way, they’re also going in the clink. (1 per 2 heroes.)",
+    "tactics": "Megalopolis Police Officers focus on Hindering any nearby combatants, prioritizing robots and heroes over clones and Skeeterbots. At the end of the scene, they’ll sheepishly thank the heroes for help (if applicable) and let any handcuffed heroes free, but tell them to keep out of trouble.",
+    "groups": "1",
+    "groupName": {
+      "one": "Megalopolis Police Officer",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d6",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Megalopolis Police Officer",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Cuff ‘em",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Hinder actions when an officer slaps a combatant in handcuffs.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "TUDIGqFQFJzeAzay",
+      "_key": "!actors.items!nx52vbrCsesFTlXb.TUDIGqFQFJzeAzay"
+    }
+  ],
+  "effects": [],
+  "folder": "pMZm46PpxS2BbQmV",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "quantityNote": "1 per 2 heroes",
+      "description": "This cop knew something fishy was going on with those robots. But if any of these masked vigilantes get in the way, they’re also going in the clink. (1 per 2 heroes.)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "nx52vbrCsesFTlXb",
+  "_key": "!actors!nx52vbrCsesFTlXb"
+}

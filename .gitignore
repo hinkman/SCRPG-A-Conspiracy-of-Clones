@@ -1,0 +1,7 @@
+.cursor/
+.DS_Store
+.idea/
+*.iml
+*.log
+node_modules/
+!packs/**/*.log

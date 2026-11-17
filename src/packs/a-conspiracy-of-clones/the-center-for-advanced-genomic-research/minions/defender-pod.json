@@ -1,0 +1,93 @@
+{
+  "name": "Defender Pod",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "A cluster of plants closely related to wheat, genetically designed to grow florets that produce and launch razor sharp spikes. Scientists designed it to defend the rest of the crop from vermin and pests, but now they attack the heroes. (1 per 2 heroes (Basement 2 seed H/2).)",
+    "tactics": "The Defender Pods have been genetically reprogrammed to go after the strongest opposing threats, so whatever heroes seem biggest or strongest will be their priority.",
+    "groups": "1",
+    "groupName": {
+      "one": "Defender Pod",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d8",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Defender Pod",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Spikes",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Inherent: Whenever a Defender Pod is attacked by a nearby target, it deals that target 2 damage.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "JMDpnD9F3eEH5hBL",
+      "_key": "!actors.items!Ed1mFI6c98QMnVKX.JMDpnD9F3eEH5hBL"
+    }
+  ],
+  "effects": [],
+  "folder": "JpJDgRjwulkD1L3e",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "quantityNote": "1 per 2 heroes (Basement 2 seed H/2)",
+      "description": "A cluster of plants closely related to wheat, genetically designed to grow florets that produce and launch razor sharp spikes. Scientists designed it to defend the rest of the crop from vermin and pests, but now they attack the heroes. (1 per 2 heroes (Basement 2 seed H/2).)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "Ed1mFI6c98QMnVKX",
+  "_key": "!actors!Ed1mFI6c98QMnVKX"
+}

@@ -1,0 +1,767 @@
+{
+  "moduleId": "scrpg-a-conspiracy-of-clones",
+  "packKey": "a-conspiracy-of-clones",
+  "scenePackKey": "a-conspiracy-of-clones-scenes",
+  "source": "Sentinel Comics: The Roleplaying Game, Adventure Issues, A Conspiracy of Clones (pp. 269–289)",
+  "notes": "Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
+  "scenes": [
+    {
+      "key": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "name": "Who Are You And What Have You Done With The Mayor?",
+      "tracker": {
+        "green": 2,
+        "yellow": 4,
+        "red": 2
+      },
+      "notes": "Square outside City Hall, Megalopolis. Starts with H robot cops, 2 Skeeterbots per hero, H/2 Megalopolis Police Officers (round down). First environment turn: clone Mayor Baldwin and Commissioner Anselmo enter. Track which heroes Skeeterbots sample for Scene 3 clones. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
+      "environment": {
+        "name": "Outdoor Press Conference",
+        "modeledAs": "environment",
+        "description": "<p><strong>Outdoor Press Conference</strong></p><p>The square outside City Hall: dozens of civilians, police, and local news teams gathered for the mayor’s speech. Twists and threats work against both heroes and opposition.</p><p><strong>Starting opposition:</strong> H robot “cops”, 2 Skeeterbots per hero, and H/2 Megalopolis Police Officers (rounded down). The first time the environment comes up, clone Mayor Baldwin and Police Commissioner Anselmo enter and turn on the heroes (revealed as flesh-creations as they take damage).</p><p><strong>Threats:</strong> Whenever the environment turn comes up, add one of the Outdoor Press Conference threats (Robot cops / Skeeterbots / Megalopolis Police Officers).</p><p><em>Trait dice use printed labels (Crowd of Civilians / Live News Feed / Megalopolis’s Finest); die sizes curated — confirm in book.</em></p>",
+        "dice": {
+          "firstDieName": "Crowd of Civilians",
+          "firstDie": "d8",
+          "secondDieName": "Live News Feed",
+          "secondDie": "d8",
+          "thirdDieName": "Megalopolis’s Finest",
+          "thirdDie": "d6"
+        },
+        "twists": {
+          "green": {
+            "minor": [
+              {
+                "name": "Civilian in Danger",
+                "description": "A civilian is being attacked by one of the robot “cops.” They can be rescued through a successful Overcome action. If they are not rescued before the next time a scene tracker box is checked, the civilian is badly injured."
+              },
+              {
+                "name": "Cops on the Scene",
+                "description": "Add one Megalopolis Police Officer to the scene."
+              }
+            ],
+            "major": [
+              {
+                "name": "Skeeter Swarm",
+                "description": "Roll the environment dice and add a number of Skeeterbots equal to the Min die."
+              }
+            ]
+          },
+          "yellow": {
+            "minor": [
+              {
+                "name": "Newsies",
+                "description": "A crew of photojournalists gets in the way. Roll the environment dice and Hinder all heroes with the Min die. A hero may use an Overcome action to attempt to clear the penalty on all heroes by getting the press out of danger."
+              },
+              {
+                "name": "More Bots",
+                "description": "Roll the environment dice and add a number of robot “cops” equal to the Mid die."
+              }
+            ],
+            "major": [
+              {
+                "name": "Robo-Reinforcement",
+                "description": "More robot “cops” come clanking around the corner, followed by the drone of even more Skeeterbots! Roll the environment dice. Add robot “cops” equal to the Min die. Add Skeeterbots equal to the Mid die."
+              }
+            ]
+          },
+          "red": {
+            "minor": [
+              {
+                "name": "EMTs In Trouble",
+                "description": "Two robot “cops” are about to destroy an ambulance containing an injured patient and several EMTs. They can be rescued with two Overcome actions; if they are not rescued by the time the next scene tracker space is marked, the ambulance is destroyed and its passengers and driver are badly injured. Until this is resolved, all heroes have a −1 penalty to all actions."
+              }
+            ],
+            "major": [
+              {
+                "name": "Panicking Crowd",
+                "description": "A hero is swarmed by a crowd of panicking civilians. Roll the environment dice and Hinder that hero with the Max+Min dice."
+              }
+            ]
+          }
+        }
+      },
+      "minions": [
+        {
+          "name": "Robot “cops”",
+          "die": "d8",
+          "quantityNote": "1 per hero",
+          "description": "These mechanized law enforcement robots are built in a bipedal, semi-humanoid shape, but with clearly mechanical features and robotic forms. They’re not the good guys here.",
+          "tactics": "These robots attempt to grapple the heroes by using the Boost action and granting the bonus to the next Skeeterbot to act. Once each hero has been successfully sampled, they pummel the heroes with Attacks.",
+          "form": {
+            "name": "Robot Arm of the Law",
+            "description": "+1 to Boost actions helping the Skeeterbots attack the heroes."
+          }
+        },
+        {
+          "name": "Skeeterbots",
+          "die": "d6",
+          "quantityNote": "2 per hero",
+          "description": "Tiny flying robots, in the shape of mosquitos with concerningly long, metal proboscises, fly towards the heroes in groups of three.",
+          "tactics": "They swarm toward the heroes and gang up on the nearest un-sampled heroes. Once a hero has been sampled, the Skeeterbots lose interest in them. If there are no un-sampled heroes, the Skeeterbots self-destruct, Attacking each nearby target — friend and foe alike — by rolling their die.",
+          "form": {
+            "name": "Sampling Proboscis",
+            "description": "If their Attack damages a hero, they analyze the blood they draw, instantly uploading the results to a server… somewhere. A hero with appropriate abilities might be able to detect the signal. Keep track of which heroes have their DNA captured this way — used to create clones in Scene 3."
+          }
+        },
+        {
+          "name": "Megalopolis Police Officer",
+          "die": "d6",
+          "quantityNote": "1 per 2 heroes",
+          "description": "This cop knew something fishy was going on with those robots. But if any of these masked vigilantes get in the way, they’re also going in the clink.",
+          "tactics": "Megalopolis Police Officers focus on Hindering any nearby combatants, prioritizing robots and heroes over clones and Skeeterbots. At the end of the scene, they’ll sheepishly thank the heroes for help (if applicable) and let any handcuffed heroes free, but tell them to keep out of trouble.",
+          "form": {
+            "name": "Cuff ‘em",
+            "description": "+1 to Hinder actions when an officer slaps a combatant in handcuffs."
+          }
+        }
+      ],
+      "lieutenants": [
+        {
+          "name": "Mayor Rebecca Baldwin",
+          "die": "d10",
+          "quantityNote": "1 — enters on first environment turn",
+          "description": "The mayor is a clone! She attacks the heroes with surprising strength. If Mayor Baldwin is defeated, the “organic matter” of her body disintegrates into dust and her metal skeleton clatters to the ground.",
+          "tactics": "The mayor goes after any hero that is in combat with the Skeeterbots.",
+          "form": {
+            "name": "Clone Strength",
+            "description": "+1 to Attacks made with her fists."
+          }
+        },
+        {
+          "name": "Police Commissioner Dario Anselmo",
+          "die": "d10",
+          "quantityNote": "1 — enters on first environment turn",
+          "description": "The police commissioner is also a clone! He levels his electroshock pistol at the heroes. If Police Commissioner Anselmo is defeated, his flesh and organs disintegrate and his steel and copper skeleton falls to pieces.",
+          "tactics": "The chief of police spends his turns Hindering a hero in combat with the robot cops.",
+          "form": {
+            "name": "Non-standard Issue",
+            "description": "The police chief gets a +1 to Hinder actions made with his electroshock pistol."
+          }
+        }
+      ],
+      "villains": []
+    },
+    {
+      "key": "the-center-for-advanced-genomic-research",
+      "name": "The Center for Advanced Genomic Research",
+      "tracker": {
+        "green": 2,
+        "yellow": 4,
+        "red": 2
+      },
+      "notes": "Tarama atoll lab. Multi-level: Ground → Basements 1–5 (goal computer in Basement 5). Seeded threats by level (p.279). Physical vs electronic Overcome progression with escalating −1 security penalties. Biomancer evacuated ~12 hours earlier — not fought here. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
+      "environment": {
+        "name": "Center for Advanced Genomic Research",
+        "modeledAs": "environment",
+        "description": "<p><strong>Center for Advanced Genomic Research</strong></p><p>One of the most sophisticated genetics laboratories on the planet. Biomancer took it over to clone humans and “program” them. A unique Immunosecurity System adapts to intruders, growing more hostile until they leave.</p><p><strong>Levels / seeded threats:</strong></p><ul><li>Ground Level: 1 Antibody Bot</li><li>Basement 1 (Admin): H/2 Antibody Bots</li><li>Basement 2 (Agricultural): H/2 Defender Pods</li><li>Basement 3 (Cryogenics): H/2 Cryopedes</li><li>Basement 4 (Radiation): H/2 Giant Angry Shaggy Things</li><li>Basement 5 (Gene Splicing): H/2 Nanite Swarms — goal computer</li></ul><p>Security responses are physical or electronic depending on the triggering Overcome. Twists may also unleash runaway experiments.</p><p><em>Trait dice use printed labels (Immunosecurity / Runaway Experiments / Corrupted Computer Systems); die sizes curated.</em></p>",
+        "dice": {
+          "firstDieName": "Immunosecurity",
+          "firstDie": "d10",
+          "secondDieName": "Runaway Experiments",
+          "secondDie": "d8",
+          "thirdDieName": "Corrupted Computer Systems",
+          "thirdDie": "d8"
+        },
+        "twists": {
+          "green": {
+            "minor": [
+              {
+                "name": "Mild Physical Immunosecurity Response (Antibody Bot)",
+                "description": "Add one Antibody Bot."
+              },
+              {
+                "name": "Mild Electronic Immunosecurity Response (Inhibitor Process)",
+                "description": "Add one Inhibitor Process."
+              },
+              {
+                "name": "Laboratory Twist",
+                "description": "Introduce one room-specific minion (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms) from the appropriate location within the lab."
+              }
+            ],
+            "major": [
+              {
+                "name": "Laboratory Twist (Biotoxin)",
+                "description": "A tank of corrosive biotoxin leaks into the air handlers and is distributed through the lab! Roll the environment dice and Attack all heroes with the Min die."
+              }
+            ]
+          },
+          "yellow": {
+            "minor": [
+              {
+                "name": "Moderate Physical Immunosecurity Response",
+                "description": "Roll the environment dice and add a number of Antibody Bot minions equal to the Min die."
+              },
+              {
+                "name": "Moderate Electronic Immunosecurity Response",
+                "description": "Roll the environment dice and add a number of Inhibitor Process minions equal to the Min die."
+              },
+              {
+                "name": "Cryogenics Leak",
+                "description": "A pipe carrying supercooled helium bursts. Roll the environment dice and Attack one hero with the Max die and the rest of the heroes with the Min die."
+              },
+              {
+                "name": "Laboratory Twist",
+                "description": "Roll the environment dice and introduce a number of minions equal to the Min die, of the type associated with that location (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms)."
+              }
+            ],
+            "major": [
+              {
+                "name": "Fire Suppression System",
+                "description": "The security system replaces oxygen with inert CO₂. Each time you mark a scene tracker space, roll the environment dice and Attack all heroes with the Max+Min dice (except heroes with an oxygen supply or who do not need to breathe). Deactivate by completing two Overcomes: (1) Locate the fire suppression system; (2) Deactivate it."
+              },
+              {
+                "name": "Laboratory Twist (Yellow Major)",
+                "description": "Roll the environment dice and introduce a number of minions equal to the Mid die, of the type associated with that location (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms)."
+              }
+            ]
+          },
+          "red": {
+            "minor": [
+              {
+                "name": "Severe Physical Immunosecurity Response",
+                "description": "Introduce a White Bot Cell."
+              },
+              {
+                "name": "Severe Electronic Immunosecurity Response",
+                "description": "The lab’s computer initiates a Seeker Process."
+              }
+            ],
+            "major": [
+              {
+                "name": "Death Spores",
+                "description": "A tank containing spores of a plant that never should have been explodes and vapors enter the air distribution system. Roll the environment dice and Attack all heroes with the Min+Max dice."
+              }
+            ]
+          }
+        }
+      },
+      "minions": [
+        {
+          "name": "Antibody Bot",
+          "die": "d8",
+          "quantityNote": "1 per 2 heroes (also seeded by level)",
+          "description": "A small combat robot programmed to attack targets that cause physical damage to the laboratory or its contents. It is armed with an ultrasonic baton, but will bludgeon with its arms if necessary.",
+          "tactics": "Antibody Bots attempt to team up against any heroes interacting with the Center’s computers or technology.",
+          "form": {
+            "name": "Ultrasonic Baton",
+            "description": "+1 to Attack actions. May only attack creatures that have caused some sort of physical damage to the lab."
+          }
+        },
+        {
+          "name": "Defender Pod",
+          "die": "d8",
+          "quantityNote": "1 per 2 heroes (Basement 2 seed H/2)",
+          "description": "A cluster of plants closely related to wheat, genetically designed to grow florets that produce and launch razor sharp spikes. Scientists designed it to defend the rest of the crop from vermin and pests, but now they attack the heroes.",
+          "tactics": "The Defender Pods have been genetically reprogrammed to go after the strongest opposing threats, so whatever heroes seem biggest or strongest will be their priority.",
+          "form": {
+            "name": "Spikes",
+            "description": "Inherent: Whenever a Defender Pod is attacked by a nearby target, it deals that target 2 damage."
+          }
+        },
+        {
+          "name": "Cryopede",
+          "die": "d6",
+          "quantityNote": "1 per 2 heroes (Basement 3 seed H/2)",
+          "description": "A two-foot-long centipede-like creature made of ice; the Cryopede spits liquid helium at its prey.",
+          "tactics": "Cryopedes focus on hindering as many opponents as possible. Once a hero has one penalty from a Cryopede, that hero becomes a much lower priority target.",
+          "form": {
+            "name": "Liquid Helium",
+            "description": "+1 to Hinder actions."
+          }
+        },
+        {
+          "name": "Giant Angry Shaggy Thing",
+          "die": "d8",
+          "quantityNote": "1 per 2 heroes (Basement 4 seed H/2)",
+          "description": "A vaguely humanoid ten-foot blob made of long, matted strands of hair and fur that is, for reasons that remain mysterious, very, very angry.",
+          "tactics": "Giant Angry Shaggy Things want to get up close and personal and either unleash their anger in attacks and maximize the effect of their shagginess. They prefer to go after already damaged targets.",
+          "form": {
+            "name": "Intensely Shaggy",
+            "description": "Inherent: Gives a −1 penalty to any hero who comes into physical contact with it as its hairy body tangles everything nearby."
+          }
+        },
+        {
+          "name": "Nanite Swarm",
+          "die": "d6",
+          "quantityNote": "1 per 2 heroes (Basement 5 seed H/2)",
+          "description": "These nanites were used by the Center’s scientists to edit chromosomes of their test subjects. A swarm of them has escaped and attacks the heroes.",
+          "tactics": "Nanite Swarms prefer, if possible: First duplicate; then Hinder opponents; then Boost themselves or other Nanite Swarms; then Attack; repeat!",
+          "form": {
+            "name": "Self-duplicating",
+            "description": "A Nanite Swarm makes an Overcome check to create another Nanite Swarm. A result of 4+ creates a d4 Nanite Swarm. A result of 8+ creates a d8 Nanite Swarm. (Die sizes for spawned swarms inferred from thresholds; confirm glyphs in book.)"
+          }
+        },
+        {
+          "name": "Inhibitor Process",
+          "die": "d8",
+          "quantityNote": "1 per 2 heroes (immunosecurity)",
+          "description": "A computer program the immunosecurity system initiates that tracks heroes who have attempted to circumvent security systems and attacks them using the lab’s automated systems: lasers, knockout gas, sonic weapons, electroshock weapons, etc.",
+          "tactics": "Any hero interacting with the security or computer systems is a target for the Inhibitor Process, who seeks to drive away intruders with Attacks and Hinders.",
+          "form": {
+            "name": "Software",
+            "description": "Inherent: As a computer program, an Inhibitor Process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective."
+          }
+        }
+      ],
+      "lieutenants": [
+        {
+          "name": "White Bot Cell",
+          "die": "d10",
+          "quantityNote": "1 — Red severe physical immunosecurity",
+          "description": "A large combat robot programmed to attack all targets without authorization to be in the lab. Armed with lasers and electroshock batons.",
+          "tactics": "White Bot Cells are created to take down the biggest foes to the system, always prioritizing the strongest or healthiest heroes.",
+          "form": {
+            "name": "Natural Killer Cell",
+            "description": "+1 to Attack actions."
+          }
+        },
+        {
+          "name": "Seeker Process",
+          "die": "d10",
+          "quantityNote": "1 — Red severe electronic immunosecurity",
+          "description": "A complex computer program that tracks the heroes and directs the security system against them. Like Inhibitor Processes, it directs automated lasers, knockout gas, sonic weapons, electroshock weapons, etc. Use the Seeker Process’s die to direct these actions.",
+          "tactics": "The Seeker Process wants to reduce the number of threats as quickly as possible, so it prefers to go after weak hero targets it thinks it can take down.",
+          "form": {
+            "name": "Software",
+            "description": "Inherent: As a computer program, the Seeker Process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective."
+          }
+        }
+      ],
+      "villains": []
+    },
+    {
+      "key": "the-argaeus-tower",
+      "name": "The Argaeus Tower",
+      "tracker": {
+        "green": 2,
+        "yellow": 4,
+        "red": 2
+      },
+      "notes": "Dubai roof → Greek-theater Adytum. Face a fleshchild of Biomancer (true Biomancer may escape if tracker ends). Starting threats: Arachne Helicos (advance warning may change counts), hero clones from Scene 1 DNA. Rescue real Mayor, Commissioner, and Center geneticists. Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
+      "environment": {
+        "name": "The Argaeus Tower",
+        "modeledAs": "environment",
+        "description": "<p><strong>The Argaeus Tower</strong></p><p>A modern steel-and-glass skyscraper in Dubai (70+ stories) with a rooftop landing pad. An elevator platform lowers heroes into a steep-stepped reproduction of an ancient Greek theater populated by clones of themselves.</p><p>Prisoners (real Mayor Baldwin, Commissioner Anselmo, Center geneticists) are held for rescue. If the scene tracker ends, Biomancer escapes and remaining clones explode (Attack all heroes with Max+Min), and the building begins to collapse.</p><p><em>Trait dice use printed labels (Autonomous Guards / Panopticon / Old Tech and New Tech); die sizes curated.</em></p>",
+        "dice": {
+          "firstDieName": "Autonomous Guards",
+          "firstDie": "d10",
+          "secondDieName": "Panopticon",
+          "secondDie": "d8",
+          "thirdDieName": "Old Tech and New Tech",
+          "thirdDie": "d8"
+        },
+        "twists": {
+          "green": {
+            "minor": [
+              {
+                "name": "Arachne Helico",
+                "description": "Add one Arachne Helico minion."
+              },
+              {
+                "name": "Knockout Spores",
+                "description": "The floor emits spores that induce drowsiness. Roll the environment dice and Hinder all heroes with the Min die."
+              }
+            ],
+            "major": [
+              {
+                "name": "Greek Fire",
+                "description": "Flamethrowers mounted in the walls emit intense flame. Roll the environment dice and Attack all heroes with the Min die."
+              }
+            ]
+          },
+          "yellow": {
+            "minor": [
+              {
+                "name": "Hoplite Clones",
+                "description": "A trap door opens in the floor and a band of warriors emerges! Roll the environment dice and add Hoplite Clones equal to the Min die."
+              },
+              {
+                "name": "Astrapi Plate",
+                "description": "The ground the hero is standing on is electrified! Roll the environment dice and Attack that hero with the Max die."
+              }
+            ],
+            "major": [
+              {
+                "name": "Sirens",
+                "description": "An intense noise sounds, distracting the heroes. Roll the environment dice and Hinder all heroes with the Mid die."
+              }
+            ]
+          },
+          "red": {
+            "minor": [
+              {
+                "name": "Thunderbolt",
+                "description": "A bolt of electricity shoots from the ceiling at one hero. Roll the environment dice. Attack one hero with the Max+Min dice."
+              },
+              {
+                "name": "Gastraphetes Archers",
+                "description": "A troop of archers — clones all — attack the heroes! Roll the environment dice and add a number of Gastraphetes Archers equal to the Mid die."
+              }
+            ],
+            "major": [
+              {
+                "name": "The Claw of Archimedes",
+                "description": "A giant claw on the end of a long chain plummets from the ceiling, grabbing one of the heroes! Roll the environment dice and Attack that hero with the Max die. Additionally, that hero is restrained from acting and the Attack repeats each environment turn until someone frees them by opening the Claw with an Overcome action. On an overwhelming success, the claw is destroyed and cannot be triggered again."
+              }
+            ]
+          }
+        }
+      },
+      "minions": [
+        {
+          "name": "Arachne Helico",
+          "die": "d8",
+          "quantityNote": "1 per hero",
+          "description": "A small robot suspended from a helical whirligig that provides both lift and propulsion. It can cast strands of weblike material to tangle its targets or attack with envenomed darts.",
+          "tactics": "The Arachne Helicos seek to Hinder as many Heroes as possible.",
+          "form": {
+            "name": "Web",
+            "description": "+1 to Hinder actions made to entangle a target."
+          }
+        },
+        {
+          "name": "Hoplite Clones",
+          "die": "d8",
+          "quantityNote": "1 per hero",
+          "description": "These warriors are clones of ancient Greek soldiers, complete with bronze shields, Corinthian helmets, and 10-foot spears.",
+          "tactics": "Hoplite Clones stay in formation, fighting side by side to take advantage of Boosting each other and making good use of their Phalanx ability.",
+          "form": {
+            "name": "Phalanx",
+            "description": "+1 to damage saves when at least one other Hoplite Clone is in action."
+          }
+        },
+        {
+          "name": "Gastraphetes Archers",
+          "die": "d8",
+          "quantityNote": "1 per hero",
+          "description": "These clones are dressed in flawless Marathon-era Athenian battle armor and carry gastraphetes (Greek crossbows) and xiphoses (short swords).",
+          "tactics": "Gastraphetes Archers want to stay far from their opponents and focus on shooting any heroes who have ranged abilities of their own. If there are none, they shoot at the targets nearest to them.",
+          "form": {
+            "name": "Gastraphete",
+            "description": "+1 to ranged Attack actions."
+          }
+        }
+      ],
+      "lieutenants": [
+        {
+          "name": "Speedster Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "The speedster is really, really fast. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Multiattack: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Shock Wave: Hinder two targets with one roll. | Evasive Maneuvers: +2 to damage saves."
+          }
+        },
+        {
+          "name": "Shadow Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "This threat strikes while unseen. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Feint Attack: Make a Boost action to hide. Then, immediately make an Attack using the value of that bonus. | One with the Shadows: +1 bonus to all Overcome actions made to stay out of sight. | Vulnerable Target: Attack, ignoring any inherent abilities and reactions your target has for reducing damage."
+          }
+        },
+        {
+          "name": "Physical Powerhouse Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "A hulking, intimidating tank of an opponent. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Haymaker: +1 to Attack actions. | Brute Force: +1 to Overcome actions involving raw strength. | Is that all you got?: +2 to damage saves."
+          }
+        },
+        {
+          "name": "Marksman Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "A master of a projectile weapon or weapons. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Hail of Fire: +1 to Hinder actions related to suppressive fire. | Gun Kata: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Snipe: Attack, ignoring any inherent abilities and reactions your target has for reducing damage."
+          }
+        },
+        {
+          "name": "Blaster Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Slingin’ energy. Choose an element, or just call it generic “energy.” Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Blast: +1 to Attack actions. | Area Attack: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Burn It: +1 to Overcome actions related to burning through obstacles."
+          }
+        },
+        {
+          "name": "Close Quarters Combat Specialist Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "A wrestler, a martial artist, a sword-wielder, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Imbalancing Strike: Attack, then apply a −1 penalty to the target. | Disarming Strike: +1 to Boost actions and Overcome attempts to disarm a target. | Counterstrike: When succeeding on a damage save, immediately Attack against the target that attacked you using half (rounded down) the result of the damage save, if within close combat range."
+          }
+        },
+        {
+          "name": "Armored Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Maybe it’s a power suit, maybe a knight’s plate, maybe it’s tough hide. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Armor: Reduce all damage taken by 1. | Living Shield: +1 to Defend actions. | Powered Exoskeleton: +1 to Overcome actions related to brute force."
+          }
+        },
+        {
+          "name": "Flyer Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "They can fly, either through innate powers or by using gear. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Death From Above: +1 to Attack actions while flying. | Take to the Air: +1 to Boost actions related to flying. | Evasive Maneuvers: Gain +1 to Defend actions while flying."
+          }
+        },
+        {
+          "name": "Elementalist Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Fully attuned to their element. Choose an element: cold, fire, electricity, water, air, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Elemental Might: +1 to Attack actions. | Prepare the Field: +1 to Hinder actions related to your element. | Immunity: Cannot be damaged by your chosen element."
+          }
+        },
+        {
+          "name": "Robot/Cyborg Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "This threat has some sort of visible mechanical and electronic parts. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Learning Machine: Boost yourself. The bonus is persistent and exclusive. | Metallic Resilience: Reduce all damage taken by 1. | Precision Weaponry: +1 to Attack actions."
+          }
+        },
+        {
+          "name": "Psychic Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Can kill you with their mind. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Mind Blast: +1 to Attack actions. | Confusion: Hinder two targets with the same roll. | Illusion: Defend yourself with a +1 bonus. This defense does not expire until you are attacked and use it."
+          }
+        },
+        {
+          "name": "Sorcerer Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Sorcery can look a bit like many other abilities. Choose one listed ability, then a second from another template matching the sorcerer’s focus (Elementalist, Blaster, Minion-Maker, Psychic, etc.). Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Magical Reset: Convert one bonus to a penalty of the same size or vice versa. | Enhancement: Boost two allies with the same roll."
+          }
+        },
+        {
+          "name": "Transporter Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Decide how the clone moves: vehicle, teleportation, or innate cloned powers. Choose two from this list, or one from this list and a second from another template. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Flier: +1 to Attack actions while flying. | Speedster: Hinder two targets with the same roll. | Teleporter: Move from one location to another with up to two allies, then Boost those allies. | Evasive Maneuvers: +2 to damage saves. | Portal Maker: Make a Boost action, then suddenly appear near a target. Immediately Attack using that bonus."
+          }
+        },
+        {
+          "name": "Minion-Maker Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "A robot builder, necromancer, or anything that involves literally making friends. Take the first ability and one of the other two. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Summon Minions: Create a number of minions equal to half (rounded down) this minion’s die roll. | Bolster Minions: Boost all the minions created by this minion. | Minion Defense: As your reaction, choose one of your minions to defend you by rolling its single die, then destroy that minion."
+          }
+        },
+        {
+          "name": "Wildcard Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Choose two powers from any clone templates. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Wildcard: Select any two abilities from other clone templates."
+          }
+        },
+        {
+          "name": "Form-Changer Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Form-changers can shift to one of several forms. As a clone, use forms that fit who they're copying. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Change to Flier: Take on two abilities of the Flyer. | Change to Brute: Take on two abilities of the Physical Powerhouse. | Change to Tiny: Take on two abilities of the Shadow."
+          }
+        },
+        {
+          "name": "Gadgeteer Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "These gadgets boil down to adding a bonus to some action. Put whatever wrappers you like: steampunk, computerized, mechanical, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: Targeting System: +1 to Attack actions. | Interference Broadcaster: Hinder two targets. | Grappling Hook: +1 to Overcome actions related to mobility, or eliminate any one easily-grabbable bonus."
+          }
+        },
+        {
+          "name": "Reality Shaper Clone",
+          "die": "d10",
+          "quantityNote": "1 per DNA-sampled hero of matching archetype",
+          "description": "Reality shapers manipulate space-time to move, hold targets in place, and duplicate matter. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
+          "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+          "form": {
+            "name": "Ability Options",
+            "description": "Choose two abilities: There is Here: Boost to make your location seem directly next to a target’s location, then Attack that target using the created bonus. | Minion Duplicator: Add minions to an existing minion group by rolling your die, then adding half that number of minions (rounded down). Size and abilities match the highest die in that minion group. | Space-Time Excavator: Hinder two targets by twisting space-time around them to hold them steady."
+          }
+        }
+      ],
+      "villains": [
+        {
+          "name": "Biomancer",
+          "alias": "Zosimos Alchemista",
+          "approach": "Creator",
+          "archetype": "Legion",
+          "health": 30,
+          "powers": [
+            {
+              "name": "Fleshcrafting",
+              "die": "d10"
+            },
+            {
+              "name": "Presence",
+              "die": "d8"
+            },
+            {
+              "name": "Robotics",
+              "die": "d6"
+            },
+            {
+              "name": "Vitality",
+              "die": "d8"
+            }
+          ],
+          "qualities": [
+            {
+              "name": "Creativity",
+              "die": "d10"
+            },
+            {
+              "name": "Fleshfather",
+              "die": "d8"
+            },
+            {
+              "name": "History",
+              "die": "d8"
+            },
+            {
+              "name": "Insight",
+              "die": "d8"
+            },
+            {
+              "name": "Magical Lore",
+              "die": "d8"
+            }
+          ],
+          "status": [
+            {
+              "name": "9+ minions",
+              "die": "d4"
+            },
+            {
+              "name": "5-8 minions",
+              "die": "d6"
+            },
+            {
+              "name": "3-4 minions",
+              "die": "d8"
+            },
+            {
+              "name": "1-2 minions",
+              "die": "d10"
+            },
+            {
+              "name": "0 minions",
+              "die": "d12"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "Bring in the Fleshchildren",
+              "type": "A",
+              "icons": [],
+              "gameText": "Add two minions of size equal to one die size lower than your current status."
+            },
+            {
+              "name": "Flesh of my Flesh",
+              "type": "R",
+              "icons": [
+                "recover"
+              ],
+              "gameText": "When one of your minions is destroyed, roll its die. You Recover that much Health."
+            },
+            {
+              "name": "Lovingly Sculpted",
+              "type": "A",
+              "icons": [
+                "boost"
+              ],
+              "gameText": "Boost one of your minions using Fleshcrafting and use your Max die. If it is your only minion, also Boost yourself using your Mid die. If not, Boost each of your other minions using your Min die."
+            },
+            {
+              "name": "Mold the Homunculus",
+              "type": "A",
+              "icons": [],
+              "gameText": "Use Fleshfather to create a lieutenant of the same die size as your Max die."
+            },
+            {
+              "name": "Pound of Flesh",
+              "type": "I",
+              "icons": [],
+              "gameText": "Whenever multiple of your minions all take the same action against the same target, you must roll all of their dice at the same time and use the lowest rolling die amongst them for each minion’s result on that action."
+            },
+            {
+              "name": "Who Can You Trust?",
+              "type": "A",
+              "icons": [],
+              "gameText": "Replenish your Fleshchildren up to the number of heroes."
+            },
+            {
+              "name": "Master Behind the Curtain",
+              "type": "I",
+              "icons": [
+                "overcome"
+              ],
+              "gameText": "As long as you are not directly involved in the fray and are using your influence indirectly, automatically succeed at an Overcome to manipulate a situation."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

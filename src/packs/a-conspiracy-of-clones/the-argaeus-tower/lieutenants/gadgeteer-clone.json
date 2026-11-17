@@ -1,0 +1,93 @@
+{
+  "name": "Gadgeteer Clone",
+  "type": "minion",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "role": "lieutenant",
+    "description": "These gadgets boil down to adding a bonus to some action. Put whatever wrappers you like: steampunk, computerized, mechanical, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+    "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
+    "groups": "1",
+    "groupName": {
+      "one": "Gadgeteer Clone",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d10",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Gadgeteer Clone",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Ability Options",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Choose two abilities: Targeting System: +1 to Attack actions. | Interference Broadcaster: Hinder two targets. | Grappling Hook: +1 to Overcome actions related to mobility, or eliminate any one easily-grabbable bonus.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "elQWo6OvXvRhoNBt",
+      "_key": "!actors.items!CAEKENCevjFpulXc.elQWo6OvXvRhoNBt"
+    }
+  ],
+  "effects": [],
+  "folder": "DFG3Mk2exXUQCkrV",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "quantityNote": "1 per DNA-sampled hero of matching archetype",
+      "description": "These gadgets boil down to adding a bonus to some action. Put whatever wrappers you like: steampunk, computerized, mechanical, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1. (1 per DNA-sampled hero of matching archetype.)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "CAEKENCevjFpulXc",
+  "_key": "!actors!CAEKENCevjFpulXc"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Skeeterbots",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "Tiny flying robots, in the shape of mosquitos with concerningly long, metal proboscises, fly towards the heroes in groups of three. (2 per hero.)",
+    "tactics": "They swarm toward the heroes and gang up on the nearest un-sampled heroes. Once a hero has been sampled, the Skeeterbots lose interest in them. If there are no un-sampled heroes, the Skeeterbots self-destruct, Attacking each nearby target — friend and foe alike — by rolling their die.",
+    "groups": "1",
+    "groupName": {
+      "one": "Skeeterbots",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d6",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Skeeterbots",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Sampling Proboscis",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>If their Attack damages a hero, they analyze the blood they draw, instantly uploading the results to a server… somewhere. A hero with appropriate abilities might be able to detect the signal. Keep track of which heroes have their DNA captured this way — used to create clones in Scene 3.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "wnms2kQcBDbWUpRJ",
+      "_key": "!actors.items!NBOFUZXyuhgQWVdE.wnms2kQcBDbWUpRJ"
+    }
+  ],
+  "effects": [],
+  "folder": "pMZm46PpxS2BbQmV",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "quantityNote": "2 per hero",
+      "description": "Tiny flying robots, in the shape of mosquitos with concerningly long, metal proboscises, fly towards the heroes in groups of three. (2 per hero.)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "NBOFUZXyuhgQWVdE",
+  "_key": "!actors!NBOFUZXyuhgQWVdE"
+}

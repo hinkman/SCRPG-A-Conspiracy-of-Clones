@@ -1,0 +1,93 @@
+{
+  "name": "Nanite Swarm",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "These nanites were used by the Center’s scientists to edit chromosomes of their test subjects. A swarm of them has escaped and attacks the heroes. (1 per 2 heroes (Basement 5 seed H/2).)",
+    "tactics": "Nanite Swarms prefer, if possible: First duplicate; then Hinder opponents; then Boost themselves or other Nanite Swarms; then Attack; repeat!",
+    "groups": "1",
+    "groupName": {
+      "one": "Nanite Swarm",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d6",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Nanite Swarm",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Self-duplicating",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>A Nanite Swarm makes an Overcome check to create another Nanite Swarm. A result of 4+ creates a d4 Nanite Swarm. A result of 8+ creates a d8 Nanite Swarm. (Die sizes for spawned swarms inferred from thresholds; confirm glyphs in book.)</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "5kP2WoqM3uxsJq0T",
+      "_key": "!actors.items!OPWMdLbzIHpcrgGx.5kP2WoqM3uxsJq0T"
+    }
+  ],
+  "effects": [],
+  "folder": "JpJDgRjwulkD1L3e",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "quantityNote": "1 per 2 heroes (Basement 5 seed H/2)",
+      "description": "These nanites were used by the Center’s scientists to edit chromosomes of their test subjects. A swarm of them has escaped and attacks the heroes. (1 per 2 heroes (Basement 5 seed H/2).)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "OPWMdLbzIHpcrgGx",
+  "_key": "!actors!OPWMdLbzIHpcrgGx"
+}

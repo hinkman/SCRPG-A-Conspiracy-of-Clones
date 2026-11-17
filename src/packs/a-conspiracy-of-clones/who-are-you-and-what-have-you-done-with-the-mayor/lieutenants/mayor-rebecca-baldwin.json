@@ -1,0 +1,93 @@
+{
+  "name": "Mayor Rebecca Baldwin",
+  "type": "minion",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "role": "lieutenant",
+    "description": "The mayor is a clone! She attacks the heroes with surprising strength. If Mayor Baldwin is defeated, the “organic matter” of her body disintegrates into dust and her metal skeleton clatters to the ground. (1 — enters on first environment turn.)",
+    "tactics": "The mayor goes after any hero that is in combat with the Skeeterbots.",
+    "groups": "1",
+    "groupName": {
+      "one": "Mayor Rebecca Baldwin",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d10",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Mayor Rebecca Baldwin",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Clone Strength",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Attacks made with her fists.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "0OjxTcPVzsGbRfTx",
+      "_key": "!actors.items!vnmSM34GwUg1xPIs.0OjxTcPVzsGbRfTx"
+    }
+  ],
+  "effects": [],
+  "folder": "OCVcV2DovSVcpiN0",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "quantityNote": "1 — enters on first environment turn",
+      "description": "The mayor is a clone! She attacks the heroes with surprising strength. If Mayor Baldwin is defeated, the “organic matter” of her body disintegrates into dust and her metal skeleton clatters to the ground. (1 — enters on first environment turn.)",
+      "pdfTodo": false
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "vnmSM34GwUg1xPIs",
+  "_key": "!actors!vnmSM34GwUg1xPIs"
+}

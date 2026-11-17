@@ -1,0 +1,679 @@
+{
+  "name": "Biomancer",
+  "type": "villain",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "alias": "Zosimos Alchemista",
+    "archetype": "Legion",
+    "approach": "Creator",
+    "wounds": {
+      "value": 0,
+      "max": 30
+    },
+    "mode": "main",
+    "modName": "",
+    "firstDie": "d4",
+    "secondDie": "d4",
+    "thirdDie": "d4",
+    "firstDieName": "N/A",
+    "secondDieName": "N/A",
+    "thirdDieName": "N/A"
+  },
+  "prototypeToken": {
+    "name": "Biomancer",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "Fleshcrafting",
+      "type": "power",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "dieType": "d10",
+        "aux": "main",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "sxcZaoofJRlp0Jjb",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.sxcZaoofJRlp0Jjb"
+    },
+    {
+      "name": "Presence",
+      "type": "power",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "dieType": "d8",
+        "aux": "main",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "hlXyWnSxCJBll4ml",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.hlXyWnSxCJBll4ml"
+    },
+    {
+      "name": "Robotics",
+      "type": "power",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "dieType": "d6",
+        "aux": "main",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "edvi12vWWjWUWZqU",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.edvi12vWWjWUWZqU"
+    },
+    {
+      "name": "Vitality",
+      "type": "power",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "dieType": "d8",
+        "aux": "main",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "Pm0jySJPppjQUK5n",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.Pm0jySJPppjQUK5n"
+    },
+    {
+      "name": "Creativity",
+      "type": "quality",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "dieType": "d10",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "WDgsRmJakJW9nkyP",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.WDgsRmJakJW9nkyP"
+    },
+    {
+      "name": "Fleshfather",
+      "type": "quality",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "dieType": "d8",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 5,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "EIA1FCf7mLudcFlI",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.EIA1FCf7mLudcFlI"
+    },
+    {
+      "name": "History",
+      "type": "quality",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "dieType": "d8",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 6,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "fuxUxFsyAjj3bQud",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.fuxUxFsyAjj3bQud"
+    },
+    {
+      "name": "Insight",
+      "type": "quality",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "dieType": "d8",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 7,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "6dbY0bZ8dFdgJFgj",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.6dbY0bZ8dFdgJFgj"
+    },
+    {
+      "name": "Magical Lore",
+      "type": "quality",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "dieType": "d8",
+        "selected": null,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 8,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "p2tBcuICETlV6Jun",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.p2tBcuICETlV6Jun"
+    },
+    {
+      "name": "9+ minions",
+      "type": "villainStatus",
+      "img": "icons/svg/d20-grey.svg",
+      "system": {
+        "dieType": "d4",
+        "selected": false,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 9,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "sG1i1byLpycjadHy",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.sG1i1byLpycjadHy"
+    },
+    {
+      "name": "5-8 minions",
+      "type": "villainStatus",
+      "img": "icons/svg/d20-grey.svg",
+      "system": {
+        "dieType": "d6",
+        "selected": false,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "g5VzMImZWNZ6Wio6",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.g5VzMImZWNZ6Wio6"
+    },
+    {
+      "name": "3-4 minions",
+      "type": "villainStatus",
+      "img": "icons/svg/d20-grey.svg",
+      "system": {
+        "dieType": "d8",
+        "selected": false,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 11,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "hNAScjsb2FBHTO3U",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.hNAScjsb2FBHTO3U"
+    },
+    {
+      "name": "1-2 minions",
+      "type": "villainStatus",
+      "img": "icons/svg/d20-grey.svg",
+      "system": {
+        "dieType": "d10",
+        "selected": false,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 12,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "kJiFIfT7a5FsLob3",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.kJiFIfT7a5FsLob3"
+    },
+    {
+      "name": "0 minions",
+      "type": "villainStatus",
+      "img": "icons/svg/d20-grey.svg",
+      "system": {
+        "dieType": "d12",
+        "selected": false,
+        "description": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 13,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "t2osRlUeNY2Dbagt",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.t2osRlUeNY2Dbagt"
+    },
+    {
+      "name": "Bring in the Fleshchildren",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "aux": "villain",
+        "icon": {
+          "attack": false,
+          "defend": false,
+          "overcome": false,
+          "hinder": false,
+          "boost": false,
+          "recover": false
+        },
+        "type": "A",
+        "gameText": "<p>Add two minions of size equal to one die size lower than your current status.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 14,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "4iJ5YxeMbOr1ECHb",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.4iJ5YxeMbOr1ECHb"
+    },
+    {
+      "name": "Flesh of my Flesh",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "aux": "villain",
+        "icon": {
+          "attack": false,
+          "defend": false,
+          "overcome": false,
+          "hinder": false,
+          "boost": false,
+          "recover": true
+        },
+        "type": "R",
+        "gameText": "<p>When one of your minions is destroyed, roll its die. You Recover that much Health.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 15,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "OkzUDxQcmRIBFhDP",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.OkzUDxQcmRIBFhDP"
+    },
+    {
+      "name": "Lovingly Sculpted",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "aux": "villain",
+        "icon": {
+          "attack": false,
+          "defend": false,
+          "overcome": false,
+          "hinder": false,
+          "boost": true,
+          "recover": false
+        },
+        "type": "A",
+        "gameText": "<p>Boost one of your minions using Fleshcrafting and use your Max die. If it is your only minion, also Boost yourself using your Mid die. If not, Boost each of your other minions using your Min die.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 16,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "qz9LxInBDsG12ajI",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.qz9LxInBDsG12ajI"
+    },
+    {
+      "name": "Mold the Homunculus",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "aux": "villain",
+        "icon": {
+          "attack": false,
+          "defend": false,
+          "overcome": false,
+          "hinder": false,
+          "boost": false,
+          "recover": false
+        },
+        "type": "A",
+        "gameText": "<p>Use Fleshfather to create a lieutenant of the same die size as your Max die.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 17,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "9eS5RClED71D9uYU",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.9eS5RClED71D9uYU"
+    },
+    {
+      "name": "Pound of Flesh",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "aux": "villain",
+        "icon": {
+          "attack": false,
+          "defend": false,
+          "overcome": false,
+          "hinder": false,
+          "boost": false,
+          "recover": false
+        },
+        "type": "I",
+        "gameText": "<p>Whenever multiple of your minions all take the same action against the same target, you must roll all of their dice at the same time and use the lowest rolling die amongst them for each minion’s result on that action.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 18,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "uYbY3oHqTmOmL9Rv",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.uYbY3oHqTmOmL9Rv"
+    },
+    {
+      "name": "Who Can You Trust?",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "aux": "villain",
+        "icon": {
+          "attack": false,
+          "defend": false,
+          "overcome": false,
+          "hinder": false,
+          "boost": false,
+          "recover": false
+        },
+        "type": "A",
+        "gameText": "<p>Replenish your Fleshchildren up to the number of heroes.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 19,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "REDZPrPY0T36Jqsw",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.REDZPrPY0T36Jqsw"
+    },
+    {
+      "name": "Master Behind the Curtain",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "aux": "villain",
+        "icon": {
+          "attack": false,
+          "defend": false,
+          "overcome": true,
+          "hinder": false,
+          "boost": false,
+          "recover": false
+        },
+        "type": "I",
+        "gameText": "<p>As long as you are not directly involved in the fray and are using your influence indirectly, automatically succeed at an Overcome to manipulate a situation.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "OswbuBdTgKnuCrU4",
+      "_key": "!actors.items!ADdG4UTSHl7Dczgs.OswbuBdTgKnuCrU4"
+    }
+  ],
+  "effects": [],
+  "folder": "Gubh5u2vavvx81bB",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "issue": "Battle of the Bands",
+      "noUpgradesOrMasteries": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "ADdG4UTSHl7Dczgs",
+  "_key": "!actors!ADdG4UTSHl7Dczgs"
+}
