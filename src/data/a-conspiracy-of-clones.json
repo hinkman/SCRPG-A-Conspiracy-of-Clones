@@ -1,0 +1,346 @@
+{
+  "moduleId": "scrpg-a-conspiracy-of-clones",
+  "packKey": "a-conspiracy-of-clones",
+  "scenePackKey": "a-conspiracy-of-clones-scenes",
+  "source": "Sentinel Comics: The Roleplaying Game, Adventure Issues, A Conspiracy of Clones (pp. 269–289)",
+  "pdfStatus": "missing-on-cloud-vm",
+  "scenes": [
+    {
+      "key": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "name": "Who Are You And What Have You Done With The Mayor?",
+      "tracker": {
+        "green": 2,
+        "yellow": 4,
+        "red": 2
+      },
+      "notes": "TODO(PDF pp.269–272): confirm tracker spaces and Opening/Action/Conclusion beats. Public GM notes: first environment turn introduces Mayor Baldwin + Police Commissioner Anselmo; environment threats include robot cops, skeeterbots, real cops.",
+      "pdfTodo": true,
+      "environment": {
+        "name": "Outdoor Press Conference",
+        "description": "<p><strong>Outdoor Press Conference</strong></p><p><em>TODO(PDF p.270): replace with full environment/challenge text, Action, Resolution, Outcome.</em></p><p>Whenever the environment turn comes up in the action order, add one listed threat to the scene (Robot Cops / Skeeterbots / Real Cops — exact counts TODO from PDF). The first time the environment comes up, Mayor Baldwin and Police Commissioner Anselmo enter the fray.</p>",
+        "dice": {
+          "firstDieName": "Crowd",
+          "firstDie": "d8",
+          "secondDieName": "Press",
+          "secondDie": "d8",
+          "thirdDieName": "Chaos",
+          "thirdDie": "d6"
+        },
+        "twists": {
+          "minor": [
+            {
+              "name": "TODO Minor Twist 1",
+              "description": "TODO(PDF p.270): fill Outdoor Press Conference minor twists."
+            },
+            {
+              "name": "TODO Minor Twist 2",
+              "description": "TODO(PDF p.270): fill Outdoor Press Conference minor twists."
+            }
+          ],
+          "major": [
+            {
+              "name": "TODO Major Twist (Skeeterbots)",
+              "description": "TODO(PDF p.270): public notes mention a green major twist that adds Min die of Skeeterbots — confirm exact text and zone coloring."
+            }
+          ]
+        }
+      },
+      "minions": [
+        {
+          "name": "Robot Cops",
+          "die": "d8",
+          "quantityNote": "TODO(PDF): H at start / reinforcement counts",
+          "description": "TODO(PDF pp.271–272): Robot Cop description and ability/form text.",
+          "tactics": "TODO(PDF): tactics.",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF): Robot Cop special ability."
+          }
+        },
+        {
+          "name": "Skeeterbots",
+          "die": "d6",
+          "quantityNote": "TODO(PDF): ~2 per hero; DNA sampling / self-destruct timing",
+          "description": "TODO(PDF pp.271–272): Skeeterbot description. Public notes: they sample DNA then self-destruct.",
+          "tactics": "TODO(PDF): tactics.",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF): Skeeterbot special ability."
+          }
+        },
+        {
+          "name": "Real Cops",
+          "die": "d6",
+          "quantityNote": "TODO(PDF): ~H/2",
+          "description": "TODO(PDF pp.271–272): Real Cop description and ability/form text.",
+          "tactics": "TODO(PDF): tactics.",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF): Real Cop special ability."
+          }
+        }
+      ],
+      "lieutenants": [
+        {
+          "name": "Mayor Baldwin",
+          "die": "d10",
+          "quantityNote": "1 — enters on first environment turn",
+          "description": "TODO(PDF pp.271–272): Mayor Baldwin lieutenant write-up (clone reveal timing).",
+          "tactics": "TODO(PDF): tactics.",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF): Mayor Baldwin special ability."
+          }
+        },
+        {
+          "name": "Police Commissioner Anselmo",
+          "die": "d10",
+          "quantityNote": "1 — enters on first environment turn",
+          "description": "TODO(PDF pp.271–272): Police Commissioner Anselmo lieutenant write-up.",
+          "tactics": "TODO(PDF): tactics.",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF): Anselmo special ability."
+          }
+        }
+      ],
+      "villains": []
+    },
+    {
+      "key": "the-center-for-advanced-genomic-research",
+      "name": "The Center for Advanced Genomic Research",
+      "tracker": {
+        "green": 2,
+        "yellow": 4,
+        "red": 2
+      },
+      "notes": "TODO(PDF pp.274–281): confirm tracker, challenges, and which threats start in-scene vs environment reinforcements.",
+      "pdfTodo": true,
+      "environment": {
+        "name": "Center for Advanced Genomic Research",
+        "description": "<p><strong>Center for Advanced Genomic Research</strong></p><p><em>TODO(PDF pp.278–279): replace with full environment text, trait dice names/sizes, Action/Resolution/Outcome, and threat list.</em></p>",
+        "dice": {
+          "firstDieName": "Lab",
+          "firstDie": "d8",
+          "secondDieName": "Security",
+          "secondDie": "d8",
+          "thirdDieName": "Secrets",
+          "thirdDie": "d6"
+        },
+        "twists": {
+          "minor": [
+            {
+              "name": "TODO Minor Twist 1",
+              "description": "TODO(PDF pp.278–279): fill environment minor twists."
+            },
+            {
+              "name": "TODO Minor Twist 2",
+              "description": "TODO(PDF pp.278–279): fill environment minor twists."
+            }
+          ],
+          "major": [
+            {
+              "name": "TODO Major Twist 1",
+              "description": "TODO(PDF pp.278–279): fill environment major twists."
+            }
+          ]
+        }
+      },
+      "minions": [
+        {
+          "name": "TODO Scene 2 Minion",
+          "die": "d6",
+          "quantityNote": "TODO(PDF pp.279–281)",
+          "description": "TODO(PDF pp.279–281): list and fill each minion (name, die, form, quantity).",
+          "tactics": "TODO(PDF).",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF)."
+          }
+        }
+      ],
+      "lieutenants": [
+        {
+          "name": "TODO Scene 2 Lieutenant",
+          "die": "d8",
+          "quantityNote": "TODO(PDF pp.279–281)",
+          "description": "TODO(PDF pp.279–281): list and fill each lieutenant.",
+          "tactics": "TODO(PDF).",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF)."
+          }
+        }
+      ],
+      "villains": []
+    },
+    {
+      "key": "the-argaeus-tower",
+      "name": "The Argaeus Tower",
+      "tracker": {
+        "green": 2,
+        "yellow": 4,
+        "red": 2
+      },
+      "notes": "Finale scene — tracker included per BOTB pattern. TODO(PDF pp.282–289): confirm tracker spaces and hostage/clone spawn rules. Biomancer below is Archive Chapter 7 baseline (no masteries); verify issue-specific health/abilities against p.283.",
+      "pdfTodo": true,
+      "environment": {
+        "name": "The Argaeus Tower",
+        "description": "<p><strong>The Argaeus Tower</strong></p><p><em>TODO(PDF p.284): replace with full environment text. Public notes: environment turn often adds listed threats/reinforcements (Homunculi / Helicos / etc.).</em></p>",
+        "dice": {
+          "firstDieName": "Tower",
+          "firstDie": "d10",
+          "secondDieName": "Flesh",
+          "secondDie": "d8",
+          "thirdDieName": "Hostages",
+          "thirdDie": "d6"
+        },
+        "twists": {
+          "minor": [
+            {
+              "name": "TODO Minor Twist 1",
+              "description": "TODO(PDF p.284): fill Argaeus Tower minor twists."
+            },
+            {
+              "name": "TODO Minor Twist 2",
+              "description": "TODO(PDF p.284): fill Argaeus Tower minor twists."
+            }
+          ],
+          "major": [
+            {
+              "name": "TODO Major Twist 1",
+              "description": "TODO(PDF p.284): fill Argaeus Tower major twists."
+            }
+          ]
+        }
+      },
+      "minions": [
+        {
+          "name": "Fleshchildren",
+          "die": "d8",
+          "quantityNote": "TODO(PDF p.285): issue quantity / spawn rules",
+          "description": "TODO(PDF p.285): prefer issue minion write-up. Placeholder from Archive Fleshchildren concept — confirm die size and form for this issue.",
+          "tactics": "TODO(PDF p.285).",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF p.285)."
+          }
+        },
+        {
+          "name": "Arachne Helicos",
+          "die": "d6",
+          "quantityNote": "TODO(PDF p.285)",
+          "description": "TODO(PDF p.285): Arachne Helicos minion write-up (public session reports mention multiple Helicos in the finale).",
+          "tactics": "TODO(PDF).",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF)."
+          }
+        }
+      ],
+      "lieutenants": [
+        {
+          "name": "Homunculus",
+          "die": "d10",
+          "quantityNote": "TODO(PDF pp.287–289)",
+          "description": "TODO(PDF pp.287–289): issue Homunculus lieutenant. Archive baseline is a d10 blunt-instrument flesh construct.",
+          "tactics": "TODO(PDF).",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF)."
+          }
+        },
+        {
+          "name": "Hero Clone (Template)",
+          "die": "d10",
+          "quantityNote": "TODO(PDF): one per hero / DNA-sampled heroes",
+          "description": "TODO(PDF pp.287–289): clone lieutenant rules. This placeholder stands in for per-hero clone sheets — fill after PDF parse (or generate per table heroes).",
+          "tactics": "TODO(PDF).",
+          "pdfTodo": true,
+          "form": {
+            "name": "TODO Form",
+            "description": "TODO(PDF)."
+          }
+        }
+      ],
+      "villains": [
+        {
+          "name": "Biomancer",
+          "alias": "Zosimos Alchemista",
+          "approach": "Creator",
+          "archetype": "Legion",
+          "health": 30,
+          "pdfTodo": true,
+          "powers": [
+            { "name": "Fleshcrafting", "die": "d10" },
+            { "name": "Presence", "die": "d8" },
+            { "name": "Robotics", "die": "d6" },
+            { "name": "Vitality", "die": "d8" }
+          ],
+          "qualities": [
+            { "name": "Creativity", "die": "d10" },
+            { "name": "Fleshfather", "die": "d8" },
+            { "name": "History", "die": "d8" },
+            { "name": "Insight", "die": "d8" },
+            { "name": "Magical Lore", "die": "d8" }
+          ],
+          "status": [
+            { "name": "9+ minions", "die": "d4" },
+            { "name": "5-8 minions", "die": "d6" },
+            { "name": "3-4 minions", "die": "d8" },
+            { "name": "1-2 minions", "die": "d10" },
+            { "name": "0 minions", "die": "d12" }
+          ],
+          "abilities": [
+            {
+              "name": "Bring in the Fleshchildren",
+              "type": "A",
+              "icons": [],
+              "gameText": "Add two minions of size equal to one die size lower than your current status."
+            },
+            {
+              "name": "Flesh of my Flesh",
+              "type": "R",
+              "icons": ["recover"],
+              "gameText": "When one of your minions is destroyed, roll its die. You Recover that much Health."
+            },
+            {
+              "name": "Lovingly Sculpted",
+              "type": "A",
+              "icons": ["boost"],
+              "gameText": "Boost one of your minions using Fleshcrafting and use your Max die. If it is your only minion, also Boost yourself using your Mid die. If not, Boost each of your other minions using your Min die."
+            },
+            {
+              "name": "Mold the Homunculus",
+              "type": "A",
+              "icons": [],
+              "gameText": "Use Fleshfather to create a lieutenant of the same die size as your Max die."
+            },
+            {
+              "name": "Pound of Flesh",
+              "type": "I",
+              "icons": [],
+              "gameText": "Whenever multiple of your minions all take the same action against the same target, you must roll all of their dice at the same time and use the lowest rolling die amongst them for each minion’s result on that action."
+            },
+            {
+              "name": "Who Can You Trust?",
+              "type": "A",
+              "icons": [],
+              "gameText": "Replenish your Fleshchildren up to the number of heroes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

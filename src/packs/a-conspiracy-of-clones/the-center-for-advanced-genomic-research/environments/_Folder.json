@@ -1,0 +1,20 @@
+{
+  "name": "Environments",
+  "description": "",
+  "folder": "wAwhWqYUl3BZyB6k",
+  "type": "Actor",
+  "sorting": "a",
+  "sort": 20000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "aJFo9nAgdB8XUOqQ",
+  "_key": "!folders!aJFo9nAgdB8XUOqQ"
+}

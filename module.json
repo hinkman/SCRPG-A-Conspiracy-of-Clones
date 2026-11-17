@@ -1,0 +1,57 @@
+{
+    "id": "scrpg-a-conspiracy-of-clones",
+    "title": "SCRPG A Conspiracy of Clones",
+    "description": "Compendium content for the Sentinel Comics RPG adventure issue A Conspiracy of Clones (core book pp. 269–289) for the scrpg-foundry system. Includes a Foundry Scene pack (three scenes) plus an Actor pack organized by scene then object type: SCRPG scene trackers, environments with twists, minions, lieutenants, and Biomancer (issue/Archive baseline; no masteries).",
+    "version": "0.1.0",
+    "compatibility": {
+        "minimum": "14",
+        "verified": "14"
+    },
+    "authors": [
+        {
+            "name": "hinkman"
+        }
+    ],
+    "esmodules": [
+        "scripts/module.js"
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "scrpg-foundry",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "0.9.15"
+                }
+            }
+        ]
+    },
+    "packs": [
+        {
+            "name": "a-conspiracy-of-clones-scenes",
+            "label": "A Conspiracy of Clones Scenes",
+            "path": "packs/a-conspiracy-of-clones-scenes",
+            "type": "Scene",
+            "ownership": {
+                "GAMEMASTER": "OWNER",
+                "ASSISTANT": "OWNER",
+                "PLAYER": "OBSERVER"
+            }
+        },
+        {
+            "name": "a-conspiracy-of-clones",
+            "label": "A Conspiracy of Clones Actors",
+            "path": "packs/a-conspiracy-of-clones",
+            "type": "Actor",
+            "system": "scrpg-foundry",
+            "ownership": {
+                "GAMEMASTER": "OWNER",
+                "ASSISTANT": "OWNER",
+                "PLAYER": "OBSERVER"
+            }
+        }
+    ],
+    "url": "https://github.com/hinkman/SCRPG-A-Conspiracy-of-Clones",
+    "manifest": "https://raw.githubusercontent.com/hinkman/SCRPG-A-Conspiracy-of-Clones/main/module.json",
+    "download": "https://github.com/hinkman/SCRPG-A-Conspiracy-of-Clones/releases/download/v0.1.0/scrpg-a-conspiracy-of-clones.zip"
+}

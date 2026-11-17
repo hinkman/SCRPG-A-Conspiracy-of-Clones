@@ -1,0 +1,49 @@
+{
+  "name": "Who Are You And What Have You Done With The Mayor? Tracker",
+  "type": "scene",
+  "img": "icons/svg/clockwork.svg",
+  "system": {
+    "greenSpace": {
+      "setting": 2,
+      "current": 0
+    },
+    "yellowSpace": {
+      "setting": 4,
+      "current": 0
+    },
+    "redSpace": {
+      "setting": 2,
+      "current": 0
+    },
+    "options": true
+  },
+  "prototypeToken": {
+    "name": "Who Are You And What Have You Done With The Mayor? Tracker",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [],
+  "effects": [],
+  "folder": "qGQAR2EqAZk025mi",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "notes": "TODO(PDF pp.269–272): confirm tracker spaces and Opening/Action/Conclusion beats. Public GM notes: first environment turn introduces Mayor Baldwin + Police Commissioner Anselmo; environment threats include robot cops, skeeterbots, real cops.",
+      "role": "scrpg-scene-tracker"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "5KXsSkEbuQT6EbnX",
+  "_key": "!actors!5KXsSkEbuQT6EbnX"
+}

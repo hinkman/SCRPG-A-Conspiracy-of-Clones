@@ -1,0 +1,277 @@
+{
+  "name": "Center for Advanced Genomic Research",
+  "type": "environment",
+  "img": "icons/svg/castle.svg",
+  "system": {
+    "firstDie": "d8",
+    "secondDie": "d8",
+    "thirdDie": "d6",
+    "firstDieName": "Lab",
+    "secondDieName": "Security",
+    "thirdDieName": "Secrets",
+    "description": "<p><strong>Center for Advanced Genomic Research</strong></p><p><em>TODO(PDF pp.278–279): replace with full environment text, trait dice names/sizes, Action/Resolution/Outcome, and threat list.</em></p>"
+  },
+  "prototypeToken": {
+    "name": "Center for Advanced Genomic Research",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenminor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "LSTHc8IietKmEsIm",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.LSTHc8IietKmEsIm"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenminor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "T0U8UvRFTdx8Y8L0",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.T0U8UvRFTdx8Y8L0"
+    },
+    {
+      "name": "TODO Major Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenmajor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment major twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "BDtqTr5aL45p6N4a",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.BDtqTr5aL45p6N4a"
+    },
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowminor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "M3RgZRq54GH7AymQ",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.M3RgZRq54GH7AymQ"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowminor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "ZtY6yOwun9QfD1lT",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.ZtY6yOwun9QfD1lT"
+    },
+    {
+      "name": "TODO Major Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowmajor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment major twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 5,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "FMklSBVknRDDMO4r",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.FMklSBVknRDDMO4r"
+    },
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 6,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "kjkjvOwWSq6BFlR8",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.kjkjvOwWSq6BFlR8"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 7,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "tdOfInbWXQ6xAN1l",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.tdOfInbWXQ6xAN1l"
+    },
+    {
+      "name": "TODO Major Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redmajor",
+        "description": "<p>TODO(PDF pp.278–279): fill environment major twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 8,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "T7pEf98q9yCAgssp",
+      "_key": "!actors.items!0nrxSmDlp04bCQSc.T7pEf98q9yCAgssp"
+    }
+  ],
+  "effects": [],
+  "folder": "aJFo9nAgdB8XUOqQ",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "modeledAs": "challenge"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "0nrxSmDlp04bCQSc",
+  "_key": "!actors!0nrxSmDlp04bCQSc"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Skeeterbots",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "TODO(PDF pp.271–272): Skeeterbot description. Public notes: they sample DNA then self-destruct. (TODO(PDF): ~2 per hero; DNA sampling / self-destruct timing.)",
+    "tactics": "TODO(PDF): tactics.",
+    "groups": "1",
+    "groupName": {
+      "one": "Skeeterbots",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d6",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Skeeterbots",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "TODO Form",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>TODO(PDF): Skeeterbot special ability.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "58kREQMbQ7sD6YcB",
+      "_key": "!actors.items!NBOFUZXyuhgQWVdE.58kREQMbQ7sD6YcB"
+    }
+  ],
+  "effects": [],
+  "folder": "pMZm46PpxS2BbQmV",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "quantityNote": "TODO(PDF): ~2 per hero; DNA sampling / self-destruct timing",
+      "description": "TODO(PDF pp.271–272): Skeeterbot description. Public notes: they sample DNA then self-destruct. (TODO(PDF): ~2 per hero; DNA sampling / self-destruct timing.)",
+      "pdfTodo": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "NBOFUZXyuhgQWVdE",
+  "_key": "!actors!NBOFUZXyuhgQWVdE"
+}

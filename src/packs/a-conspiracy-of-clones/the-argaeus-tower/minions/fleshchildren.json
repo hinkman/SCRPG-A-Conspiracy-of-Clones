@@ -1,0 +1,93 @@
+{
+  "name": "Fleshchildren",
+  "type": "minion",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "role": "minion",
+    "description": "TODO(PDF p.285): prefer issue minion write-up. Placeholder from Archive Fleshchildren concept — confirm die size and form for this issue. (TODO(PDF p.285): issue quantity / spawn rules.)",
+    "tactics": "TODO(PDF p.285).",
+    "groups": "1",
+    "groupName": {
+      "one": "Fleshchildren",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d8",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Fleshchildren",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "TODO Form",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>TODO(PDF p.285).</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "JN69mip978gvIZjj",
+      "_key": "!actors.items!KUEFFfoKzEtR8rCn.JN69mip978gvIZjj"
+    }
+  ],
+  "effects": [],
+  "folder": "BAXCiGb97XGmI3kw",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "quantityNote": "TODO(PDF p.285): issue quantity / spawn rules",
+      "description": "TODO(PDF p.285): prefer issue minion write-up. Placeholder from Archive Fleshchildren concept — confirm die size and form for this issue. (TODO(PDF p.285): issue quantity / spawn rules.)",
+      "pdfTodo": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "KUEFFfoKzEtR8rCn",
+  "_key": "!actors!KUEFFfoKzEtR8rCn"
+}

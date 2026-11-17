@@ -1,0 +1,20 @@
+{
+  "name": "Minions",
+  "description": "",
+  "folder": "OaWw4woMVCZzPuPv",
+  "type": "Actor",
+  "sorting": "a",
+  "sort": 30000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "pMZm46PpxS2BbQmV",
+  "_key": "!folders!pMZm46PpxS2BbQmV"
+}

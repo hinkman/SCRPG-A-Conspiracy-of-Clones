@@ -1,0 +1,49 @@
+{
+  "name": "The Argaeus Tower Tracker",
+  "type": "scene",
+  "img": "icons/svg/clockwork.svg",
+  "system": {
+    "greenSpace": {
+      "setting": 2,
+      "current": 0
+    },
+    "yellowSpace": {
+      "setting": 4,
+      "current": 0
+    },
+    "redSpace": {
+      "setting": 2,
+      "current": 0
+    },
+    "options": true
+  },
+  "prototypeToken": {
+    "name": "The Argaeus Tower Tracker",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [],
+  "effects": [],
+  "folder": "thUpRhPdGcUQfnBh",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "notes": "Finale scene — tracker included per BOTB pattern. TODO(PDF pp.282–289): confirm tracker spaces and hostage/clone spawn rules. Biomancer below is Archive Chapter 7 baseline (no masteries); verify issue-specific health/abilities against p.283.",
+      "role": "scrpg-scene-tracker"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "8F4EV3jTIU8LM4ES",
+  "_key": "!actors!8F4EV3jTIU8LM4ES"
+}

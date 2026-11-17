@@ -1,0 +1,49 @@
+{
+  "name": "The Center for Advanced Genomic Research Tracker",
+  "type": "scene",
+  "img": "icons/svg/clockwork.svg",
+  "system": {
+    "greenSpace": {
+      "setting": 2,
+      "current": 0
+    },
+    "yellowSpace": {
+      "setting": 4,
+      "current": 0
+    },
+    "redSpace": {
+      "setting": 2,
+      "current": 0
+    },
+    "options": true
+  },
+  "prototypeToken": {
+    "name": "The Center for Advanced Genomic Research Tracker",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [],
+  "effects": [],
+  "folder": "idOUxLbySaMQuxHq",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-center-for-advanced-genomic-research",
+      "notes": "TODO(PDF pp.274–281): confirm tracker, challenges, and which threats start in-scene vs environment reinforcements.",
+      "role": "scrpg-scene-tracker"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "OHHDwazwnPtZwWq7",
+  "_key": "!actors!OHHDwazwnPtZwWq7"
+}

@@ -1,0 +1,277 @@
+{
+  "name": "The Argaeus Tower",
+  "type": "environment",
+  "img": "icons/svg/castle.svg",
+  "system": {
+    "firstDie": "d10",
+    "secondDie": "d8",
+    "thirdDie": "d6",
+    "firstDieName": "Tower",
+    "secondDieName": "Flesh",
+    "thirdDieName": "Hostages",
+    "description": "<p><strong>The Argaeus Tower</strong></p><p><em>TODO(PDF p.284): replace with full environment text. Public notes: environment turn often adds listed threats/reinforcements (Homunculi / Helicos / etc.).</em></p>"
+  },
+  "prototypeToken": {
+    "name": "The Argaeus Tower",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenminor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "xMPlNzKQXSMt00dh",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.xMPlNzKQXSMt00dh"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenminor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "rpERhFrGQdhWbbPu",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.rpERhFrGQdhWbbPu"
+    },
+    {
+      "name": "TODO Major Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenmajor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower major twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "l3KBnEpNk8yCgrDr",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.l3KBnEpNk8yCgrDr"
+    },
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowminor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "OXAMk00UJ3k2tcRF",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.OXAMk00UJ3k2tcRF"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowminor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "ZkD1YI4JV4JpF9hD",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.ZkD1YI4JV4JpF9hD"
+    },
+    {
+      "name": "TODO Major Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowmajor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower major twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 5,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "VGEXVLigjjOxiyE9",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.VGEXVLigjjOxiyE9"
+    },
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 6,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "0O9i3tS3aHaFOB2q",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.0O9i3tS3aHaFOB2q"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 7,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "EBMmHYPZAloqBAPF",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.EBMmHYPZAloqBAPF"
+    },
+    {
+      "name": "TODO Major Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redmajor",
+        "description": "<p>TODO(PDF p.284): fill Argaeus Tower major twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 8,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "QVg53leoZcB3mRkB",
+      "_key": "!actors.items!8lDt6ssmGSWWZRVK.QVg53leoZcB3mRkB"
+    }
+  ],
+  "effects": [],
+  "folder": "99lcYt3N2H3tWt1z",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "modeledAs": "challenge"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "8lDt6ssmGSWWZRVK",
+  "_key": "!actors!8lDt6ssmGSWWZRVK"
+}

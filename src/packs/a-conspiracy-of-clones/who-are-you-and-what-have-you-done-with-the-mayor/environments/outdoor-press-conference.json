@@ -1,0 +1,277 @@
+{
+  "name": "Outdoor Press Conference",
+  "type": "environment",
+  "img": "icons/svg/castle.svg",
+  "system": {
+    "firstDie": "d8",
+    "secondDie": "d8",
+    "thirdDie": "d6",
+    "firstDieName": "Crowd",
+    "secondDieName": "Press",
+    "thirdDieName": "Chaos",
+    "description": "<p><strong>Outdoor Press Conference</strong></p><p><em>TODO(PDF p.270): replace with full environment/challenge text, Action, Resolution, Outcome.</em></p><p>Whenever the environment turn comes up in the action order, add one listed threat to the scene (Robot Cops / Skeeterbots / Real Cops — exact counts TODO from PDF). The first time the environment comes up, Mayor Baldwin and Police Commissioner Anselmo enter the fray.</p>"
+  },
+  "prototypeToken": {
+    "name": "Outdoor Press Conference",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenminor",
+        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "1cmdYD3Zkp7lJbG1",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.1cmdYD3Zkp7lJbG1"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenminor",
+        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "BIYs4xVXcsUD4JfB",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.BIYs4xVXcsUD4JfB"
+    },
+    {
+      "name": "TODO Major Twist (Skeeterbots)",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "greenmajor",
+        "description": "<p>TODO(PDF p.270): public notes mention a green major twist that adds Min die of Skeeterbots — confirm exact text and zone coloring.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 2,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "D2qvL4ahedXam1IX",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.D2qvL4ahedXam1IX"
+    },
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowminor",
+        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 3,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "vQV3gsZ6T5OBU8OC",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.vQV3gsZ6T5OBU8OC"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowminor",
+        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 4,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "81zM6C1G6pkkNNwE",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.81zM6C1G6pkkNNwE"
+    },
+    {
+      "name": "TODO Major Twist (Skeeterbots)",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "yellowmajor",
+        "description": "<p>TODO(PDF p.270): public notes mention a green major twist that adds Min die of Skeeterbots — confirm exact text and zone coloring.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 5,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "geFhtcJ4HlJ6XOpm",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.geFhtcJ4HlJ6XOpm"
+    },
+    {
+      "name": "TODO Minor Twist 1",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 6,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "4pIZhviwUpa67qpu",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.4pIZhviwUpa67qpu"
+    },
+    {
+      "name": "TODO Minor Twist 2",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redminor",
+        "description": "<p>TODO(PDF p.270): fill Outdoor Press Conference minor twists.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 7,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "BEa7Z6wyOQARU9jN",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.BEa7Z6wyOQARU9jN"
+    },
+    {
+      "name": "TODO Major Twist (Skeeterbots)",
+      "type": "environmentTwist",
+      "img": "icons/svg/explosion.svg",
+      "system": {
+        "type": "redmajor",
+        "description": "<p>TODO(PDF p.270): public notes mention a green major twist that adds Min die of Skeeterbots — confirm exact text and zone coloring.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 8,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "JokNSTeff2nsc4gD",
+      "_key": "!actors.items!EgYIzt4oQuNGoPeu.JokNSTeff2nsc4gD"
+    }
+  ],
+  "effects": [],
+  "folder": "IMCfliu0xgHUFFVT",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "who-are-you-and-what-have-you-done-with-the-mayor",
+      "modeledAs": "challenge"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "EgYIzt4oQuNGoPeu",
+  "_key": "!actors!EgYIzt4oQuNGoPeu"
+}

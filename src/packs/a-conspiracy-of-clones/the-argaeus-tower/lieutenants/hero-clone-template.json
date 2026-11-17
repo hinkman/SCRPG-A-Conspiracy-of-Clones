@@ -1,0 +1,93 @@
+{
+  "name": "Hero Clone (Template)",
+  "type": "minion",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "role": "lieutenant",
+    "description": "TODO(PDF pp.287–289): clone lieutenant rules. This placeholder stands in for per-hero clone sheets — fill after PDF parse (or generate per table heroes). (TODO(PDF): one per hero / DNA-sampled heroes.)",
+    "tactics": "TODO(PDF).",
+    "groups": "1",
+    "groupName": {
+      "one": "Hero Clone (Template)",
+      "two": "Group 2",
+      "three": "Group 3",
+      "four": "Group 4",
+      "five": "Group 5",
+      "six": "Group 6",
+      "seven": "Group 7",
+      "eight": "Group 8",
+      "nine": "Group 9",
+      "ten": "Group 10"
+    },
+    "typicalDie": {
+      "one": "d10",
+      "two": "d4",
+      "three": "d4",
+      "four": "d4",
+      "five": "d4",
+      "six": "d4",
+      "seven": "d4",
+      "eight": "d4",
+      "nine": "d4",
+      "ten": "d4"
+    }
+  },
+  "prototypeToken": {
+    "name": "Hero Clone (Template)",
+    "displayName": 20,
+    "actorLink": true
+  },
+  "items": [
+    {
+      "name": "TODO Form",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>TODO(PDF).</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "sQPlhpyXR82nEC15",
+      "_key": "!actors.items!ulL2MpBlX6wXARvw.sQPlhpyXR82nEC15"
+    }
+  ],
+  "effects": [],
+  "folder": "DFG3Mk2exXUQCkrV",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scrpg-a-conspiracy-of-clones": {
+      "sceneKey": "the-argaeus-tower",
+      "quantityNote": "TODO(PDF): one per hero / DNA-sampled heroes",
+      "description": "TODO(PDF pp.287–289): clone lieutenant rules. This placeholder stands in for per-hero clone sheets — fill after PDF parse (or generate per table heroes). (TODO(PDF): one per hero / DNA-sampled heroes.)",
+      "pdfTodo": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.000",
+    "systemId": "scrpg-foundry",
+    "systemVersion": "0.9.25",
+    "createdTime": 1763341200000,
+    "modifiedTime": 1763341200000,
+    "lastModifiedBy": null
+  },
+  "_id": "ulL2MpBlX6wXARvw",
+  "_key": "!actors!ulL2MpBlX6wXARvw"
+}
