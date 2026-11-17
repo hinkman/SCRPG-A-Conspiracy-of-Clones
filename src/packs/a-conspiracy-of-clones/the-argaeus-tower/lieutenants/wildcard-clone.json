@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Wildcard",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Wildcard: Select any two abilities from other clone templates.</p>",
+        "description": "<p>Select any two abilities from other clone templates.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,8 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "EZ5waBh8UlY3C5eZ",
-      "_key": "!actors.items!hsYVtt0p9CO8XVwr.EZ5waBh8UlY3C5eZ"
+      "_id": "LVMg4I7IH8VPGHu2",
+      "_key": "!actors.items!hsYVtt0p9CO8XVwr.LVMg4I7IH8VPGHu2"
     }
   ],
   "effects": [],

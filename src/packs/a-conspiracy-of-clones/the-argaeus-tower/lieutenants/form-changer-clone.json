@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Change to Flier",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Change to Flier: Take on two abilities of the Flyer. | Change to Brute: Take on two abilities of the Physical Powerhouse. | Change to Tiny: Take on two abilities of the Shadow.</p>",
+        "description": "<p>Take on two abilities of the Flyer (eagle, aircraft, etc.).</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "yxkpJFuHZxX3fo5B",
-      "_key": "!actors.items!a4evBBDEooWXxnZD.yxkpJFuHZxX3fo5B"
+      "_id": "xPiomU4uhp4AhchL",
+      "_key": "!actors.items!a4evBBDEooWXxnZD.xPiomU4uhp4AhchL"
+    },
+    {
+      "name": "Change to Brute",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Take on two abilities of the Physical Powerhouse (rhino, truck, etc.).</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "LEFhHpvthirZcYSe",
+      "_key": "!actors.items!a4evBBDEooWXxnZD.LEFhHpvthirZcYSe"
+    },
+    {
+      "name": "Change to Tiny",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Take on two abilities of the Shadow (mouse, ant, etc.).</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "4QMvqyO3aYT1jws0",
+      "_key": "!actors.items!a4evBBDEooWXxnZD.4QMvqyO3aYT1jws0"
     }
   ],
   "effects": [],

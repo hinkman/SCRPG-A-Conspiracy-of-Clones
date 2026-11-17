@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Elemental Might",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Elemental Might: +1 to Attack actions. | Prepare the Field: +1 to Hinder actions related to your element. | Immunity: Cannot be damaged by your chosen element.</p>",
+        "description": "<p>+1 to Attack actions.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "wGtUh5CJvAnXRktk",
-      "_key": "!actors.items!DwXvVqYQM8FydNn0.wGtUh5CJvAnXRktk"
+      "_id": "fN7T6wUqZsrGqXYY",
+      "_key": "!actors.items!DwXvVqYQM8FydNn0.fN7T6wUqZsrGqXYY"
+    },
+    {
+      "name": "Prepare the Field",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Hinder actions related to your element.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "msuVhiwFoSACFb2D",
+      "_key": "!actors.items!DwXvVqYQM8FydNn0.msuVhiwFoSACFb2D"
+    },
+    {
+      "name": "Immunity",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Cannot be damaged by your chosen element.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "7oPuYg6LGfMR8FAt",
+      "_key": "!actors.items!DwXvVqYQM8FydNn0.7oPuYg6LGfMR8FAt"
     }
   ],
   "effects": [],

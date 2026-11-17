@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Mind Blast",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Mind Blast: +1 to Attack actions. | Confusion: Hinder two targets with the same roll. | Illusion: Defend yourself with a +1 bonus. This defense does not expire until you are attacked and use it.</p>",
+        "description": "<p>+1 to Attack actions.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "a4GDMzHAWOUX2Tnm",
-      "_key": "!actors.items!qKYCheBwsPpibYlA.a4GDMzHAWOUX2Tnm"
+      "_id": "1xSqbu6y1oFeazIz",
+      "_key": "!actors.items!qKYCheBwsPpibYlA.1xSqbu6y1oFeazIz"
+    },
+    {
+      "name": "Confusion",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Hinder two targets with the same roll.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "T1y2p10MwjlBCnIz",
+      "_key": "!actors.items!qKYCheBwsPpibYlA.T1y2p10MwjlBCnIz"
+    },
+    {
+      "name": "Illusion",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Defend yourself with a +1 bonus. This defense does not expire until you are attacked and use it.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "RBNwX56VmNj4M5NM",
+      "_key": "!actors.items!qKYCheBwsPpibYlA.RBNwX56VmNj4M5NM"
     }
   ],
   "effects": [],

@@ -23,7 +23,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>Add one Arachne Helico minion.</p>"
+        "description": "<p>Add one Arachne Helico minion.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -49,7 +50,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>The floor emits spores that induce drowsiness. Roll the environment dice and Hinder all heroes with the Min die.</p>"
+        "description": "<p>The floor emits spores that induce drowsiness. Roll the environment dice and Hinder all heroes with the Min die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -75,7 +77,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenmajor",
-        "description": "<p>Flamethrowers mounted in the walls emit intense flame. Roll the environment dice and Attack all heroes with the Min die.</p>"
+        "description": "<p>Flamethrowers mounted in the walls emit intense flame. Roll the environment dice and Attack all heroes with the Min die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -101,7 +104,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>A trap door opens in the floor and a band of warriors emerges! Roll the environment dice and add Hoplite Clones equal to the Min die.</p>"
+        "description": "<p>A trap door opens in the floor and a band of warriors emerges! Roll the environment dice and add Hoplite Clones equal to the Min die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -127,7 +131,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>The ground the hero is standing on is electrified! Roll the environment dice and Attack that hero with the Max die.</p>"
+        "description": "<p>The ground the hero is standing on is electrified! Roll the environment dice and Attack that hero with the Max die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -153,7 +158,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowmajor",
-        "description": "<p>An intense noise sounds, distracting the heroes. Roll the environment dice and Hinder all heroes with the Mid die.</p>"
+        "description": "<p>An intense noise sounds, distracting the heroes. Roll the environment dice and Hinder all heroes with the Mid die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -179,7 +185,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redminor",
-        "description": "<p>A bolt of electricity shoots from the ceiling at one hero. Roll the environment dice. Attack one hero with the Max+Min dice.</p>"
+        "description": "<p>A bolt of electricity shoots from the ceiling at one hero. Roll the environment dice. Attack one hero with the Max+Min dice.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -205,7 +212,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redminor",
-        "description": "<p>A troop of archers — clones all — attack the heroes! Roll the environment dice and add a number of Gastraphetes Archers equal to the Mid die.</p>"
+        "description": "<p>A troop of archers — clones all — attack the heroes! Roll the environment dice and add a number of Gastraphetes Archers equal to the Mid die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -231,7 +239,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redmajor",
-        "description": "<p>A giant claw on the end of a long chain plummets from the ceiling, grabbing one of the heroes! Roll the environment dice and Attack that hero with the Max die. Additionally, that hero is restrained from acting and the Attack repeats each environment turn until someone frees them by opening the Claw with an Overcome action. On an overwhelming success, the claw is destroyed and cannot be triggered again.</p>"
+        "description": "<p>A giant claw on the end of a long chain plummets from the ceiling, grabbing one of the heroes! Roll the environment dice and Attack that hero with the Max die. Additionally, that hero is restrained from acting and the Attack repeats each environment turn until someone frees them by opening the Claw with an Overcome action. On an overwhelming success, the claw is destroyed and cannot be triggered again.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,

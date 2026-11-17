@@ -344,7 +344,14 @@ function buildEnvironmentActor(scene, folderId, ids) {
         sort: sort++,
         system: {
           type: minorType,
-          description: p(twist.description)
+          description: p(twist.description),
+          challenges: (twist.challenges || []).map((challenge) => ({
+            name: challenge.name || "",
+            description: challenge.description || "",
+            boxes: Array.isArray(challenge.boxes)
+              ? challenge.boxes.map((box) => Boolean(box))
+              : Array.from({ length: challenge.boxCount || 0 }, () => false)
+          }))
         }
       }));
     }
@@ -361,7 +368,14 @@ function buildEnvironmentActor(scene, folderId, ids) {
         sort: sort++,
         system: {
           type: majorType,
-          description: p(twist.description)
+          description: p(twist.description),
+          challenges: (twist.challenges || []).map((challenge) => ({
+            name: challenge.name || "",
+            description: challenge.description || "",
+            boxes: Array.isArray(challenge.boxes)
+              ? challenge.boxes.map((box) => Boolean(box))
+              : Array.from({ length: challenge.boxCount || 0 }, () => false)
+          }))
         }
       }));
     }
@@ -400,18 +414,21 @@ function buildMinionActor(scene, minion, folderId, ids, sort) {
   ids.add(actorId);
 
   const items = [];
-  if (minion.form) {
-    const formId = foundryId(`item:minionForm:${scene.key}:${slug(minion.name)}:${slug(minion.form.name)}`);
+  const forms = Array.isArray(minion.forms)
+    ? minion.forms
+    : (minion.form ? [minion.form] : []);
+  for (const form of forms) {
+    const formId = foundryId(`item:minionForm:${scene.key}:${slug(minion.name)}:${slug(form.name)}`);
     if (ids.has(formId)) throw new Error(`Duplicate minion form id ${formId}`);
     ids.add(formId);
     items.push(makeItem({
-      name: minion.form.name,
+      name: form.name,
       type: "minionForm",
       img: "icons/svg/upgrade.svg",
       itemId: formId,
       actorId,
       system: {
-        description: p(minion.form.description),
+        description: p(form.description),
         bonus: "one",
         group: 1
       }

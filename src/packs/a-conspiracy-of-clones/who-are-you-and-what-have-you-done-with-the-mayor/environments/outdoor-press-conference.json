@@ -23,7 +23,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>A civilian is being attacked by one of the robot “cops.” They can be rescued through a successful Overcome action. If they are not rescued before the next time a scene tracker box is checked, the civilian is badly injured.</p>"
+        "description": "<p>A civilian is being attacked by one of the robot “cops.” They can be rescued through a successful Overcome action. If they are not rescued before the next time a scene tracker box is checked, the civilian is badly injured.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -49,7 +50,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>Add one Megalopolis Police Officer to the scene.</p>"
+        "description": "<p>Add one Megalopolis Police Officer to the scene.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -75,7 +77,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenmajor",
-        "description": "<p>Roll the environment dice and add a number of Skeeterbots equal to the Min die.</p>"
+        "description": "<p>Roll the environment dice and add a number of Skeeterbots equal to the Min die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -101,7 +104,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>A crew of photojournalists gets in the way. Roll the environment dice and Hinder all heroes with the Min die. A hero may use an Overcome action to attempt to clear the penalty on all heroes by getting the press out of danger.</p>"
+        "description": "<p>A crew of photojournalists gets in the way. Roll the environment dice and Hinder all heroes with the Min die. A hero may use an Overcome action to attempt to clear the penalty on all heroes by getting the press out of danger.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -127,7 +131,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>Roll the environment dice and add a number of robot “cops” equal to the Mid die.</p>"
+        "description": "<p>Roll the environment dice and add a number of robot “cops” equal to the Mid die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -153,7 +158,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowmajor",
-        "description": "<p>More robot “cops” come clanking around the corner, followed by the drone of even more Skeeterbots! Roll the environment dice. Add robot “cops” equal to the Min die. Add Skeeterbots equal to the Mid die.</p>"
+        "description": "<p>More robot “cops” come clanking around the corner, followed by the drone of even more Skeeterbots! Roll the environment dice. Add robot “cops” equal to the Min die. Add Skeeterbots equal to the Mid die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -179,7 +185,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redminor",
-        "description": "<p>Two robot “cops” are about to destroy an ambulance containing an injured patient and several EMTs. They can be rescued with two Overcome actions; if they are not rescued by the time the next scene tracker space is marked, the ambulance is destroyed and its passengers and driver are badly injured. Until this is resolved, all heroes have a −1 penalty to all actions.</p>"
+        "description": "<p>Two robot “cops” are about to destroy an ambulance containing an injured patient and several EMTs. They can be rescued with two Overcome actions; if they are not rescued by the time the next scene tracker space is marked, the ambulance is destroyed and its passengers and driver are badly injured. Until this is resolved, all heroes have a −1 penalty to all actions.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -205,7 +212,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redmajor",
-        "description": "<p>A hero is swarmed by a crowd of panicking civilians. Roll the environment dice and Hinder that hero with the Max+Min dice.</p>"
+        "description": "<p>A hero is swarmed by a crowd of panicking civilians. Roll the environment dice and Hinder that hero with the Max+Min dice.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,

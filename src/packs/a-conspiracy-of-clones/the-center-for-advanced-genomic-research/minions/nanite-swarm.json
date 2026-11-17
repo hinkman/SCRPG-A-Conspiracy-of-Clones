@@ -43,7 +43,7 @@
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>A Nanite Swarm makes an Overcome check to create another Nanite Swarm. A result of 4+ creates a d4 Nanite Swarm. A result of 8+ creates a d8 Nanite Swarm. (Die sizes for spawned swarms inferred from thresholds; confirm glyphs in book.)</p>",
+        "description": "<p>A Nanite Swarm makes an Overcome check to create another Nanite Swarm. A result of 4+ creates a d6 Nanite Swarm. A result of 8+ creates a d8 Nanite Swarm.</p>",
         "bonus": "one",
         "group": 1
       },

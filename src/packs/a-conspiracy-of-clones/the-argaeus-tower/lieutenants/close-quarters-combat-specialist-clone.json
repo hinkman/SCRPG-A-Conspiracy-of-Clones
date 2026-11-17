@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Imbalancing Strike",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Imbalancing Strike: Attack, then apply a −1 penalty to the target. | Disarming Strike: +1 to Boost actions and Overcome attempts to disarm a target. | Counterstrike: When succeeding on a damage save, immediately Attack against the target that attacked you using half (rounded down) the result of the damage save, if within close combat range.</p>",
+        "description": "<p>Attack, then apply a −1 penalty to the target.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "RNF5c7AqwZBL1BrP",
-      "_key": "!actors.items!dylLGxHp7jX0soWN.RNF5c7AqwZBL1BrP"
+      "_id": "pUX37J2NA5wVMdle",
+      "_key": "!actors.items!dylLGxHp7jX0soWN.pUX37J2NA5wVMdle"
+    },
+    {
+      "name": "Disarming Strike",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Boost actions and Overcome attempts to disarm a target.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "FpMLXXaBmzz9pHwf",
+      "_key": "!actors.items!dylLGxHp7jX0soWN.FpMLXXaBmzz9pHwf"
+    },
+    {
+      "name": "Counterstrike",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>When succeeding on a damage save, immediately Attack against the target that attacked you using half (rounded down) the result of the damage save, if within close combat range.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "ihxPuAFlWDuqBzIJ",
+      "_key": "!actors.items!dylLGxHp7jX0soWN.ihxPuAFlWDuqBzIJ"
     }
   ],
   "effects": [],

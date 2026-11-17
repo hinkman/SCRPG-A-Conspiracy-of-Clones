@@ -3,7 +3,7 @@
   "packKey": "a-conspiracy-of-clones",
   "scenePackKey": "a-conspiracy-of-clones-scenes",
   "source": "Sentinel Comics: The Roleplaying Game, Adventure Issues, A Conspiracy of Clones (pp. 269–289)",
-  "notes": "Die sizes curated (PDF extract omitted die glyphs); confirm against book art if needed.",
+  "notes": "Ability/challenge text fixed from PDF extract. Environment and minion/lieutenant die sizes still pending confirmation from book die icons (Mac PDF pass).",
   "scenes": [
     {
       "key": "who-are-you-and-what-have-you-done-with-the-mayor",
@@ -206,7 +206,23 @@
             "major": [
               {
                 "name": "Fire Suppression System",
-                "description": "The security system replaces oxygen with inert CO₂. Each time you mark a scene tracker space, roll the environment dice and Attack all heroes with the Max+Min dice (except heroes with an oxygen supply or who do not need to breathe). Deactivate by completing two Overcomes: (1) Locate the fire suppression system; (2) Deactivate it."
+                "description": "The security system activates the fire suppression system, which replaces the oxygen in the air with inert carbon dioxide. Each time you mark a space on the scene tracker, roll the environment’s dice and Attack all heroes with the Max+Min dice (except heroes who have an oxygen supply or do not need to breathe).",
+                "challenges": [
+                  {
+                    "name": "Locate the fire suppression system",
+                    "description": "One of two Overcome actions required to deactivate the fire suppression system.",
+                    "boxes": [
+                      false
+                    ]
+                  },
+                  {
+                    "name": "Deactivate the fire suppression system",
+                    "description": "One of two Overcome actions required to deactivate the fire suppression system.",
+                    "boxes": [
+                      false
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Laboratory Twist (Yellow Major)",
@@ -253,8 +269,8 @@
           "description": "A cluster of plants closely related to wheat, genetically designed to grow florets that produce and launch razor sharp spikes. Scientists designed it to defend the rest of the crop from vermin and pests, but now they attack the heroes.",
           "tactics": "The Defender Pods have been genetically reprogrammed to go after the strongest opposing threats, so whatever heroes seem biggest or strongest will be their priority.",
           "form": {
-            "name": "Spikes",
-            "description": "Inherent: Whenever a Defender Pod is attacked by a nearby target, it deals that target 2 damage."
+            "name": "Spikes (Inherent)",
+            "description": "Whenever a Defender Pod is attacked by a nearby target, it deals that target 2 damage."
           }
         },
         {
@@ -275,8 +291,8 @@
           "description": "A vaguely humanoid ten-foot blob made of long, matted strands of hair and fur that is, for reasons that remain mysterious, very, very angry.",
           "tactics": "Giant Angry Shaggy Things want to get up close and personal and either unleash their anger in attacks and maximize the effect of their shagginess. They prefer to go after already damaged targets.",
           "form": {
-            "name": "Intensely Shaggy",
-            "description": "Inherent: Gives a −1 penalty to any hero who comes into physical contact with it as its hairy body tangles everything nearby."
+            "name": "Intensely Shaggy (Inherent)",
+            "description": "Gives a −1 penalty to any hero who comes into physical contact with it as its hairy body tangles everything nearby."
           }
         },
         {
@@ -287,7 +303,7 @@
           "tactics": "Nanite Swarms prefer, if possible: First duplicate; then Hinder opponents; then Boost themselves or other Nanite Swarms; then Attack; repeat!",
           "form": {
             "name": "Self-duplicating",
-            "description": "A Nanite Swarm makes an Overcome check to create another Nanite Swarm. A result of 4+ creates a d4 Nanite Swarm. A result of 8+ creates a d8 Nanite Swarm. (Die sizes for spawned swarms inferred from thresholds; confirm glyphs in book.)"
+            "description": "A Nanite Swarm makes an Overcome check to create another Nanite Swarm. A result of 4+ creates a d6 Nanite Swarm. A result of 8+ creates a d8 Nanite Swarm."
           }
         },
         {
@@ -297,8 +313,8 @@
           "description": "A computer program the immunosecurity system initiates that tracks heroes who have attempted to circumvent security systems and attacks them using the lab’s automated systems: lasers, knockout gas, sonic weapons, electroshock weapons, etc.",
           "tactics": "Any hero interacting with the security or computer systems is a target for the Inhibitor Process, who seeks to drive away intruders with Attacks and Hinders.",
           "form": {
-            "name": "Software",
-            "description": "Inherent: As a computer program, an Inhibitor Process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective."
+            "name": "Software (Inherent)",
+            "description": "As a computer program, an inhibitor process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective."
           }
         }
       ],
@@ -321,8 +337,8 @@
           "description": "A complex computer program that tracks the heroes and directs the security system against them. Like Inhibitor Processes, it directs automated lasers, knockout gas, sonic weapons, electroshock weapons, etc. Use the Seeker Process’s die to direct these actions.",
           "tactics": "The Seeker Process wants to reduce the number of threats as quickly as possible, so it prefers to go after weak hero targets it thinks it can take down.",
           "form": {
-            "name": "Software",
-            "description": "Inherent: As a computer program, the Seeker Process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective."
+            "name": "Software (Inherent)",
+            "description": "As a computer program, the seeker process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective."
           }
         }
       ],
@@ -448,10 +464,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "The speedster is really, really fast. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Multiattack: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Shock Wave: Hinder two targets with one roll. | Evasive Maneuvers: +2 to damage saves."
-          }
+          "forms": [
+            {
+              "name": "Multiattack",
+              "description": "Split the die into two dice of one smaller size, and Attack a different target with each roll."
+            },
+            {
+              "name": "Shock Wave",
+              "description": "Hinder two targets with one roll."
+            },
+            {
+              "name": "Evasive Maneuvers",
+              "description": "+2 to damage saves."
+            }
+          ]
         },
         {
           "name": "Shadow Clone",
@@ -459,10 +485,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "This threat strikes while unseen. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Feint Attack: Make a Boost action to hide. Then, immediately make an Attack using the value of that bonus. | One with the Shadows: +1 bonus to all Overcome actions made to stay out of sight. | Vulnerable Target: Attack, ignoring any inherent abilities and reactions your target has for reducing damage."
-          }
+          "forms": [
+            {
+              "name": "Feint Attack",
+              "description": "Make a Boost action to hide. Then, immediately make an Attack using the value of that bonus."
+            },
+            {
+              "name": "One with the Shadows",
+              "description": "+1 bonus to all Overcome actions made to stay out of sight."
+            },
+            {
+              "name": "Vulnerable Target",
+              "description": "Attack, ignoring any inherent abilities and reactions your target has for reducing damage."
+            }
+          ]
         },
         {
           "name": "Physical Powerhouse Clone",
@@ -470,10 +506,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "A hulking, intimidating tank of an opponent. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Haymaker: +1 to Attack actions. | Brute Force: +1 to Overcome actions involving raw strength. | Is that all you got?: +2 to damage saves."
-          }
+          "forms": [
+            {
+              "name": "Haymaker",
+              "description": "+1 to Attack actions."
+            },
+            {
+              "name": "Brute Force",
+              "description": "+1 to Overcome actions involving raw strength."
+            },
+            {
+              "name": "Is that all you got?",
+              "description": "+2 to damage saves."
+            }
+          ]
         },
         {
           "name": "Marksman Clone",
@@ -481,10 +527,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "A master of a projectile weapon or weapons. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Hail of Fire: +1 to Hinder actions related to suppressive fire. | Gun Kata: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Snipe: Attack, ignoring any inherent abilities and reactions your target has for reducing damage."
-          }
+          "forms": [
+            {
+              "name": "Hail of Fire",
+              "description": "+1 to Hinder actions related to suppressive fire."
+            },
+            {
+              "name": "Gun Kata",
+              "description": "Split the die into two dice of one smaller size, and Attack a different target with each roll."
+            },
+            {
+              "name": "Snipe",
+              "description": "Attack, ignoring any inherent abilities and reactions your target has for reducing damage."
+            }
+          ]
         },
         {
           "name": "Blaster Clone",
@@ -492,10 +548,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Slingin’ energy. Choose an element, or just call it generic “energy.” Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Blast: +1 to Attack actions. | Area Attack: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Burn It: +1 to Overcome actions related to burning through obstacles."
-          }
+          "forms": [
+            {
+              "name": "Blast",
+              "description": "+1 to Attack actions."
+            },
+            {
+              "name": "Area Attack",
+              "description": "Split the die into two dice of one smaller size, and Attack a different target with each roll."
+            },
+            {
+              "name": "Burn It",
+              "description": "+1 to Overcome actions related to burning through obstacles."
+            }
+          ]
         },
         {
           "name": "Close Quarters Combat Specialist Clone",
@@ -503,10 +569,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "A wrestler, a martial artist, a sword-wielder, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Imbalancing Strike: Attack, then apply a −1 penalty to the target. | Disarming Strike: +1 to Boost actions and Overcome attempts to disarm a target. | Counterstrike: When succeeding on a damage save, immediately Attack against the target that attacked you using half (rounded down) the result of the damage save, if within close combat range."
-          }
+          "forms": [
+            {
+              "name": "Imbalancing Strike",
+              "description": "Attack, then apply a −1 penalty to the target."
+            },
+            {
+              "name": "Disarming Strike",
+              "description": "+1 to Boost actions and Overcome attempts to disarm a target."
+            },
+            {
+              "name": "Counterstrike",
+              "description": "When succeeding on a damage save, immediately Attack against the target that attacked you using half (rounded down) the result of the damage save, if within close combat range."
+            }
+          ]
         },
         {
           "name": "Armored Clone",
@@ -514,10 +590,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Maybe it’s a power suit, maybe a knight’s plate, maybe it’s tough hide. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Armor: Reduce all damage taken by 1. | Living Shield: +1 to Defend actions. | Powered Exoskeleton: +1 to Overcome actions related to brute force."
-          }
+          "forms": [
+            {
+              "name": "Armor",
+              "description": "Reduce all damage taken by 1."
+            },
+            {
+              "name": "Living Shield",
+              "description": "+1 to Defend actions."
+            },
+            {
+              "name": "Powered Exoskeleton",
+              "description": "+1 to Overcome actions related to brute force."
+            }
+          ]
         },
         {
           "name": "Flyer Clone",
@@ -525,10 +611,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "They can fly, either through innate powers or by using gear. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Death From Above: +1 to Attack actions while flying. | Take to the Air: +1 to Boost actions related to flying. | Evasive Maneuvers: Gain +1 to Defend actions while flying."
-          }
+          "forms": [
+            {
+              "name": "Death From Above",
+              "description": "+1 to Attack actions while flying."
+            },
+            {
+              "name": "Take to the Air",
+              "description": "+1 to Boost actions related to flying."
+            },
+            {
+              "name": "Evasive Maneuvers",
+              "description": "Gain +1 to Defend actions while flying."
+            }
+          ]
         },
         {
           "name": "Elementalist Clone",
@@ -536,10 +632,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Fully attuned to their element. Choose an element: cold, fire, electricity, water, air, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Elemental Might: +1 to Attack actions. | Prepare the Field: +1 to Hinder actions related to your element. | Immunity: Cannot be damaged by your chosen element."
-          }
+          "forms": [
+            {
+              "name": "Elemental Might",
+              "description": "+1 to Attack actions."
+            },
+            {
+              "name": "Prepare the Field",
+              "description": "+1 to Hinder actions related to your element."
+            },
+            {
+              "name": "Immunity",
+              "description": "Cannot be damaged by your chosen element."
+            }
+          ]
         },
         {
           "name": "Robot/Cyborg Clone",
@@ -547,10 +653,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "This threat has some sort of visible mechanical and electronic parts. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Learning Machine: Boost yourself. The bonus is persistent and exclusive. | Metallic Resilience: Reduce all damage taken by 1. | Precision Weaponry: +1 to Attack actions."
-          }
+          "forms": [
+            {
+              "name": "Learning Machine",
+              "description": "Boost yourself. The bonus is persistent and exclusive."
+            },
+            {
+              "name": "Metallic Resilience",
+              "description": "Reduce all damage taken by 1."
+            },
+            {
+              "name": "Precision Weaponry",
+              "description": "+1 to Attack actions."
+            }
+          ]
         },
         {
           "name": "Psychic Clone",
@@ -558,10 +674,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Can kill you with their mind. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Mind Blast: +1 to Attack actions. | Confusion: Hinder two targets with the same roll. | Illusion: Defend yourself with a +1 bonus. This defense does not expire until you are attacked and use it."
-          }
+          "forms": [
+            {
+              "name": "Mind Blast",
+              "description": "+1 to Attack actions."
+            },
+            {
+              "name": "Confusion",
+              "description": "Hinder two targets with the same roll."
+            },
+            {
+              "name": "Illusion",
+              "description": "Defend yourself with a +1 bonus. This defense does not expire until you are attacked and use it."
+            }
+          ]
         },
         {
           "name": "Sorcerer Clone",
@@ -569,10 +695,16 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Sorcery can look a bit like many other abilities. Choose one listed ability, then a second from another template matching the sorcerer’s focus (Elementalist, Blaster, Minion-Maker, Psychic, etc.). Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Magical Reset: Convert one bonus to a penalty of the same size or vice versa. | Enhancement: Boost two allies with the same roll."
-          }
+          "forms": [
+            {
+              "name": "Magical Reset",
+              "description": "Convert one bonus to a penalty of the same size or vice versa."
+            },
+            {
+              "name": "Enhancement",
+              "description": "Boost two allies with the same roll."
+            }
+          ]
         },
         {
           "name": "Transporter Clone",
@@ -580,10 +712,28 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Decide how the clone moves: vehicle, teleportation, or innate cloned powers. Choose two from this list, or one from this list and a second from another template. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Flier: +1 to Attack actions while flying. | Speedster: Hinder two targets with the same roll. | Teleporter: Move from one location to another with up to two allies, then Boost those allies. | Evasive Maneuvers: +2 to damage saves. | Portal Maker: Make a Boost action, then suddenly appear near a target. Immediately Attack using that bonus."
-          }
+          "forms": [
+            {
+              "name": "Flier",
+              "description": "+1 to Attack actions while flying."
+            },
+            {
+              "name": "Speedster",
+              "description": "Hinder two targets with the same roll."
+            },
+            {
+              "name": "Teleporter",
+              "description": "Move from one location to another with up to two allies, then Boost those allies."
+            },
+            {
+              "name": "Evasive Maneuvers",
+              "description": "+2 to damage saves."
+            },
+            {
+              "name": "Portal Maker",
+              "description": "Make a Boost action, then suddenly appear near a target. Immediately Attack using that bonus."
+            }
+          ]
         },
         {
           "name": "Minion-Maker Clone",
@@ -591,10 +741,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "A robot builder, necromancer, or anything that involves literally making friends. Take the first ability and one of the other two. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Summon Minions: Create a number of minions equal to half (rounded down) this minion’s die roll. | Bolster Minions: Boost all the minions created by this minion. | Minion Defense: As your reaction, choose one of your minions to defend you by rolling its single die, then destroy that minion."
-          }
+          "forms": [
+            {
+              "name": "Summon Minions",
+              "description": "Create a number of minions equal to half (rounded down) this minion’s die roll."
+            },
+            {
+              "name": "Bolster Minions",
+              "description": "Boost all the minions created by this minion."
+            },
+            {
+              "name": "Minion Defense",
+              "description": "As your reaction, choose one of your minions to defend you by rolling its single die, then destroy that minion."
+            }
+          ]
         },
         {
           "name": "Wildcard Clone",
@@ -602,10 +762,12 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Choose two powers from any clone templates. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Wildcard: Select any two abilities from other clone templates."
-          }
+          "forms": [
+            {
+              "name": "Wildcard",
+              "description": "Select any two abilities from other clone templates."
+            }
+          ]
         },
         {
           "name": "Form-Changer Clone",
@@ -613,10 +775,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Form-changers can shift to one of several forms. As a clone, use forms that fit who they're copying. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Change to Flier: Take on two abilities of the Flyer. | Change to Brute: Take on two abilities of the Physical Powerhouse. | Change to Tiny: Take on two abilities of the Shadow."
-          }
+          "forms": [
+            {
+              "name": "Change to Flier",
+              "description": "Take on two abilities of the Flyer (eagle, aircraft, etc.)."
+            },
+            {
+              "name": "Change to Brute",
+              "description": "Take on two abilities of the Physical Powerhouse (rhino, truck, etc.)."
+            },
+            {
+              "name": "Change to Tiny",
+              "description": "Take on two abilities of the Shadow (mouse, ant, etc.)."
+            }
+          ]
         },
         {
           "name": "Gadgeteer Clone",
@@ -624,10 +796,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "These gadgets boil down to adding a bonus to some action. Put whatever wrappers you like: steampunk, computerized, mechanical, etc. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: Targeting System: +1 to Attack actions. | Interference Broadcaster: Hinder two targets. | Grappling Hook: +1 to Overcome actions related to mobility, or eliminate any one easily-grabbable bonus."
-          }
+          "forms": [
+            {
+              "name": "Targeting System",
+              "description": "+1 to Attack actions."
+            },
+            {
+              "name": "Interference Broadcaster",
+              "description": "Hinder two targets."
+            },
+            {
+              "name": "Grappling Hook",
+              "description": "+1 to Overcome actions related to mobility, or eliminate any one easily-grabbable bonus."
+            }
+          ]
         },
         {
           "name": "Reality Shaper Clone",
@@ -635,10 +817,20 @@
           "quantityNote": "1 per DNA-sampled hero of matching archetype",
           "description": "Reality shapers manipulate space-time to move, hold targets in place, and duplicate matter. Build from heroes successfully Attacked by Skeeterbots in Scene 1.",
           "tactics": "Mimic the copied hero; choose two abilities from the listed options, or make one up that mimics something the hero is good at.",
-          "form": {
-            "name": "Ability Options",
-            "description": "Choose two abilities: There is Here: Boost to make your location seem directly next to a target’s location, then Attack that target using the created bonus. | Minion Duplicator: Add minions to an existing minion group by rolling your die, then adding half that number of minions (rounded down). Size and abilities match the highest die in that minion group. | Space-Time Excavator: Hinder two targets by twisting space-time around them to hold them steady."
-          }
+          "forms": [
+            {
+              "name": "There is Here",
+              "description": "Boost to make your location seem directly next to a target’s location, then Attack that target using the created bonus."
+            },
+            {
+              "name": "Minion Duplicator",
+              "description": "Add minions to an existing minion group by rolling your die, then adding half that number of minions (rounded down). The size of the minions and abilities they have are the same as the highest die in that minion group."
+            },
+            {
+              "name": "Space-Time Excavator",
+              "description": "Hinder two targets by twisting space-time around them to hold them steady."
+            }
+          ]
         }
       ],
       "villains": [

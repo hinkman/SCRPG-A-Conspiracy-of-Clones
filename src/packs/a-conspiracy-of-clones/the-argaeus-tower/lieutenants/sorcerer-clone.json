@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Magical Reset",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Magical Reset: Convert one bonus to a penalty of the same size or vice versa. | Enhancement: Boost two allies with the same roll.</p>",
+        "description": "<p>Convert one bonus to a penalty of the same size or vice versa.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,35 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "MAHGsBNqiksKKga5",
-      "_key": "!actors.items!SwHCNC7Q2Dl38274.MAHGsBNqiksKKga5"
+      "_id": "L5lojIvilAvw2Qv1",
+      "_key": "!actors.items!SwHCNC7Q2Dl38274.L5lojIvilAvw2Qv1"
+    },
+    {
+      "name": "Enhancement",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Boost two allies with the same roll.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "V2E04YIgMyE1Cu2M",
+      "_key": "!actors.items!SwHCNC7Q2Dl38274.V2E04YIgMyE1Cu2M"
     }
   ],
   "effects": [],

@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Blast",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Blast: +1 to Attack actions. | Area Attack: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Burn It: +1 to Overcome actions related to burning through obstacles.</p>",
+        "description": "<p>+1 to Attack actions.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "lfgCYLauFAHTgtXM",
-      "_key": "!actors.items!xNAWPwGDpSGHB5LP.lfgCYLauFAHTgtXM"
+      "_id": "9KocjPu0EfxHbDmo",
+      "_key": "!actors.items!xNAWPwGDpSGHB5LP.9KocjPu0EfxHbDmo"
+    },
+    {
+      "name": "Area Attack",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Split the die into two dice of one smaller size, and Attack a different target with each roll.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "cG6KqqsUxaOkADnQ",
+      "_key": "!actors.items!xNAWPwGDpSGHB5LP.cG6KqqsUxaOkADnQ"
+    },
+    {
+      "name": "Burn It",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Overcome actions related to burning through obstacles.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "47eBuy8Nt7Hp2TXN",
+      "_key": "!actors.items!xNAWPwGDpSGHB5LP.47eBuy8Nt7Hp2TXN"
     }
   ],
   "effects": [],

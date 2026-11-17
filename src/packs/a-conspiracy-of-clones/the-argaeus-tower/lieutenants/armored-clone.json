@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Armor",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Armor: Reduce all damage taken by 1. | Living Shield: +1 to Defend actions. | Powered Exoskeleton: +1 to Overcome actions related to brute force.</p>",
+        "description": "<p>Reduce all damage taken by 1.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "nQYxFuO5nj75G3wy",
-      "_key": "!actors.items!NBHm0nRHvpzTkNFO.nQYxFuO5nj75G3wy"
+      "_id": "rkC77mkEKX7z5xaC",
+      "_key": "!actors.items!NBHm0nRHvpzTkNFO.rkC77mkEKX7z5xaC"
+    },
+    {
+      "name": "Living Shield",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Defend actions.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "w0d3RUxAoADzfclr",
+      "_key": "!actors.items!NBHm0nRHvpzTkNFO.w0d3RUxAoADzfclr"
+    },
+    {
+      "name": "Powered Exoskeleton",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Overcome actions related to brute force.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "mGHUN5yTPREZGrUH",
+      "_key": "!actors.items!NBHm0nRHvpzTkNFO.mGHUN5yTPREZGrUH"
     }
   ],
   "effects": [],

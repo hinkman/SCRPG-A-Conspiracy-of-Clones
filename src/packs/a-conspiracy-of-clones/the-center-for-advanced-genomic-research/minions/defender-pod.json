@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Spikes",
+      "name": "Spikes (Inherent)",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Inherent: Whenever a Defender Pod is attacked by a nearby target, it deals that target 2 damage.</p>",
+        "description": "<p>Whenever a Defender Pod is attacked by a nearby target, it deals that target 2 damage.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,8 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "JMDpnD9F3eEH5hBL",
-      "_key": "!actors.items!Ed1mFI6c98QMnVKX.JMDpnD9F3eEH5hBL"
+      "_id": "SFiZ5TAdZc7cCsAH",
+      "_key": "!actors.items!Ed1mFI6c98QMnVKX.SFiZ5TAdZc7cCsAH"
     }
   ],
   "effects": [],

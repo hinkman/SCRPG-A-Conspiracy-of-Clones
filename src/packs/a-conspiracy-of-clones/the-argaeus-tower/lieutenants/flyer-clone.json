@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Death From Above",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Death From Above: +1 to Attack actions while flying. | Take to the Air: +1 to Boost actions related to flying. | Evasive Maneuvers: Gain +1 to Defend actions while flying.</p>",
+        "description": "<p>+1 to Attack actions while flying.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "ZnzpFiK38jB7TuDQ",
-      "_key": "!actors.items!r5Ure4DP9Pl60MCv.ZnzpFiK38jB7TuDQ"
+      "_id": "sSBArjbQisZpHEeA",
+      "_key": "!actors.items!r5Ure4DP9Pl60MCv.sSBArjbQisZpHEeA"
+    },
+    {
+      "name": "Take to the Air",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Boost actions related to flying.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "MkpwwpmikKKsSUWX",
+      "_key": "!actors.items!r5Ure4DP9Pl60MCv.MkpwwpmikKKsSUWX"
+    },
+    {
+      "name": "Evasive Maneuvers",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Gain +1 to Defend actions while flying.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "V1SeqFZmPuFuUcoD",
+      "_key": "!actors.items!r5Ure4DP9Pl60MCv.V1SeqFZmPuFuUcoD"
     }
   ],
   "effects": [],

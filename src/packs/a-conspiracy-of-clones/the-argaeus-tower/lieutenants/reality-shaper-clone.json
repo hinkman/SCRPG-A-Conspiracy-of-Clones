@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "There is Here",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: There is Here: Boost to make your location seem directly next to a target’s location, then Attack that target using the created bonus. | Minion Duplicator: Add minions to an existing minion group by rolling your die, then adding half that number of minions (rounded down). Size and abilities match the highest die in that minion group. | Space-Time Excavator: Hinder two targets by twisting space-time around them to hold them steady.</p>",
+        "description": "<p>Boost to make your location seem directly next to a target’s location, then Attack that target using the created bonus.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "jXnckxMceGKwAkZU",
-      "_key": "!actors.items!pxBf4bASMQukKfJP.jXnckxMceGKwAkZU"
+      "_id": "RWL1HVBbO8GQDaMn",
+      "_key": "!actors.items!pxBf4bASMQukKfJP.RWL1HVBbO8GQDaMn"
+    },
+    {
+      "name": "Minion Duplicator",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Add minions to an existing minion group by rolling your die, then adding half that number of minions (rounded down). The size of the minions and abilities they have are the same as the highest die in that minion group.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "ucd8lQ7HuYNvuwPG",
+      "_key": "!actors.items!pxBf4bASMQukKfJP.ucd8lQ7HuYNvuwPG"
+    },
+    {
+      "name": "Space-Time Excavator",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Hinder two targets by twisting space-time around them to hold them steady.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "DPrZATBHRbvDRGpt",
+      "_key": "!actors.items!pxBf4bASMQukKfJP.DPrZATBHRbvDRGpt"
     }
   ],
   "effects": [],

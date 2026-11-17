@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Targeting System",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Targeting System: +1 to Attack actions. | Interference Broadcaster: Hinder two targets. | Grappling Hook: +1 to Overcome actions related to mobility, or eliminate any one easily-grabbable bonus.</p>",
+        "description": "<p>+1 to Attack actions.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "elQWo6OvXvRhoNBt",
-      "_key": "!actors.items!CAEKENCevjFpulXc.elQWo6OvXvRhoNBt"
+      "_id": "EfSmbk6nArSY6uj4",
+      "_key": "!actors.items!CAEKENCevjFpulXc.EfSmbk6nArSY6uj4"
+    },
+    {
+      "name": "Interference Broadcaster",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Hinder two targets.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "QDhOf51Q6grbWrQl",
+      "_key": "!actors.items!CAEKENCevjFpulXc.QDhOf51Q6grbWrQl"
+    },
+    {
+      "name": "Grappling Hook",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Overcome actions related to mobility, or eliminate any one easily-grabbable bonus.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "lejBoJZat0QXYpEA",
+      "_key": "!actors.items!CAEKENCevjFpulXc.lejBoJZat0QXYpEA"
     }
   ],
   "effects": [],
