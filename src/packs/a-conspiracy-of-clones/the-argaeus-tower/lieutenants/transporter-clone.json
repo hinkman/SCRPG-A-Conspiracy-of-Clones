@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Flier",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Flier: +1 to Attack actions while flying. | Speedster: Hinder two targets with the same roll. | Teleporter: Move from one location to another with up to two allies, then Boost those allies. | Evasive Maneuvers: +2 to damage saves. | Portal Maker: Make a Boost action, then suddenly appear near a target. Immediately Attack using that bonus.</p>",
+        "description": "<p>+1 to Attack actions while flying.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,116 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "loLPVD9VCaZPaNUL",
-      "_key": "!actors.items!J5J7e9zVXFX8NgqH.loLPVD9VCaZPaNUL"
+      "_id": "REhfZHoaUbt9J73I",
+      "_key": "!actors.items!J5J7e9zVXFX8NgqH.REhfZHoaUbt9J73I"
+    },
+    {
+      "name": "Speedster",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Hinder two targets with the same roll.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "FvIGfuW0ZRzrfwGD",
+      "_key": "!actors.items!J5J7e9zVXFX8NgqH.FvIGfuW0ZRzrfwGD"
+    },
+    {
+      "name": "Teleporter",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Move from one location to another with up to two allies, then Boost those allies.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "wvKYt2G5M0HRJ2Gp",
+      "_key": "!actors.items!J5J7e9zVXFX8NgqH.wvKYt2G5M0HRJ2Gp"
+    },
+    {
+      "name": "Evasive Maneuvers",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+2 to damage saves.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "XAY1gK0w8iPQUs0A",
+      "_key": "!actors.items!J5J7e9zVXFX8NgqH.XAY1gK0w8iPQUs0A"
+    },
+    {
+      "name": "Portal Maker",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Make a Boost action, then suddenly appear near a target. Immediately Attack using that bonus.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "FA8VdLjmT7fVZvea",
+      "_key": "!actors.items!J5J7e9zVXFX8NgqH.FA8VdLjmT7fVZvea"
     }
   ],
   "effects": [],

@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Summon Minions",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Summon Minions: Create a number of minions equal to half (rounded down) this minion’s die roll. | Bolster Minions: Boost all the minions created by this minion. | Minion Defense: As your reaction, choose one of your minions to defend you by rolling its single die, then destroy that minion.</p>",
+        "description": "<p>Create a number of minions equal to half (rounded down) this minion’s die roll.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "8eCvWsRp7BSV5HEE",
-      "_key": "!actors.items!EfyabswIBaxl1Xtv.8eCvWsRp7BSV5HEE"
+      "_id": "6c8JPjBT5Bs5iSHK",
+      "_key": "!actors.items!EfyabswIBaxl1Xtv.6c8JPjBT5Bs5iSHK"
+    },
+    {
+      "name": "Bolster Minions",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Boost all the minions created by this minion.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "Nr7awzw4qOhRtUO0",
+      "_key": "!actors.items!EfyabswIBaxl1Xtv.Nr7awzw4qOhRtUO0"
+    },
+    {
+      "name": "Minion Defense",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>As your reaction, choose one of your minions to defend you by rolling its single die, then destroy that minion.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "Q9F7WhM0hZ1JPJEy",
+      "_key": "!actors.items!EfyabswIBaxl1Xtv.Q9F7WhM0hZ1JPJEy"
     }
   ],
   "effects": [],

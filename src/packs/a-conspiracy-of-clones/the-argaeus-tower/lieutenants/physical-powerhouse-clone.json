@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Haymaker",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Haymaker: +1 to Attack actions. | Brute Force: +1 to Overcome actions involving raw strength. | Is that all you got?: +2 to damage saves.</p>",
+        "description": "<p>+1 to Attack actions.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "06H3YoMowp8VTGrB",
-      "_key": "!actors.items!ylBlZ1ni0MuPsELE.06H3YoMowp8VTGrB"
+      "_id": "EKlBRf3CIHaypa98",
+      "_key": "!actors.items!ylBlZ1ni0MuPsELE.EKlBRf3CIHaypa98"
+    },
+    {
+      "name": "Brute Force",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Overcome actions involving raw strength.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "y6owtSTcWQMeFRfX",
+      "_key": "!actors.items!ylBlZ1ni0MuPsELE.y6owtSTcWQMeFRfX"
+    },
+    {
+      "name": "Is that all you got?",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+2 to damage saves.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "6ZOOHZwBhI18ghe6",
+      "_key": "!actors.items!ylBlZ1ni0MuPsELE.6ZOOHZwBhI18ghe6"
     }
   ],
   "effects": [],

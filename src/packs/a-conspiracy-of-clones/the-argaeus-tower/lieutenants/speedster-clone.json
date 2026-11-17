@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Multiattack",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Multiattack: Split the die into two dice of one smaller size, and Attack a different target with each roll. | Shock Wave: Hinder two targets with one roll. | Evasive Maneuvers: +2 to damage saves.</p>",
+        "description": "<p>Split the die into two dice of one smaller size, and Attack a different target with each roll.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "V8qYxBUZY7UKq6V4",
-      "_key": "!actors.items!oZScDbDwammstMLW.V8qYxBUZY7UKq6V4"
+      "_id": "8JZS0tRNCTfZSOgV",
+      "_key": "!actors.items!oZScDbDwammstMLW.8JZS0tRNCTfZSOgV"
+    },
+    {
+      "name": "Shock Wave",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Hinder two targets with one roll.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "E9xD31Doo2PipNdo",
+      "_key": "!actors.items!oZScDbDwammstMLW.E9xD31Doo2PipNdo"
+    },
+    {
+      "name": "Evasive Maneuvers",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+2 to damage saves.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "izEoBH6lpt4sa5C7",
+      "_key": "!actors.items!oZScDbDwammstMLW.izEoBH6lpt4sa5C7"
     }
   ],
   "effects": [],

@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Software",
+      "name": "Software (Inherent)",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Inherent: As a computer program, the Seeker Process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective.</p>",
+        "description": "<p>As a computer program, the seeker process is only susceptible to computer-based technological attacks. Physical attacks against it are ineffective.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,8 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "9LxmvBhoTSMXZ2Mn",
-      "_key": "!actors.items!u70BIoF1VWbxmSaR.9LxmvBhoTSMXZ2Mn"
+      "_id": "NhIbBiKZV70aNdpw",
+      "_key": "!actors.items!u70BIoF1VWbxmSaR.NhIbBiKZV70aNdpw"
     }
   ],
   "effects": [],

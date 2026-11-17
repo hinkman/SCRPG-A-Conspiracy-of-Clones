@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Ability Options",
+      "name": "Learning Machine",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Choose two abilities: Learning Machine: Boost yourself. The bonus is persistent and exclusive. | Metallic Resilience: Reduce all damage taken by 1. | Precision Weaponry: +1 to Attack actions.</p>",
+        "description": "<p>Boost yourself. The bonus is persistent and exclusive.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,62 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "MzcpUWy8TFwUEMLn",
-      "_key": "!actors.items!LDBSLu41bQA1uaEc.MzcpUWy8TFwUEMLn"
+      "_id": "AOX5nkAkGmXivYPA",
+      "_key": "!actors.items!LDBSLu41bQA1uaEc.AOX5nkAkGmXivYPA"
+    },
+    {
+      "name": "Metallic Resilience",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>Reduce all damage taken by 1.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "DzhiSQXENV7rgmsg",
+      "_key": "!actors.items!LDBSLu41bQA1uaEc.DzhiSQXENV7rgmsg"
+    },
+    {
+      "name": "Precision Weaponry",
+      "type": "minionForm",
+      "img": "icons/svg/upgrade.svg",
+      "system": {
+        "description": "<p>+1 to Attack actions.</p>",
+        "bonus": "one",
+        "group": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.000",
+        "systemId": "scrpg-foundry",
+        "systemVersion": "0.9.25",
+        "createdTime": 1763341200000,
+        "modifiedTime": 1763341200000,
+        "lastModifiedBy": null
+      },
+      "_id": "nXHdSaQVZE0lzjFi",
+      "_key": "!actors.items!LDBSLu41bQA1uaEc.nXHdSaQVZE0lzjFi"
     }
   ],
   "effects": [],

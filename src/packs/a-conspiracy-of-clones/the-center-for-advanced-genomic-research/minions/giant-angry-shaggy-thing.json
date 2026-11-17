@@ -39,11 +39,11 @@
   },
   "items": [
     {
-      "name": "Intensely Shaggy",
+      "name": "Intensely Shaggy (Inherent)",
       "type": "minionForm",
       "img": "icons/svg/upgrade.svg",
       "system": {
-        "description": "<p>Inherent: Gives a −1 penalty to any hero who comes into physical contact with it as its hairy body tangles everything nearby.</p>",
+        "description": "<p>Gives a −1 penalty to any hero who comes into physical contact with it as its hairy body tangles everything nearby.</p>",
         "bonus": "one",
         "group": 1
       },
@@ -62,8 +62,8 @@
         "modifiedTime": 1763341200000,
         "lastModifiedBy": null
       },
-      "_id": "RZBxOlCqTgwn7SF8",
-      "_key": "!actors.items!ees5onGvh79mib2t.RZBxOlCqTgwn7SF8"
+      "_id": "XsUvaEuFTlaDQzqp",
+      "_key": "!actors.items!ees5onGvh79mib2t.XsUvaEuFTlaDQzqp"
     }
   ],
   "effects": [],

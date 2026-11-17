@@ -23,7 +23,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>Add one Antibody Bot.</p>"
+        "description": "<p>Add one Antibody Bot.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -49,7 +50,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>Add one Inhibitor Process.</p>"
+        "description": "<p>Add one Inhibitor Process.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -75,7 +77,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenminor",
-        "description": "<p>Introduce one room-specific minion (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms) from the appropriate location within the lab.</p>"
+        "description": "<p>Introduce one room-specific minion (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms) from the appropriate location within the lab.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -101,7 +104,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "greenmajor",
-        "description": "<p>A tank of corrosive biotoxin leaks into the air handlers and is distributed through the lab! Roll the environment dice and Attack all heroes with the Min die.</p>"
+        "description": "<p>A tank of corrosive biotoxin leaks into the air handlers and is distributed through the lab! Roll the environment dice and Attack all heroes with the Min die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -127,7 +131,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>Roll the environment dice and add a number of Antibody Bot minions equal to the Min die.</p>"
+        "description": "<p>Roll the environment dice and add a number of Antibody Bot minions equal to the Min die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -153,7 +158,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>Roll the environment dice and add a number of Inhibitor Process minions equal to the Min die.</p>"
+        "description": "<p>Roll the environment dice and add a number of Inhibitor Process minions equal to the Min die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -179,7 +185,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>A pipe carrying supercooled helium bursts. Roll the environment dice and Attack one hero with the Max die and the rest of the heroes with the Min die.</p>"
+        "description": "<p>A pipe carrying supercooled helium bursts. Roll the environment dice and Attack one hero with the Max die and the rest of the heroes with the Min die.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -205,7 +212,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowminor",
-        "description": "<p>Roll the environment dice and introduce a number of minions equal to the Min die, of the type associated with that location (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms).</p>"
+        "description": "<p>Roll the environment dice and introduce a number of minions equal to the Min die, of the type associated with that location (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms).</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -231,7 +239,23 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowmajor",
-        "description": "<p>The security system replaces oxygen with inert CO₂. Each time you mark a scene tracker space, roll the environment dice and Attack all heroes with the Max+Min dice (except heroes with an oxygen supply or who do not need to breathe). Deactivate by completing two Overcomes: (1) Locate the fire suppression system; (2) Deactivate it.</p>"
+        "description": "<p>The security system activates the fire suppression system, which replaces the oxygen in the air with inert carbon dioxide. Each time you mark a space on the scene tracker, roll the environment’s dice and Attack all heroes with the Max+Min dice (except heroes who have an oxygen supply or do not need to breathe).</p>",
+        "challenges": [
+          {
+            "name": "Locate the fire suppression system",
+            "description": "One of two Overcome actions required to deactivate the fire suppression system.",
+            "boxes": [
+              false
+            ]
+          },
+          {
+            "name": "Deactivate the fire suppression system",
+            "description": "One of two Overcome actions required to deactivate the fire suppression system.",
+            "boxes": [
+              false
+            ]
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -257,7 +281,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "yellowmajor",
-        "description": "<p>Roll the environment dice and introduce a number of minions equal to the Mid die, of the type associated with that location (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms).</p>"
+        "description": "<p>Roll the environment dice and introduce a number of minions equal to the Mid die, of the type associated with that location (Defender Pods, Cryopedes, Giant Angry Shaggy Things, or Nanite Swarms).</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -283,7 +308,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redminor",
-        "description": "<p>Introduce a White Bot Cell.</p>"
+        "description": "<p>Introduce a White Bot Cell.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -309,7 +335,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redminor",
-        "description": "<p>The lab’s computer initiates a Seeker Process.</p>"
+        "description": "<p>The lab’s computer initiates a Seeker Process.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
@@ -335,7 +362,8 @@
       "img": "icons/svg/explosion.svg",
       "system": {
         "type": "redmajor",
-        "description": "<p>A tank containing spores of a plant that never should have been explodes and vapors enter the air distribution system. Roll the environment dice and Attack all heroes with the Min+Max dice.</p>"
+        "description": "<p>A tank containing spores of a plant that never should have been explodes and vapors enter the air distribution system. Roll the environment dice and Attack all heroes with the Min+Max dice.</p>",
+        "challenges": []
       },
       "effects": [],
       "folder": null,
